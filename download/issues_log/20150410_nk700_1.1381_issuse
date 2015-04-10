@@ -1,0 +1,1531 @@
+目前測試確定會發生格式化後 0.0.0.0 會一直 連線
+測試環境如下：
+1. NVR (192.168.22.xx) ->記得設定gateway 192.168.22.1且一連要連到192.168.22.1網域
+2. IPCAM (192.168.22.xx)
+3. 執行格式化硬碟
+
+
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+================================== dev 0 
+        dev: /dev/sda1
+        dir : /media/sda1
+        model : WDC WD10PURX-64D85Y0    state : 3
+        type : ext4
+        sz_total : 975956
+        sz_avail : 925436
+        sz_used  : 1708
+        rec used : 0
+================================== dev 0 
+rfs type : 0
+22:11:34 <UPDATER> 192.168.22.85:80 admin:password = admin:1111
+22:11:34 http_s = GET /vb.htm?ptzprotocol HTTP/1.1
+Authorization: Basic YWRtaW46MTExMQ==
+User-Agent: HTTP Live Transfer Tool
+Accept: */*
+Range: bytes=0-
+Host: 192.168.22.23
+Connection: close
+
+
+22:11:34 <UPDATER> 0. 192.168.22.85:80 Send Command OK.............No.(1)
+22:11:37 <IPCamSearch_ReplyQuery> ReplyCommand -> REPLAY_CMD_QUERY
+22:11:37 ReplyCommand=1
+22:11:38 <AgentRecall> Check 2013/10/31 22:11:38
+22:11:46 <AgentRecall> Check 2013/10/31 22:11:46
+22:11:52 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:11:54 <AgentRecall> Check 2013/10/31 22:11:54
+22:12:02 <AgentRecall> Check 2013/10/31 22:12:02
+22:12:10 <AgentRecall> Check 2013/10/31 22:12:10
+22:12:18 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:12:19 <AgentRecall> Check 2013/10/31 22:12:19
+22:12:27 <AgentRecall> Check 2013/10/31 22:12:27
+22:12:35 <AgentRecall> Check 2013/10/31 22:12:35
+22:12:43 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:12:43 <AgentRecall> Check 2013/10/31 22:12:43
+22:12:51 <AgentRecall> Check 2013/10/31 22:12:51
+22:13:00 <AgentRecall> Check 2013/10/31 22:13:00
+ [m3vpss ] BLAKE_1_AVSYNC:WallTime IGNORE Unexpected Discontinuity.PrevTs[159071]/CurTs[0]
+22:13:08 <AgentRecall> Check 2013/10/31 22:13:08
+22:13:09 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:13:16 <AgentRecall> Check 2013/10/31 22:13:16
+22:13:24 <AgentRecall> Check 2013/10/31 22:13:24
+22:13:33 <AgentRecall> Check 2013/10/31 22:13:33
+22:13:34 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:13:41 <AgentRecall> Check 2013/10/31 22:13:41
+22:13:49 <AgentRecall> Check 2013/10/31 22:13:49
+22:13:57 <AgentRecall> Check 2013/10/31 22:13:57
+22:14:00 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:14:03 <IPCamSearch_ReplyQuery> ReplyCommand -> REPLAY_CMD_QUERY
+22:14:03 ReplyCommand=1
+22:14:05 <AgentRecall> Check 2013/10/31 22:14:05
+22:14:14 <AgentRecall> Check 2013/10/31 22:14:14
+22:14:22 <AgentRecall> Check 2013/10/31 22:14:22
+22:14:25 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:14:30 <AgentRecall> Check 2013/10/31 22:14:30
+22:14:38 <AgentRecall> Check 2013/10/31 22:14:38
+22:14:46 <AgentRecall> Check 2013/10/31 22:14:46
+22:14:51 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:14:55 <AgentRecall> Check 2013/10/31 22:14:55
+22:15:03 <AgentRecall> Check 2013/10/31 22:15:03
+22:15:04 <UPDATER> 192.168.22.85:80 admin:password = admin:admin
+22:15:04 ===============admin:admin===============================
+22:15:04 
+ <Updater_SendCommand> TIMING SYNC IPCAM PARAS 
+22:15:04 command = GET /vb.htm?alarmenable=0&motionenable=0&motioncenable=0&motionsensitivity=0&motionblock=0&framerate1=23&bitrate1=4096&ratecontrol1=2&framerate2=23&bitrate2=512&ratecontrol2=2&audioenable=1&audioencoding=0&audiosamplerate=0&audiooutvolume=50&brightness=128&contrast=128&saturation=128&VideoResolution1=SXGA&VideoResolution2=VGA HTTP/1.1
+Authorization: Basic YWRtaW46YWRtaW4=
+User-Agent: HTTP Live Transfer Tool
+Accept: */*
+Range: bytes=0-
+Host: 192.168.22.23
+Connection: close
+
+
+22:15:04 ==========================================================
+22:15:04 <UPDATER> 0. 192.168.22.85:80 Send Command OK.............No.(1)
+22:15:11 <AgentRecall> Check 2013/10/31 22:15:11
+22:15:16 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:15:19 <AgentRecall> Check 2013/10/31 22:15:19
+22:15:27 <AgentRecall> Check 2013/10/31 22:15:27
+22:15:36 <AgentRecall> Check 2013/10/31 22:15:36
+ [m3vpss ] BLAKE_1_AVSYNC:WallTime IGNORE Unexpected Discontinuity.PrevTs[159072]/CurTs[0]
+22:15:42 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:15:44 <AgentRecall> Check 2013/10/31 22:15:44
+22:15:52 <AgentRecall> Check 2013/10/31 22:15:52
+22:16:00 <AgentRecall> Check 2013/10/31 22:16:00
+22:16:08 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:16:08 <AgentRecall> Check 2013/10/31 22:16:08
+22:16:17 <AgentRecall> Check 2013/10/31 22:16:17
+22:16:25 <AgentRecall> Check 2013/10/31 22:16:25
+22:16:33 <AgentRecall> Check 2013/10/31 22:16:33
+22:16:33 **** SManager_RecvProprietaryData ch(0) gVideoSaveBufferMid Full
+22:16:35 <LiveView> FullShow Ch(0) Show(1)
+22:16:36 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ LIB816x_disk_info() 
+22:16:36 ####  DVR_GetDiskInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:16:36 #### BKTREC_getTargetDisk
+22:16:36 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:16:36 ================================================================ Begin, mp.cnt = 1
+22:16:36        Hdd(0) Next(0) Format(2013/10/31 20:32:14) UsedSize(216976) Path(/media/sda1)
+22:16:36 **** <BKTREC_updateHddInfo> tm.hddIdx = 0, tm.dvrMAC = 00:09:52:77:00:01, Local gMac0 = 00:09:52:77:00:02
+22:16:36 ================================================================ End, mp.cnt = 1
+22:16:36 gbkt_mount_info.hddInfo[0].isMounted = 0
+22:16:36 gbkt_mount_info.hddInfo[1].isMounted = 0
+22:16:36 gbkt_mount_info.hddInfo[2].isMounted = 0
+22:16:36 gbkt_mount_info.hddInfo[3].isMounted = 0
+22:16:36 ================================================================ Save topmgr.udf
+22:16:36 open /media/sda1/topmgr.udf
+22:16:36                Hdd(0) Next(0) Format(2013/10/31 20:32:14) UsedSize(216976) Path(/media/sda1)
+22:16:36 SAVE topmgr.udf ok
+22:16:36 ================================================================ Save topmgr.udf
+22:16:36 gbkt_mount_info.hddCnt = 0
+22:16:36 =================================================
+22:16:36          UPDATE MULTI-HDD INFORMATION            
+22:16:36 =================================================
+22:16:36  IDX      Date            Path       Prev   Next 
+22:16:36 =================================================
+22:16:36 Hdd(0) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:16:36 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:16:36 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:16:36 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:16:36 =================================================
+22:16:36 
+22:16:36 
+22:16:36 =================================================
+22:16:36            GET TARGET DISK INFORMATION           
+22:16:36 =================================================
+22:16:36   IDX        Path  
+22:16:36 =================================================
+22:16:36    00     
+22:16:36 =================================================
+22:16:36 
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+================================== dev 0 
+        dev: /dev/sda1
+        dir : /media/sda1
+        model : WDC WD10PURX-64D85Y0    state : 3
+        type : ext4
+        sz_total : 975956
+        sz_avail : 925436
+        sz_used  : 1708
+        rec used : 0
+================================== dev 0 
+rfs type : 0
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+<<<LIB816x_GetHddSmartInfo>>> SmartInfo:PASSED
+
+
+
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[0] = 16
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[1] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[2] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[3] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[4] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[5] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[6] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[7] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[8] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[9] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[10] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[11] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[12] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[13] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[14] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[15] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[16] = 255
+ [m3vpss ]  313723: SWMS    : ******* Configuring clock 33 secs... 
+ [m3vpss ]  
+ [m3vpss ]  *** [SWMS0] Mosaic Parameters *** 
+ [m3vpss ]  
+ [m3vpss ]  Output FPS: 30
+ [m3vpss ]  
+ [m3vpss ]  Win | Ch  | Input      | Input          | Input         | Input       | Output     |  Output         | Output        | Output      | Low Cost | SWMS | Data  |
+ [m3vpss ]  Num | Num | Start X, Y | Width x Height | Pitch Y / C   | Memory Type | Start X, Y |  Width x Height | Pitch Y / C   | Memory Type | ON / OFF | Inst | Format|
+ [m3vpss ]  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+ [m3vpss ]    0 |  16 |    0,   24 |  1920 x   1104 |  2048 /  2048 | NON-TILED   |    0,    0 |  1280 x   1024 |  3840 /      0 | NON-TILED   |      OFF |    0 |  420SP |
+ [m3vpss ]  
+ [m3vpss ]  SWMS: *** UPDATING RT Params ***
+ [m3vpss ]  313837: SWMS    : ******* Configuring clock 33 secs... 
+ [m3vpss ]  
+ [m3vpss ]  *** [SWMS0] Mosaic Parameters *** 
+ [m3vpss ]  
+ [m3vpss ]  Output FPS: 30
+ [m3vpss ]  
+ [m3vpss ]  Win | Ch  | Input      | Input          | Input         | Input       | Output     |  Output         | Output        | Output      | Low Cost | SWMS | Data  |
+ [m3vpss ]  Num | Num | Start X, Y | Width x Height | Pitch Y / C   | Memory Type | Start X, Y |  Width x Height | Pitch Y / C   | Memory Type | ON / OFF | Inst | Format|
+ [m3vpss ]  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+ [m3vpss ]    0 |  16 |   32,   24 |  1312 x    744 |  2048 /  2048 | NON-TILED   |    0,    0 |  1280 x   1024 |  3840 /      0 | NON-TILED   |      OFF |    0 |  420SP |
+ [m3vpss ]  
+22:16:41 <AgentRecall> Check 2013/10/31 22:16:41
+22:16:41 <LIB816x_setRecChannel> ch(0) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (0, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(1) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (1, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(2) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (2, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(3) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (3, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(4) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (4, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(5) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (5, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(6) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (6, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(7) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (7, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(8) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (8, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(9) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (9, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(10) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (10, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(11) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (11, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(12) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (12, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(13) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (13, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(14) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (14, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LIB816x_setRecChannel> ch(15) enable(0) mode(0) audio(0) 
+22:16:41 WriterEnableChSave (15, 0, 0, 0, ) is_basket_opened(0)
+22:16:41 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Enable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Enable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (1) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (1) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (2) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (2) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (3) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (3) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (4) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (4) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (5) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (5) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (6) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (6) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:41 <LiveView> (7) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+<Event> Severity(3) Main Lost(0) 192.168.22.85:80 Lost Connection!!
+22:16:42 <Reconnect> Main.0 Type(1) 192.168.22.85:80 Close Socket
+<Event> Severity(3) Sub Lost(0) 192.168.22.85:80 Lost Connection!!
+22:16:42 <Reconnect> Sub.0 Type(1) 192.168.22.85:80 Close Socket
+22:16:42 <LiveView> Main.0 Type(1) 192.168.22.85:80 Stoped
+22:16:42 <LiveView> Sub.0 Type(1) 192.168.22.85:80 Stoped
+22:16:42 <LiveView> (7) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (8) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (8) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (9) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (9) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (10) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (10) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (11) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (11) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (12) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (12) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (13) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (13) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (14) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (14) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (15) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+22:16:42 <LiveView> (15) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+
+ QVFormatThread <run> Wait Time: 15 Secs22:16:49 <AgentRecall> Check 2013/10/31 22:16:49
+
+ QVFormatThread <run> Start LIB816x_HddFormat22:16:57 DVR_FormatHDD /media/sda1, /dev/sda1, 3, 1
+22:16:57 Failed close basket file and index file. Already basket file is closed.
+**** <WriterFileSaveExit> BKTREC_exit() Error !!!!
+22:16:57 <Format> rm -rf /media/sda1/*.udf
+system_user() rm -rf /media/sda1/*.udf 
+22:16:57 <Format> ==================================================================== Parted Begin
+22:16:57 <Format> swapoff /dev/sda2
+system_user() swapoff /dev/sda2 
+22:16:57 <Format> umount -l /dev/sda1
+22:16:57 <Format> umount -l /dev/sda2
+umount: /dev/sda2: not mounted
+22:16:58 <AgentRecall> Check 2013/10/31 22:16:58
+22:16:58 <Format> parted -s /dev/sda rm 2
+system_user() parted -s /dev/sda rm 2 
+22:16:58 <Format> parted -s /dev/sda rm 1
+system_user() parted -s /dev/sda rm 1 
+22:16:59 <Format> parted /dev/sda print
+system_user() parted /dev/sda print 
+Model: ATA WDC WD10PURX-64D (scsi)
+Disk /dev/sda: 1000GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+
+Number  Start  End  Size  File system  Name  Flags
+
+22:16:59 <Format> parted -s /dev/sda mklabel gpt
+system_user() parted -s /dev/sda mklabel gpt 
+22:16:59 <Format> disk_size is : 1000204, swap_size: 4294967808 
+22:16:59 BUF : Filename                         Type            Size    Used    Priority
+
+22:16:59 <Format> parted -s /dev/sda mkpart primary 0% 999692
+system_user() parted -s /dev/sda mkpart primary 0% 999692 
+22:16:59 <Format> parted -s /dev/sda mkpart linux-swap 999692 1000204
+system_user() parted -s /dev/sda mkpart linux-swap 999692 1000204 
+EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+22:17:00 <Format> parted /dev/sda print
+system_user() parted /dev/sda print 
+Model: ATA WDC WD10PURX-64D (scsi)
+Disk /dev/sda: 1000GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+
+Number  Start   End     Size    File system     Name        Flags
+ 1      1049kB  1000GB  1000GB  ext4            primary
+ 2      1000GB  1000GB  512MB   linux-swap(v1)  linux-swap
+
+22:17:01 <Format> mkswap /dev/sda2
+system_user() mkswap /dev/sda2 
+Setting up swapspace version 1, size = 499708 KiB
+no label, UUID=54ab810b-f9cd-4979-87bc-70d3d3b3da95
+22:17:02 <Format> swapon /dev/sda2
+system_user() swapon /dev/sda2 
+Adding 499708k swap on /dev/sda2.  Priority:-1 extents:1 across:499708k 
+22:17:02 <Format> ==================================================================== Parted End, 5 Secs
+22:17:02 <Format> ==================================================================== MKFS Begin
+22:17:02 <Format> 0. umount -l /dev/sda1
+22:17:02 <Format> mkfs.ext4 -q -T largefile /dev/sda1
+system_user() mkfs.ext4 -q -T largefile /dev/sda1 
+22:17:06 <AgentRecall> Check 2013/10/31 22:17:06
+22:17:14 <AgentRecall> Check 2013/10/31 22:17:14
+22:17:17 <Format> ==================================================================== MKFS End, 15 Secs
+22:17:17 <Format> ==================================================================== Force Mount Begin
+22:17:17 <Format> mount /dev/sda1 /media/sda1
+
+EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+22:17:17 <Format> ==================================================================== Force Mount End, 0 Secs
+22:17:17 <Format> ==================================================================== WriterUpdateMount Begin
+22:17:17 #### BKTREC_getTargetDisk
+22:17:17 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:17:17 ================================================================ Begin, mp.cnt = 1
+22:17:18 **** <BKTREC_updateHddInfo> OPEN_RDWR [/media/sda1/topmgr.udf] failed!
+22:17:18 ================================================================ End, mp.cnt = 1
+22:17:18 gbkt_mount_info.hddInfo[0].isMounted = 0
+22:17:18 gbkt_mount_info.hddInfo[1].isMounted = 0
+22:17:18 gbkt_mount_info.hddInfo[2].isMounted = 0
+22:17:18 gbkt_mount_info.hddInfo[3].isMounted = 0
+22:17:18 ================================================================ Save topmgr.udf
+22:17:18 ================================================================ Save topmgr.udf
+22:17:18 gbkt_mount_info.hddCnt = 0
+22:17:18 =================================================
+22:17:18          UPDATE MULTI-HDD INFORMATION            
+22:17:18 =================================================
+22:17:18  IDX      Date            Path       Prev   Next 
+22:17:18 =================================================
+22:17:18 Hdd(0) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:18 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:18 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:18 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:18 =================================================
+22:17:18 
+22:17:18 
+22:17:18 =================================================
+22:17:18            GET TARGET DISK INFORMATION           
+22:17:18 =================================================
+22:17:18   IDX        Path  
+22:17:18 =================================================
+22:17:18    00     
+22:17:18 =================================================
+22:17:18 
+22:17:18 <Format> ==================================================================== WriterUpdateMount End, 1 Secs
+22:17:18 <Format> ==================================================================== Basket Create Begin
+22:17:18 #### BKTREC_CreateBasket
+22:17:18 #### BKTREC_CreateBasketFiles
+22:17:22 #### BKTREC_getTargetDisk
+22:17:22 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:17:22 ================================================================ Begin, mp.cnt = 1
+22:17:22        Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:22 ================================================================ End, mp.cnt = 1
+22:17:22 gbkt_mount_info.hddInfo[0].isMounted = 1
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+22:17:22 gbkt_mount_info.hddInfo[1].isMounted = 0
+22:17:22 gbkt_mount_info.hddInfo[2].isMounted = 0
+22:17:22 gbkt_mount_info.hddInfo[3].isMounted = 0
+22:17:22 ================================================================ Save topmgr.udf
+22:17:22 open /media/sda1/topmgr.udf
+22:17:22                Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:22 SAVE topmgr.udf ok
+22:17:22 ================================================================ Save topmgr.udf
+22:17:22 gbkt_mount_info.hddCnt = 1
+22:17:22 =================================================
+22:17:22          UPDATE MULTI-HDD INFORMATION            
+22:17:22 =================================================
+22:17:22  IDX      Date            Path       Prev   Next 
+22:17:22 =================================================
+22:17:22 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+22:17:22 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:22 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:22 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:22 =================================================
+22:17:22 
+22:17:22 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+22:17:22 
+22:17:22 =================================================
+22:17:22            GET TARGET DISK INFORMATION           
+22:17:22 =================================================
+22:17:22   IDX        Path  
+22:17:22 =================================================
+22:17:22    00     /media/sda1
+22:17:22 =================================================
+22:17:22 
+22:17:22 app: basket creation ... done 1492
+22:17:22 <Format> ==================================================================== Basket Create End, 4 Secs
+22:17:22 <LIB816x_setRecChannel> ch(0) enable(1) mode(1) audio(0) IPNC1
+22:17:22 WriterEnableChSave (0, 1, 1, 0, IPNC1) is_basket_opened(0)
+22:17:22 <WriterEnableChSave> WriterUpdateMountInfo
+22:17:22 #### BKTREC_getTargetDisk
+22:17:22 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:17:22 ================================================================ Begin, mp.cnt = 1
+22:17:22        Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:22 ================================================================ End, mp.cnt = 1
+22:17:22 gbkt_mount_info.hddInfo[0].isMounted = 1
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+22:17:22 <AgentRecall> Check 2013/10/31 22:17:22
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+22:17:22 gbkt_mount_info.hddInfo[1].isMounted = 0
+22:17:22 gbkt_mount_info.hddInfo[2].isMounted = 0
+22:17:22 gbkt_mount_info.hddInfo[3].isMounted = 0
+22:17:22 ================================================================ Save topmgr.udf
+22:17:22 open /media/sda1/topmgr.udf
+22:17:22                Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:22 SAVE topmgr.udf ok
+22:17:22 ================================================================ Save topmgr.udf
+22:17:22 gbkt_mount_info.hddCnt = 1
+22:17:22 =================================================
+22:17:22          UPDATE MULTI-HDD INFORMATION            
+22:17:22 =================================================
+22:17:22  IDX      Date            Path       Prev   Next 
+22:17:22 =================================================
+22:17:22 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+22:17:22 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:22 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:22 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:22 =================================================
+22:17:22 
+22:17:22 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+22:17:22 
+22:17:22 =================================================
+22:17:22            GET TARGET DISK INFORMATION           
+22:17:22 =================================================
+22:17:22   IDX        Path  
+22:17:22 =================================================
+22:17:22    00     /media/sda1
+22:17:22 =================================================
+22:17:22 
+22:17:22 #### BKTREC_open
+22:17:22 #### BKTREC_setTargetDisk
+22:17:22 #### BKTREC_get_count
+22:17:22 #### BKTREC_searchBasket
+22:17:22 #### BKTREC_searchUsingBasket
+22:17:22 **** There is no /media/sda1/bkt_rec_info.udf file.
+22:17:22 #### BKTREC_searchStoppedBasket
+22:17:22 **** There is no /media/sda1/bkt_rec_info.udf file.
+22:17:22 #### BKTREC_searchEmptyBasket
+22:17:22 (EMPTY) <BKTREC_searchEmptyBasket> found empty basket id:00000001, path:/media/sda1/00000001
+22:17:22 BKTREC_searchBasket, path(/media/sda1/00000001) bid(1) saveflag(0)
+22:17:22 path_bkt = /media/sda1/00000001.bkt
+22:17:22 path_idx = /media/sda1/00000001.idx
+22:17:22 #### BKTREC_setBasketStatus
+22:17:22 #### BKTREC_setBasketRecinfo
+22:17:22 Succeeded open basket for rec, BKT:/media/sda1/00000001.bkt, IDX:/media/sda1/00000001.idx
+22:17:22 recorder_start_rec... basket open success..
+22:17:22 <WriterEnableChSave> ch[00] enable[1]
+22:17:22  Why Set To 0 Again
+22:17:22 <WriterEnableChSave> (0) enable 1080P
+22:17:22 <LIB816x_setRecChannel> ch(1) enable(1) mode(1) audio(0) IPNC2
+22:17:22 WriterEnableChSave (1, 1, 1, 0, IPNC2) is_basket_opened(1)
+22:17:22 <WriterEnableChSave> ch[01] enable[1]
+22:17:22  Why Set To 0 Again
+22:17:22 <WriterEnableChSave> (1) enable 1080P
+22:17:22 <LIB816x_setRecChannel> ch(2) enable(1) mode(1) audio(0) IPNC3
+22:17:22 WriterEnableChSave (2, 1, 1, 0, IPNC3) is_basket_opened(1)
+22:17:22 <WriterEnableChSave> ch[02] enable[1]
+22:17:22  Why Set To 0 Again
+22:17:22 <WriterEnableChSave> (2) enable 1080P
+22:17:22 <LIB816x_setRecChannel> ch(3) enable(1) mode(1) audio(0) IPNC4
+22:17:22 WriterEnableChSave (3, 1, 1, 0, IPNC4) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[03] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (3) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(4) enable(1) mode(1) audio(0) IPNC5
+22:17:23 WriterEnableChSave (4, 1, 1, 0, IPNC5) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[04] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (4) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(5) enable(1) mode(1) audio(0) IPNC6
+22:17:23 WriterEnableChSave (5, 1, 1, 0, IPNC6) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[05] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (5) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(6) enable(1) mode(1) audio(0) IPNC7
+22:17:23 WriterEnableChSave (6, 1, 1, 0, IPNC7) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[06] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (6) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(7) enable(1) mode(1) audio(0) IPNC8
+22:17:23 WriterEnableChSave (7, 1, 1, 0, IPNC8) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[07] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (7) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(8) enable(1) mode(1) audio(0) IPNC9
+22:17:23 WriterEnableChSave (8, 1, 1, 0, IPNC9) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[08] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (8) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(9) enable(1) mode(1) audio(0) IPNC10
+22:17:23 WriterEnableChSave (9, 1, 1, 0, IPNC10) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[09] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (9) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(10) enable(1) mode(1) audio(0) IPNC11
+22:17:23 WriterEnableChSave (10, 1, 1, 0, IPNC11) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[10] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (10) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(11) enable(1) mode(1) audio(0) IPNC12
+22:17:23 WriterEnableChSave (11, 1, 1, 0, IPNC12) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[11] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (11) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(12) enable(1) mode(1) audio(0) IPNC13
+22:17:23 WriterEnableChSave (12, 1, 1, 0, IPNC13) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[12] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (12) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(13) enable(1) mode(1) audio(0) IPNC14
+22:17:23 WriterEnableChSave (13, 1, 1, 0, IPNC14) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[13] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (13) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(14) enable(1) mode(1) audio(0) IPNC15
+22:17:23 WriterEnableChSave (14, 1, 1, 0, IPNC15) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[14] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (14) enable 1080P
+22:17:23 <LIB816x_setRecChannel> ch(15) enable(1) mode(1) audio(0) IPNC16
+22:17:23 WriterEnableChSave (15, 1, 1, 0, IPNC16) is_basket_opened(1)
+22:17:23 <WriterEnableChSave> ch[15] enable[1]
+22:17:23  Why Set To 0 Again
+22:17:23 <WriterEnableChSave> (15) enable 1080P
+22:17:23 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (1) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 =========       IPCAM HTTP OPEN:0 !! ======================
+22:17:23 <Http_Open> Main.0. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:0 !! ======================
+22:17:23 <Http_Open> Sub.0. Login:Password = admin:1111
+22:17:23 <LiveView> (1) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (2) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (2) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (3) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (3) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (4) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (4) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (5) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (5) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (6) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (6) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (7) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (7) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (8) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (8) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (9) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (9) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (10) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (10) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (11) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (11) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (12) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (12) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (13) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (13) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (14) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:23 <Http_Open> Main.13. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:23 <Http_Open> Sub.13. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:23 <Http_Open> Main.1. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:23 <Http_Open> Sub.1. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:23 <Http_Open> Main.2. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:23 <Http_Open> Sub.2. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:23 <Http_Open> Main.3. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:23 <Http_Open> Sub.3. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:23 <Http_Open> Main.4. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:23 <Http_Open> Sub.4. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:23 <Http_Open> Main.5. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:23 <Http_Open> Sub.5. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:23 <Http_Open> Main.6. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:23 <Http_Open> Sub.6. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:23 <Http_Open> Main.7. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:23 <Http_Open> Sub.7. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:23 <Http_Open> Main.8. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:23 <Http_Open> Sub.8. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:23 <Http_Open> Main.9. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:23 <Http_Open> Sub.9. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:23 <Http_Open> Main.10. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:23 <Http_Open> Sub.10. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:23 <Http_Open> Main.11. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:23 <Http_Open> Sub.11. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:23 <Http_Open> Main.12. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:23 <Http_Open> Sub.12. Login:Password = admin:1111
+22:17:23 <LiveView> (0) 192.168.22.85:80 TI-IPCAM bountary [boundarymediastream] Main
+22:17:23 <LiveView> Main.0 Type(1) 192.168.22.85:80 Started
+<dvrmain_event_callback> Ignore This Event Ch(0) Type(192.168.22.85:80 )
+22:17:23 <LiveView> (0) 192.168.22.85:80 TI-IPCAM bountary [boundarymediastream] Sub
+22:17:23 <LiveView> Sub.0 Type(1) 192.168.22.85:80 Started
+<dvrmain_event_callback> Ignore This Event Ch(0) Type(192.168.22.85:80 )
+22:17:23 <LiveView> (14) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:23 <LiveView> (15) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+plughw:0,0: underrun !!!
+22:17:23 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:24 <Http_Open> Main.14. Login:Password = admin:1111
+22:17:23 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:24 <Http_Open> Sub.14. Login:Password = admin:1111
+22:17:24 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+22:17:24 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+22:17:24 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:24 <LiveView> (15) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+22:17:24 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ LIB816x_disk_info() 
+22:17:24 ####  DVR_GetDiskInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:17:24 <DVR_CheckHddDependency> Current Hdd Index = 0
+22:17:24 <DVR_CheckHddDependency> Check /media/sda1
+22:17:24 <DVR_CheckHddDependency> count(1) loss(0)
+22:17:24 #### BKTREC_getTargetDisk
+22:17:24 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:17:24 ================================================================ Begin, mp.cnt = 1
+22:17:24        Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:24 ================================================================ End, mp.cnt = 1
+22:17:24 gbkt_mount_info.hddInfo[0].isMounted = 1
+22:17:24 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:24 <Http_Open> Main.15. Login:Password = admin:1111
+22:17:24 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:24 <Http_Open> Sub.15. Login:Password = admin:1111
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+22:17:24 #### BKTREC_Flush_RDBDATA
+22:17:24 BKTREC_Flush_RDBDATA /media/sda1/rdb/20131031
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+22:17:24 gbkt_mount_info.hddInfo[1].isMounted = 0
+22:17:24 gbkt_mount_info.hddInfo[2].isMounted = 0
+22:17:24 gbkt_mount_info.hddInfo[3].isMounted = 0
+22:17:24 ================================================================ Save topmgr.udf
+22:17:24 open /media/sda1/topmgr.udf
+22:17:24                Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:24 SAVE topmgr.udf ok
+22:17:24 ================================================================ Save topmgr.udf
+22:17:24 gbkt_mount_info.hddCnt = 1
+22:17:24 =================================================
+22:17:24          UPDATE MULTI-HDD INFORMATION            
+22:17:24 =================================================
+22:17:24  IDX      Date            Path       Prev   Next 
+22:17:24 =================================================
+22:17:24 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+22:17:24 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:24 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:24 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:24 =================================================
+22:17:24 
+22:17:24 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+22:17:24 
+22:17:24 =================================================
+22:17:24            GET TARGET DISK INFORMATION           
+22:17:24 =================================================
+22:17:24   IDX        Path  
+22:17:24 =================================================
+22:17:24    00     /media/sda1
+22:17:24 =================================================
+22:17:24 
+22:17:24 #### BKTREC_getTargetDisk
+22:17:24 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+22:17:24 ================================================================ Begin, mp.cnt = 1
+22:17:24        Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:24 ================================================================ End, mp.cnt = 1
+22:17:24 gbkt_mount_info.hddInfo[0].isMounted = 1
+22:17:24 Flush To Storage /media/sda1/00000001.bkt /media/sda1/00000001.idx ------> 40, 0, 19
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+22:17:24 gbkt_mount_info.hddInfo[1].isMounted = 0
+22:17:24 gbkt_mount_info.hddInfo[2].isMounted = 0
+22:17:24 gbkt_mount_info.hddInfo[3].isMounted = 0
+22:17:24 ================================================================ Save topmgr.udf
+22:17:24 open /media/sda1/topmgr.udf
+22:17:24                Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+22:17:24 SAVE topmgr.udf ok
+22:17:24 ================================================================ Save topmgr.udf
+22:17:24 gbkt_mount_info.hddCnt = 1
+22:17:24 =================================================
+22:17:24          UPDATE MULTI-HDD INFORMATION            
+22:17:24 =================================================
+22:17:24  IDX      Date            Path       Prev   Next 
+22:17:24 =================================================
+22:17:24 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+22:17:24 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:24 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:24 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+22:17:24 =================================================
+22:17:24 
+22:17:24 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+22:17:24 
+22:17:24 =================================================
+22:17:24            GET TARGET DISK INFORMATION           
+22:17:24 =================================================
+22:17:24   IDX        Path  
+22:17:24 =================================================
+22:17:24    00     /media/sda1
+22:17:24 =================================================
+22:17:24 
+22:17:24  mp(/media/sda1) == mount(/media/sda1)
+22:17:24 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+22:17:24 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+22:17:24 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+22:17:24 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+22:17:24 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:24 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+================================== dev 0 
+        dev: /dev/sda1
+        dir : /media/sda1
+        model : WDC WD10PURX-64D85Y0    state : 3
+        type : ext4
+        sz_total : 975956
+        sz_avail : 926932
+        sz_used  : 212
+        rec used : 1
+================================== dev 0 
+rfs type : 0
+22:17:24 <DVR_GetCurrentHddSerialNo> Current Hdd Index = 0, SerialNo:[WD-WCC4J5DFE7XS]
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+<<<LIB816x_GetHddSmartInfo>>> SmartInfo:PASSED
+22:17:25 #### BKTREC_TotalBasketInfo
+22:17:25 
+22:17:25 =================================================
+22:17:25               GET BASKET INFORMATION             
+22:17:25 =================================================
+22:17:25 Hdd(00)        Basket(01492)   Path(/media/sda1/bktmgr.udf)
+22:17:25 =================================================
+22:17:25 TotalCount(01492)      CurrIdx(00)     CurrCount(01492)
+22:17:25 =================================================
+22:17:25 
+22:17:25 <DVR_CheckHddDependency> Current Hdd Index = 0
+22:17:25 <DVR_CheckHddDependency> Check /media/sda1
+22:17:25 <DVR_CheckHddDependency> count(1) loss(0)
+22:17:25 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+22:17:25 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+22:17:25 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+22:17:25 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+22:17:25 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+22:17:25 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+22:17:25 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:25 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:25 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+22:17:25 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+22:17:25 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:25 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:26 <Http_Open> Main.13. Login:Password = admin:1111
+22:17:26 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:26 <Http_Open> Main.1. Login:Password = admin:1111
+22:17:26 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:26 <Http_Open> Sub.13. Login:Password = admin:1111
+22:17:26 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (11) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (10) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Main.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (10) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> (9) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Sub.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (9) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> Main.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Sub.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> Main.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+22:17:26 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+22:17:26 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+22:17:26 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+22:17:26 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:26 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:27 <Http_Open> Main.3. Login:Password = admin:1111
+22:17:27 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:27 <Http_Open> Sub.2. Login:Password = admin:1111
+22:17:27 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:27 <Http_Open> Main.2. Login:Password = admin:1111
+22:17:27 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+22:17:27 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+22:17:27 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:27 <Http_Open> Sub.1. Login:Password = admin:1111
+22:17:27 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+22:17:27 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+22:17:27 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+22:17:27 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+22:17:27 **** <LiveView> (14) 0.0.0.0:80 404 Error Sub
+22:17:27 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Sub
+22:17:27 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> (14) 0.0.0.0:80 404 Error Main
+22:17:27 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Main
+22:17:27 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> Sub.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> Main.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+22:17:27 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+22:17:27 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+22:17:27 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+22:17:27 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+22:17:27 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+22:17:27 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+22:17:27 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+22:17:27 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+22:17:27 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+22:17:27 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+22:17:27 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+22:17:27 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:27 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:28 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:28 <Http_Open> Sub.6. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:28 <Http_Open> Main.6. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:28 <Http_Open> Sub.5. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:28 <Http_Open> Main.5. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:28 <Http_Open> Sub.4. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:28 <Http_Open> Main.4. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:28 <Http_Open> Sub.3. Login:Password = admin:1111
+22:17:28 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+22:17:28 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+22:17:28 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:28 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:28 <Http_Open> Sub.12. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:28 <Http_Open> Main.12. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:28 <Http_Open> Sub.11. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:28 <Http_Open> Main.11. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:28 <Http_Open> Sub.10. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:28 <Http_Open> Main.10. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:28 <Http_Open> Sub.9. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:28 <Http_Open> Main.9. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:28 <Http_Open> Sub.8. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:28 <Http_Open> Main.8. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:28 <Http_Open> Sub.7. Login:Password = admin:1111
+22:17:28 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:28 <Http_Open> Main.7. Login:Password = admin:1111
+22:17:29 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+22:17:29 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+22:17:29 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+22:17:29 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+22:17:29 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:29 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:29 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:29 <Http_Open> Main.13. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:29 <Http_Open> Sub.15. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:29 <Http_Open> Main.15. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:29 <Http_Open> Sub.14. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:29 <Http_Open> Main.14. Login:Password = admin:1111
+22:17:29 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+22:17:29 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+22:17:29 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+22:17:29 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+22:17:29 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+22:17:29 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+22:17:29 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:29 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+22:17:29 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+22:17:29 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:29 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:29 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:29 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:29 <Http_Open> Sub.13. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:29 <Http_Open> Main.1. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:29 <Http_Open> Main.3. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:29 <Http_Open> Sub.1. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:29 <Http_Open> Main.2. Login:Password = admin:1111
+22:17:29 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:29 <Http_Open> Sub.2. Login:Password = admin:1111
+22:17:29 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+22:17:29 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+22:17:29 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:30 <DVR_CheckHddDependency> Current Hdd Index = 0
+22:17:30 <DVR_CheckHddDependency> Check /media/sda1
+22:17:30 <DVR_CheckHddDependency> count(1) loss(0)
+22:17:30 **** <LiveView> (9) 0.0.0.0:80 404 Error Sub
+22:17:30 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Sub
+22:17:30 **** <LiveView> (10) 0.0.0.0:80 404 Error Main
+22:17:30 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Main
+22:17:30 **** <LiveView> (10) 0.0.0.0:80 404 Error Sub
+22:17:30 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Sub
+22:17:30 **** <LiveView> Sub.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:30 **** <LiveView> (11) 0.0.0.0:80 404 Error Main
+22:17:30 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Main
+22:17:30 **** <LiveView> Main.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:30 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+22:17:30 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+22:17:30 **** <LiveView> Sub.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:30 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+22:17:30 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+22:17:30 **** <LiveView> Main.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:30 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:30 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:30 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:30 <Http_Open> Sub.6. Login:Password = admin:1111
+22:17:30 <AgentRecall> Check 2013/10/31 22:17:30
+22:17:31 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:31 <Http_Open> Sub.5. Login:Password = admin:1111
+22:17:31 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:31 <Http_Open> Main.6. Login:Password = admin:1111
+22:17:31 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:31 <Http_Open> Sub.3. Login:Password = admin:1111
+22:17:31 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:31 <Http_Open> Main.4. Login:Password = admin:1111
+22:17:31 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:31 <Http_Open> Sub.4. Login:Password = admin:1111
+22:17:31 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:31 <Http_Open> Main.5. Login:Password = admin:1111
+22:17:31 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+22:17:31 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+22:17:31 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+22:17:31 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+22:17:31 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+22:17:31 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+22:17:31 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (9) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> Main.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+22:17:31 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+22:17:31 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+22:17:31 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+22:17:31 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+22:17:31 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+22:17:31 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (14) 0.0.0.0:80 404 Error Main
+22:17:31 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Main
+22:17:31 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> Main.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 **** <LiveView> (14) 0.0.0.0:80 404 Error Sub
+22:17:31 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Sub
+22:17:31 **** <LiveView> Sub.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:31 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:31 <Http_Open> Sub.12. Login:Password = admin:1111
+22:17:32 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+22:17:32 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+22:17:32 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+22:17:32 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+22:17:32 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+22:17:32 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+22:17:32 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+22:17:32 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+22:17:32 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+22:17:32 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+22:17:32 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+22:17:32 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+22:17:32 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+22:17:32 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+22:17:32 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+22:17:32 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+22:17:32 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:32 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:32 <Http_Open> Sub.9. Login:Password = admin:1111
+22:17:32 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:32 <Http_Open> Main.10. Login:Password = admin:1111
+22:17:32 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:32 <Http_Open> Sub.10. Login:Password = admin:1111
+22:17:32 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:32 <Http_Open> Main.11. Login:Password = admin:1111
+22:17:32 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:32 <Http_Open> Sub.11. Login:Password = admin:1111
+22:17:32 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:32 <Http_Open> Main.12. Login:Password = admin:1111
+22:17:32 Flush To Storage /media/sda1/00000001.bkt /media/sda1/00000001.idx ------> 16, 0, 0
+22:17:32 **** <LiveView> (9) 0.0.0.0:80 404 Error Sub
+22:17:32 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Sub
+22:17:32 **** <LiveView> Sub.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:33 **** <LiveView> (10) 0.0.0.0:80 404 Error Sub
+22:17:33 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Sub
+22:17:33 **** <LiveView> (10) 0.0.0.0:80 404 Error Main
+22:17:33 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Main
+22:17:33 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+22:17:33 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+22:17:33 **** <LiveView> Sub.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:33 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+22:17:33 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+22:17:33 **** <LiveView> Main.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:33 **** <LiveView> (11) 0.0.0.0:80 404 Error Main
+22:17:33 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Main
+22:17:33 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:33 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:33 **** <LiveView> Main.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:33 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:33 <Http_Open> Main.15. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:33 <Http_Open> Sub.15. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:33 <Http_Open> Main.13. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:33 <Http_Open> Main.7. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:33 <Http_Open> Sub.7. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:33 <Http_Open> Main.8. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:33 <Http_Open> Sub.8. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:33 <Http_Open> Main.9. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:33 <Http_Open> Sub.2. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:33 <Http_Open> Main.2. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:33 <Http_Open> Sub.1. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:33 <Http_Open> Main.3. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:33 <Http_Open> Main.1. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:33 <Http_Open> Sub.13. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:33 <Http_Open> Main.14. Login:Password = admin:1111
+22:17:33 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:33 <Http_Open> Sub.14. Login:Password = admin:1111
+22:17:33 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+22:17:33 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+22:17:33 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:34 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+22:17:34 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+22:17:34 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+22:17:34 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+22:17:34 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:34 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:34 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:34 <Http_Open> Sub.6. Login:Password = admin:1111
+22:17:34 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:34 <Http_Open> Main.5. Login:Password = admin:1111
+22:17:34 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:34 <Http_Open> Sub.4. Login:Password = admin:1111
+22:17:34 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:34 <Http_Open> Main.4. Login:Password = admin:1111
+22:17:34 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:34 <Http_Open> Sub.3. Login:Password = admin:1111
+22:17:34 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:34 <Http_Open> Main.6. Login:Password = admin:1111
+22:17:34 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:34 <Http_Open> Sub.5. Login:Password = admin:1111
+22:17:34 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:34 <Http_Open> Sub.12. Login:Password = admin:1111
+22:17:34 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+22:17:34 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+22:17:34 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+22:17:34 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+22:17:34 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+22:17:34 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+22:17:34 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:34 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+22:17:34 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+22:17:34 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:34 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:34 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:34 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:34 <Http_Open> Sub.9. Login:Password = admin:1111
+22:17:35 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:35 <Http_Open> Sub.10. Login:Password = admin:1111
+22:17:35 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:35 <Http_Open> Main.10. Login:Password = admin:1111
+22:17:35 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:35 <Http_Open> Main.12. Login:Password = admin:1111
+22:17:35 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:35 <Http_Open> Sub.11. Login:Password = admin:1111
+22:17:35 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:35 <Http_Open> Main.11. Login:Password = admin:1111
+22:17:35 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:35 <Http_Open> Main.15. Login:Password = admin:1111
+22:17:35 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+22:17:35 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+22:17:35 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+22:17:35 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+22:17:35 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+22:17:35 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+22:17:35 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:35 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+22:17:35 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+22:17:35 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:35 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+22:17:35 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+22:17:35 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:35 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:35 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+22:17:35 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+22:17:35 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:35 **** <LiveView> (9) 0.0.0.0:80 404 Error Main
+22:17:35 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Main
+22:17:35 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:35 **** <LiveView> Main.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (14) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (14) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> Sub.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> Main.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:36 <Http_Open> Main.13. Login:Password = admin:1111
+22:17:36 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:36 <Http_Open> Sub.15. Login:Password = admin:1111
+22:17:36 **** <LiveView> (9) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> Sub.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> (11) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> Main.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (10) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (10) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> Main.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> Sub.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+22:17:36 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+22:17:36 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+22:17:36 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+22:17:36 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:36 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:36 <Http_Open> Sub.8. Login:Password = admin:1111
+22:17:36 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:36 <Http_Open> Main.8. Login:Password = admin:1111
+22:17:36 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:36 <Http_Open> Sub.7. Login:Password = admin:1111
+22:17:36 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:36 <Http_Open> Main.7. Login:Password = admin:1111
+22:17:37 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+22:17:37 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+22:17:37 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:37 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+22:17:37 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+22:17:37 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+22:17:37 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+22:17:37 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+22:17:37 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+22:17:37 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:37 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:37 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:37 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:37 <Http_Open> Sub.13. Login:Password = admin:1111
+22:17:37 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:37 <Http_Open> Main.1. Login:Password = admin:1111
+22:17:37 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:37 <Http_Open> Main.3. Login:Password = admin:1111
+22:17:37 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:37 <Http_Open> Sub.1. Login:Password = admin:1111
+22:17:37 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:37 <Http_Open> Main.2. Login:Password = admin:1111
+22:17:37 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:37 <Http_Open> Sub.2. Login:Password = admin:1111
+22:17:37 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:37 <Http_Open> Main.9. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:38 <Http_Open> Sub.12. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:38 <Http_Open> Sub.5. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:38 <Http_Open> Main.6. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:38 <Http_Open> Sub.3. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:38 <Http_Open> Main.4. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:4 !! ======================
+22:17:38 <Http_Open> Sub.4. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:5 !! ======================
+22:17:38 <Http_Open> Main.5. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:6 !! ======================
+22:17:38 <Http_Open> Sub.6. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:38 <Http_Open> Sub.14. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:14 !! ======================
+22:17:38 <Http_Open> Main.14. Login:Password = admin:1111
+22:17:38 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+22:17:38 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+22:17:38 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:38 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+22:17:38 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+22:17:38 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+22:17:38 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+22:17:38 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:38 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:38 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:38 <Http_Open> Sub.9. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:38 <Http_Open> Main.15. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:38 <Http_Open> Main.11. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:11 !! ======================
+22:17:38 <Http_Open> Sub.11. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:12 !! ======================
+22:17:38 <Http_Open> Main.12. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:38 <Http_Open> Main.10. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:10 !! ======================
+22:17:38 <Http_Open> Sub.10. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:38 <Http_Open> Main.13. Login:Password = admin:1111
+22:17:38 =========       IPCAM HTTP OPEN:15 !! ======================
+22:17:38 <Http_Open> Sub.15. Login:Password = admin:1111
+22:17:39 <AgentRecall> Check 2013/10/31 22:17:39
+22:17:39 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:39 <Http_Open> Sub.8. Login:Password = admin:1111
+22:17:39 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:39 <Http_Open> Sub.7. Login:Password = admin:1111
+22:17:39 =========       IPCAM HTTP OPEN:8 !! ======================
+22:17:39 <Http_Open> Main.8. Login:Password = admin:1111
+22:17:39 =========       IPCAM HTTP OPEN:7 !! ======================
+22:17:39 <Http_Open> Main.7. Login:Password = admin:1111
+22:17:39 **** <LiveView> (9) 0.0.0.0:80 404 Error Main
+22:17:39 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Main
+22:17:39 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+22:17:39 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+22:17:39 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+22:17:39 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+22:17:39 **** <LiveView> Main.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:39 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+22:17:39 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+22:17:39 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:39 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:39 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 <DVR_CheckHddDependency> Current Hdd Index = 0
+22:17:40 <DVR_CheckHddDependency> Check /media/sda1
+22:17:40 <DVR_CheckHddDependency> count(1) loss(0)
+22:17:40 =========       IPCAM HTTP OPEN:13 !! ======================
+22:17:40 <Http_Open> Sub.13. Login:Password = admin:1111
+22:17:40 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+22:17:40 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+22:17:40 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+22:17:40 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+22:17:40 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+22:17:40 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+22:17:40 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+22:17:40 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+22:17:40 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+22:17:40 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+22:17:40 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+22:17:40 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+22:17:40 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+22:17:40 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+22:17:40 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:40 =========       IPCAM HTTP OPEN:3 !! ======================
+22:17:40 <Http_Open> Main.3. Login:Password = admin:1111
+22:17:40 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:40 <Http_Open> Main.1. Login:Password = admin:1111
+22:17:41 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> (10) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (10) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> Sub.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Main.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> (11) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (9) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> Main.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (14) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (14) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> Sub.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> Main.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> Sub.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 =========       IPCAM HTTP OPEN:9 !! ======================
+22:17:41 <Http_Open> Main.9. Login:Password = admin:1111
+22:17:41 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:41 <Http_Open> Sub.2. Login:Password = admin:1111
+22:17:41 =========       IPCAM HTTP OPEN:2 !! ======================
+22:17:41 <Http_Open> Main.2. Login:Password = admin:1111
+22:17:41 =========       IPCAM HTTP OPEN:1 !! ======================
+22:17:41 <Http_Open> Sub.1. Login:Password = admin:1111
+22:17:41 **** <LiveView> (9) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> Main.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+22:17:41 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+22:17:41 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+22:17:41 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+22:17:41 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+22:17:41 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for 
