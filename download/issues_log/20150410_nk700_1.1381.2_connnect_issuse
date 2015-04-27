@@ -1,0 +1,2752 @@
+23:13:58 **** Agent Sub.0 no empty
+23:13:58 **** Agent Sub.0 no empty
+23:13:59 <LiveView> FullShow Ch(0) Show(1)
+23:14:00 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ LIB816x_disk_info() 
+23:14:00 ####  DVR_GetDiskInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:00 #### BKTREC_getTargetDisk
+23:14:00 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:00 ================================================================ Begin, mp.cnt = 1
+23:14:00        Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+23:14:00 **** <BKTREC_updateHddInfo> tm.hddIdx = 0, tm.dvrMAC = 00:09:52:77:00:02, Local gMac0 = 00:09:52:77:00:03
+23:14:00 ================================================================ End, mp.cnt = 1
+23:14:00 gbkt_mount_info.hddInfo[0].isMounted = 0
+23:14:00 gbkt_mount_info.hddInfo[1].isMounted = 0
+23:14:00 gbkt_mount_info.hddInfo[2].isMounted = 0
+23:14:00 gbkt_mount_info.hddInfo[3].isMounted = 0
+23:14:00 ================================================================ Save topmgr.udf
+23:14:00 open /media/sda1/topmgr.udf
+23:14:00                Hdd(0) Next(0) Format(2013/10/31 22:17:18) UsedSize(216976) Path(/media/sda1)
+23:14:00 SAVE topmgr.udf ok
+23:14:00 ================================================================ Save topmgr.udf
+23:14:00 gbkt_mount_info.hddCnt = 0
+23:14:00 =================================================
+23:14:00          UPDATE MULTI-HDD INFORMATION            
+23:14:00 =================================================
+23:14:00  IDX      Date            Path       Prev   Next 
+23:14:00 =================================================
+23:14:00 Hdd(0) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:00 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:00 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:00 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:00 =================================================
+23:14:00 
+23:14:00 
+23:14:00 =================================================
+23:14:00            GET TARGET DISK INFORMATION           
+23:14:00 =================================================
+23:14:00   IDX        Path  
+23:14:00 =================================================
+23:14:00    00     
+23:14:00 =================================================
+23:14:00 
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+================================== dev 0 
+        dev: /dev/sda1
+        dir : /media/sda1
+        model : WDC WD10PURX-64D85Y0    state : 3
+        type : ext4
+        sz_total : 975956
+        sz_avail : 926424
+        sz_used  : 720
+        rec used : 0
+================================== dev 0 
+rfs type : 0
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+<<<LIB816x_GetHddSmartInfo>>> SmartInfo:PASSED
+
+
+
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[0] = 16
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[1] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[2] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[3] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[4] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[5] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[6] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[7] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[8] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[9] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[10] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[11] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[12] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[13] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[14] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[15] = 255
+BBBBBBBBBBBBB psVdMosaicParam->chnMap[16] = 255
+ [m3vpss ]  1069807: SWMS    : ******* Configuring clock 33 secs... 
+ [m3vpss ]  
+ [m3vpss ]  *** [SWMS0] Mosaic Parameters *** 
+ [m3vpss ]  
+ [m3vpss ]  Output FPS: 30
+ [m3vpss ]  
+ [m3vpss ]  Win | Ch  | Input      | Input          | Input         | Input       | Output     |  Output         | Output        | Output      | Low Cost | SWMS | Data  |
+ [m3vpss ]  Num | Num | Start X, Y | Width x Height | Pitch Y / C   | Memory Type | Start X, Y |  Width x Height | Pitch Y / C   | Memory Type | ON / OFF | Inst | Format|
+ [m3vpss ]  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+ [m3vpss ]    0 |  16 |   32,   24 |  1312 x    744 |  2048 /  2048 | NON-TILED   |    0,    0 |  1280 x   1024 |  3840 /      0 | NON-TILED   |      OFF |    0 |  420SP |
+ [m3vpss ]  
+23:14:04 <AgentRecall> Check 2013/10/31 23:14:04
+23:14:05 <LIB816x_setRecChannel> ch(0) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (0, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(1) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (1, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(2) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (2, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(3) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (3, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(4) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (4, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(5) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (5, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(6) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (6, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(7) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (7, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(8) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (8, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(9) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (9, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(10) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (10, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(11) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (11, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(12) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (12, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(13) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (13, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(14) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (14, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LIB816x_setRecChannel> ch(15) enable(0) mode(0) audio(0) 
+23:14:05 WriterEnableChSave (15, 0, 0, 0, ) is_basket_opened(0)
+23:14:05 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Enable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Enable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (1) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (1) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (2) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (2) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (3) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (3) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (4) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (4) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (5) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (5) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (6) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (6) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (7) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+<Event> Severity(3) Main Lost(0) 192.168.22.85:80 Lost Connection!!
+23:14:05 <Reconnect> Main.0 Type(1) 192.168.22.85:80 Close Socket
+<Event> Severity(3) Sub Lost(0) 192.168.22.85:80 Lost Connection!!
+23:14:05 <Reconnect> Sub.0 Type(1) 192.168.22.85:80 Close Socket
+23:14:05 <LiveView> Main.0 Type(1) 192.168.22.85:80 Stoped
+23:14:05 <LiveView> Sub.0 Type(1) 192.168.22.85:80 Stoped
+23:14:05 <LiveView> (7) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (8) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (8) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (9) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (9) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (10) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (10) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (11) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (11) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (12) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (12) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (13) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (13) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (14) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (14) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (15) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+23:14:05 <LiveView> (15) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Disable 
+
+ QVFormatThread <run> Wait Time: 15 Secs23:14:12 <AgentRecall> Check 2013/10/31 23:14:12
+
+ QVFormatThread <run> Start LIB816x_HddFormat23:14:20 DVR_FormatHDD /media/sda1, /dev/sda1, 3, 1
+23:14:20 Failed close basket file and index file. Already basket file is closed.
+**** <WriterFileSaveExit> BKTREC_exit() Error !!!!
+23:14:20 <Format> ==================================================================== Parted Begin
+23:14:20 <Format> swapoff /dev/sda2
+system_user() swapoff /dev/sda2 
+23:14:20 <Format> umount -l /media/sda1
+23:14:20 <AgentRecall> Check 2013/10/31 23:14:20
+23:14:20 <Format> umount -l /media/sda2
+umount: /media/sda2: not found
+23:14:21 <Format> parted -s /dev/sda rm 2
+system_user() parted -s /dev/sda rm 2 
+23:14:22 <Format> parted -s /dev/sda rm 1
+system_user() parted -s /dev/sda rm 1 
+23:14:22 <Format> parted /dev/sda print
+system_user() parted /dev/sda print 
+Model: ATA WDC WD10PURX-64D (scsi)
+Disk /dev/sda: 1000GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+
+Number  Start  End  Size  File system  Name  Flags
+
+23:14:22 <Format> parted -s /dev/sda mklabel gpt
+system_user() parted -s /dev/sda mklabel gpt 
+23:14:22 <Format> disk_size is : 1000204, swap_size: 4294967808 
+23:14:22 BUF : Filename                         Type            Size    Used    Priority
+
+23:14:22 <Format> parted -s /dev/sda mkpart primary 0% 999692
+system_user() parted -s /dev/sda mkpart primary 0% 999692 
+23:14:22 <Format> parted -s /dev/sda mkpart linux-swap 999692 1000204
+system_user() parted -s /dev/sda mkpart linux-swap 999692 1000204 
+EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+23:14:23 <Format> parted /dev/sda print
+system_user() parted /dev/sda print 
+Model: ATA WDC WD10PURX-64D (scsi)
+Disk /dev/sda: 1000GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+
+Number  Start   End     Size    File system     Name        Flags
+ 1      1049kB  1000GB  1000GB  ext4            primary
+ 2      1000GB  1000GB  512MB   linux-swap(v1)  linux-swap
+
+23:14:24 <Format> mkswap /dev/sda2
+system_user() mkswap /dev/sda2 
+Setting up swapspace version 1, size = 499708 KiB
+no label, UUID=072fc56d-b4c3-4de3-b5b1-ebfbfb074c83
+23:14:25 <Format> swapon /dev/sda2
+system_user() swapon /dev/sda2 
+Adding 499708k swap on /dev/sda2.  Priority:-1 extents:1 across:499708k 
+23:14:25 <Format> ==================================================================== Parted End, 5 Secs
+23:14:25 <Format> ==================================================================== MKFS Begin
+23:14:25 <Format> 0. umount -l /dev/sda1
+23:14:25 <Format> mkfs.ext4 -q -T largefile /dev/sda1
+system_user() mkfs.ext4 -q -T largefile /dev/sda1 
+23:14:28 <AgentRecall> Check 2013/10/31 23:14:28
+23:14:37 <AgentRecall> Check 2013/10/31 23:14:37
+23:14:40 <Format> ==================================================================== MKFS End, 15 Secs
+23:14:40 <Format> ==================================================================== Force Mount Begin
+23:14:40 <Format> mount /dev/sda1 /media/sda1
+
+EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+23:14:40 <Format> ==================================================================== Force Mount End, 0 Secs
+23:14:40 <Format> ==================================================================== Delete UDf Files !!
+23:14:40 <Format> rm -rf /media/sda1/*.udf
+system_user() rm -rf /media/sda1/*.udf 
+23:14:41 <Format> rm -rf /media/sda1/rdb/*
+system_user() rm -rf /media/sda1/rdb/* 
+23:14:41 <Format> ==================================================================== WriterUpdateMount Begin
+23:14:41 #### BKTREC_getTargetDisk
+23:14:41 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:41 ================================================================ Begin, mp.cnt = 1
+23:14:41 **** <BKTREC_updateHddInfo> OPEN_RDWR [/media/sda1/topmgr.udf] failed!
+23:14:41 ================================================================ End, mp.cnt = 1
+23:14:41 gbkt_mount_info.hddInfo[0].isMounted = 0
+23:14:41 gbkt_mount_info.hddInfo[1].isMounted = 0
+23:14:41 gbkt_mount_info.hddInfo[2].isMounted = 0
+23:14:41 gbkt_mount_info.hddInfo[3].isMounted = 0
+23:14:41 ================================================================ Save topmgr.udf
+23:14:41 ================================================================ Save topmgr.udf
+23:14:41 gbkt_mount_info.hddCnt = 0
+23:14:41 =================================================
+23:14:41          UPDATE MULTI-HDD INFORMATION            
+23:14:41 =================================================
+23:14:41  IDX      Date            Path       Prev   Next 
+23:14:41 =================================================
+23:14:41 Hdd(0) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:41 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:41 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:41 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:41 =================================================
+23:14:41 
+23:14:41 
+23:14:41 =================================================
+23:14:41            GET TARGET DISK INFORMATION           
+23:14:41 =================================================
+23:14:41   IDX        Path  
+23:14:41 =================================================
+23:14:41    00     
+23:14:41 =================================================
+23:14:41 
+23:14:41 <Format> ==================================================================== WriterUpdateMount End, 0 Secs
+23:14:41 <Format> ==================================================================== Basket Create Begin
+23:14:41 #### BKTREC_CreateBasket
+23:14:41 #### BKTREC_CreateBasketFiles
+23:14:41 Created .... /media/sda1/00000001.bkt, (1/1587)
+23:14:41 Created .... /media/sda1/00000002.bkt, (2/1587)
+23:14:41 Created .... /media/sda1/00000003.bkt, (3/1587)
+23:14:41 Created .... /media/sda1/00000004.bkt, (4/1587)
+23:14:41 Created .... /media/sda1/00000005.bkt, (5/1587)
+23:14:41 Created .... /media/sda1/00000006.bkt, (6/1587)
+23:14:41 Created .... /media/sda1/00000007.bkt, (7/1587)
+23:14:41 Created .... /media/sda1/00000008.bkt, (8/1587)
+23:14:41 Created .... /media/sda1/00000009.bkt, (9/1587)
+23:14:41 Created .... /media/sda1/00000010.bkt, (10/1587)
+23:14:41 Created .... /media/sda1/00000011.bkt, (11/1587)
+23:14:41 Created .... /media/sda1/00000012.bkt, (12/1587)
+23:14:41 Created .... /media/sda1/00000013.bkt, (13/1587)
+23:14:41 Created .... /media/sda1/00000014.bkt, (14/1587)
+23:14:41 Created .... /media/sda1/00000015.bkt, (15/1587)
+23:14:41 Created .... /media/sda1/00000016.bkt, (16/1587)
+23:14:41 Created .... /media/sda1/00000017.bkt, (17/1587)
+23:14:41 Created .... /media/sda1/00000018.bkt, (18/1587)
+23:14:41 Created .... /media/sda1/00000019.bkt, (19/1587)
+23:14:41 Created .... /media/sda1/00000020.bkt, (20/1587)
+23:14:41 Created .... /media/sda1/00000021.bkt, (21/1587)
+23:14:41 Created .... /media/sda1/00000022.bkt, (22/1587)
+23:14:41 Created .... /media/sda1/00000023.bkt, (23/1587)
+23:14:41 Created .... /media/sda1/00000024.bkt, (24/1587)
+23:14:41 Created .... /media/sda1/00000025.bkt, (25/1587)
+23:14:41 Created .... /media/sda1/00000026.bkt, (26/1587)
+23:14:41 Created .... /media/sda1/00000027.bkt, (27/1587)
+23:14:41 Created .... /media/sda1/00000028.bkt, (28/1587)
+23:14:41 Created .... /media/sda1/00000029.bkt, (29/1587)
+23:14:41 Created .... /media/sda1/00000030.bkt, (30/1587)
+23:14:41 Created .... /media/sda1/00000031.bkt, (31/1587)
+23:14:41 Created .... /media/sda1/00000032.bkt, (32/1587)
+23:14:41 Created .... /media/sda1/00000033.bkt, (33/1587)
+23:14:41 Created .... /media/sda1/00000034.bkt, (34/1587)
+23:14:41 Created .... /media/sda1/00000035.bkt, (35/1587)
+23:14:41 Created .... /media/sda1/00000036.bkt, (36/1587)
+23:14:41 Created .... /media/sda1/00000037.bkt, (37/1587)
+23:14:41 Created .... /media/sda1/00000038.bkt, (38/1587)
+23:14:41 Created .... /media/sda1/00000039.bkt, (39/1587)
+23:14:41 Created .... /media/sda1/00000040.bkt, (40/1587)
+23:14:41 Created .... /media/sda1/00000041.bkt, (41/1587)
+23:14:41 Created .... /media/sda1/00000042.bkt, (42/1587)
+23:14:41 Created .... /media/sda1/00000043.bkt, (43/1587)
+23:14:41 Created .... /media/sda1/00000044.bkt, (44/1587)
+23:14:41 Created .... /media/sda1/00000045.bkt, (45/1587)
+23:14:41 Created .... /media/sda1/00000046.bkt, (46/1587)
+23:14:41 Created .... /media/sda1/00000047.bkt, (47/1587)
+23:14:41 Created .... /media/sda1/00000048.bkt, (48/1587)
+23:14:41 Created .... /media/sda1/00000049.bkt, (49/1587)
+23:14:41 Created .... /media/sda1/00000050.bkt, (50/1587)
+23:14:41 Created .... /media/sda1/00000051.bkt, (51/1587)
+23:14:41 Created .... /media/sda1/00000052.bkt, (52/1587)
+23:14:41 Created .... /media/sda1/00000053.bkt, (53/1587)
+23:14:41 Created .... /media/sda1/00000054.bkt, (54/1587)
+23:14:41 Created .... /media/sda1/00000055.bkt, (55/1587)
+23:14:41 Created .... /media/sda1/00000056.bkt, (56/1587)
+23:14:41 Created .... /media/sda1/00000057.bkt, (57/1587)
+23:14:41 Created .... /media/sda1/00000058.bkt, (58/1587)
+23:14:41 Created .... /media/sda1/00000059.bkt, (59/1587)
+23:14:41 Created .... /media/sda1/00000060.bkt, (60/1587)
+23:14:41 Created .... /media/sda1/00000061.bkt, (61/1587)
+23:14:41 Created .... /media/sda1/00000062.bkt, (62/1587)
+23:14:41 Created .... /media/sda1/00000063.bkt, (63/1587)
+23:14:41 Created .... /media/sda1/00000064.bkt, (64/1587)
+23:14:41 Created .... /media/sda1/00000065.bkt, (65/1587)
+23:14:41 Created .... /media/sda1/00000066.bkt, (66/1587)
+23:14:41 Created .... /media/sda1/00000067.bkt, (67/1587)
+23:14:41 Created .... /media/sda1/00000068.bkt, (68/1587)
+23:14:41 Created .... /media/sda1/00000069.bkt, (69/1587)
+23:14:41 Created .... /media/sda1/00000070.bkt, (70/1587)
+23:14:41 Created .... /media/sda1/00000071.bkt, (71/1587)
+23:14:41 Created .... /media/sda1/00000072.bkt, (72/1587)
+23:14:41 Created .... /media/sda1/00000073.bkt, (73/1587)
+23:14:41 Created .... /media/sda1/00000074.bkt, (74/1587)
+23:14:41 Created .... /media/sda1/00000075.bkt, (75/1587)
+23:14:41 Created .... /media/sda1/00000076.bkt, (76/1587)
+23:14:41 Created .... /media/sda1/00000077.bkt, (77/1587)
+23:14:41 Created .... /media/sda1/00000078.bkt, (78/1587)
+23:14:41 Created .... /media/sda1/00000079.bkt, (79/1587)
+23:14:41 Created .... /media/sda1/00000080.bkt, (80/1587)
+23:14:41 Created .... /media/sda1/00000081.bkt, (81/1587)
+23:14:41 Created .... /media/sda1/00000082.bkt, (82/1587)
+23:14:41 Created .... /media/sda1/00000083.bkt, (83/1587)
+23:14:41 Created .... /media/sda1/00000084.bkt, (84/1587)
+23:14:41 Created .... /media/sda1/00000085.bkt, (85/1587)
+23:14:41 Created .... /media/sda1/00000086.bkt, (86/1587)
+23:14:41 Created .... /media/sda1/00000087.bkt, (87/1587)
+23:14:41 Created .... /media/sda1/00000088.bkt, (88/1587)
+23:14:41 Created .... /media/sda1/00000089.bkt, (89/1587)
+23:14:41 Created .... /media/sda1/00000090.bkt, (90/1587)
+23:14:41 Created .... /media/sda1/00000091.bkt, (91/1587)
+23:14:41 Created .... /media/sda1/00000092.bkt, (92/1587)
+23:14:41 Created .... /media/sda1/00000093.bkt, (93/1587)
+23:14:41 Created .... /media/sda1/00000094.bkt, (94/1587)
+23:14:41 Created .... /media/sda1/00000095.bkt, (95/1587)
+23:14:41 Created .... /media/sda1/00000096.bkt, (96/1587)
+23:14:41 Created .... /media/sda1/00000097.bkt, (97/1587)
+23:14:41 Created .... /media/sda1/00000098.bkt, (98/1587)
+23:14:41 Created .... /media/sda1/00000099.bkt, (99/1587)
+23:14:41 Created .... /media/sda1/00000100.bkt, (100/1587)
+23:14:41 Created .... /media/sda1/00000101.bkt, (101/1587)
+23:14:41 Created .... /media/sda1/00000102.bkt, (102/1587)
+23:14:41 Created .... /media/sda1/00000103.bkt, (103/1587)
+23:14:41 Created .... /media/sda1/00000104.bkt, (104/1587)
+23:14:41 Created .... /media/sda1/00000105.bkt, (105/1587)
+23:14:41 Created .... /media/sda1/00000106.bkt, (106/1587)
+23:14:41 Created .... /media/sda1/00000107.bkt, (107/1587)
+23:14:41 Created .... /media/sda1/00000108.bkt, (108/1587)
+23:14:41 Created .... /media/sda1/00000109.bkt, (109/1587)
+23:14:41 Created .... /media/sda1/00000110.bkt, (110/1587)
+23:14:41 Created .... /media/sda1/00000111.bkt, (111/1587)
+23:14:41 Created .... /media/sda1/00000112.bkt, (112/1587)
+23:14:41 Created .... /media/sda1/00000113.bkt, (113/1587)
+23:14:41 Created .... /media/sda1/00000114.bkt, (114/1587)
+23:14:41 Created .... /media/sda1/00000115.bkt, (115/1587)
+23:14:41 Created .... /media/sda1/00000116.bkt, (116/1587)
+23:14:41 Created .... /media/sda1/00000117.bkt, (117/1587)
+23:14:41 Created .... /media/sda1/00000118.bkt, (118/1587)
+23:14:41 Created .... /media/sda1/00000119.bkt, (119/1587)
+23:14:41 Created .... /media/sda1/00000120.bkt, (120/1587)
+23:14:41 Created .... /media/sda1/00000121.bkt, (121/1587)
+23:14:41 Created .... /media/sda1/00000122.bkt, (122/1587)
+23:14:41 Created .... /media/sda1/00000123.bkt, (123/1587)
+23:14:41 Created .... /media/sda1/00000124.bkt, (124/1587)
+23:14:41 Created .... /media/sda1/00000125.bkt, (125/1587)
+23:14:41 Created .... /media/sda1/00000126.bkt, (126/1587)
+23:14:41 Created .... /media/sda1/00000127.bkt, (127/1587)
+23:14:41 Created .... /media/sda1/00000128.bkt, (128/1587)
+23:14:41 Created .... /media/sda1/00000129.bkt, (129/1587)
+23:14:41 Created .... /media/sda1/00000130.bkt, (130/1587)
+23:14:41 Created .... /media/sda1/00000131.bkt, (131/1587)
+23:14:41 Created .... /media/sda1/00000132.bkt, (132/1587)
+23:14:41 Created .... /media/sda1/00000133.bkt, (133/1587)
+23:14:41 Created .... /media/sda1/00000134.bkt, (134/1587)
+23:14:41 Created .... /media/sda1/00000135.bkt, (135/1587)
+23:14:41 Created .... /media/sda1/00000136.bkt, (136/1587)
+23:14:41 Created .... /media/sda1/00000137.bkt, (137/1587)
+23:14:41 Created .... /media/sda1/00000138.bkt, (138/1587)
+23:14:41 Created .... /media/sda1/00000139.bkt, (139/1587)
+23:14:41 Created .... /media/sda1/00000140.bkt, (140/1587)
+23:14:41 Created .... /media/sda1/00000141.bkt, (141/1587)
+23:14:41 Created .... /media/sda1/00000142.bkt, (142/1587)
+23:14:41 Created .... /media/sda1/00000143.bkt, (143/1587)
+23:14:41 Created .... /media/sda1/00000144.bkt, (144/1587)
+23:14:41 Created .... /media/sda1/00000145.bkt, (145/1587)
+23:14:41 Created .... /media/sda1/00000146.bkt, (146/1587)
+23:14:41 Created .... /media/sda1/00000147.bkt, (147/1587)
+23:14:41 Created .... /media/sda1/00000148.bkt, (148/1587)
+23:14:41 Created .... /media/sda1/00000149.bkt, (149/1587)
+23:14:41 Created .... /media/sda1/00000150.bkt, (150/1587)
+23:14:41 Created .... /media/sda1/00000151.bkt, (151/1587)
+23:14:41 Created .... /media/sda1/00000152.bkt, (152/1587)
+23:14:41 Created .... /media/sda1/00000153.bkt, (153/1587)
+23:14:41 Created .... /media/sda1/00000154.bkt, (154/1587)
+23:14:41 Created .... /media/sda1/00000155.bkt, (155/1587)
+23:14:41 Created .... /media/sda1/00000156.bkt, (156/1587)
+23:14:41 Created .... /media/sda1/00000157.bkt, (157/1587)
+23:14:41 Created .... /media/sda1/00000158.bkt, (158/1587)
+23:14:41 Created .... /media/sda1/00000159.bkt, (159/1587)
+23:14:41 Created .... /media/sda1/00000160.bkt, (160/1587)
+23:14:41 Created .... /media/sda1/00000161.bkt, (161/1587)
+23:14:41 Created .... /media/sda1/00000162.bkt, (162/1587)
+23:14:41 Created .... /media/sda1/00000163.bkt, (163/1587)
+23:14:41 Created .... /media/sda1/00000164.bkt, (164/1587)
+23:14:41 Created .... /media/sda1/00000165.bkt, (165/1587)
+23:14:41 Created .... /media/sda1/00000166.bkt, (166/1587)
+23:14:41 Created .... /media/sda1/00000167.bkt, (167/1587)
+23:14:41 Created .... /media/sda1/00000168.bkt, (168/1587)
+23:14:41 Created .... /media/sda1/00000169.bkt, (169/1587)
+23:14:41 Created .... /media/sda1/00000170.bkt, (170/1587)
+23:14:41 Created .... /media/sda1/00000171.bkt, (171/1587)
+23:14:41 Created .... /media/sda1/00000172.bkt, (172/1587)
+23:14:41 Created .... /media/sda1/00000173.bkt, (173/1587)
+23:14:42 Created .... /media/sda1/00000174.bkt, (174/1587)
+23:14:42 Created .... /media/sda1/00000175.bkt, (175/1587)
+23:14:42 Created .... /media/sda1/00000176.bkt, (176/1587)
+23:14:42 Created .... /media/sda1/00000177.bkt, (177/1587)
+23:14:42 Created .... /media/sda1/00000178.bkt, (178/1587)
+23:14:42 Created .... /media/sda1/00000179.bkt, (179/1587)
+23:14:42 Created .... /media/sda1/00000180.bkt, (180/1587)
+23:14:42 Created .... /media/sda1/00000181.bkt, (181/1587)
+23:14:42 Created .... /media/sda1/00000182.bkt, (182/1587)
+23:14:42 Created .... /media/sda1/00000183.bkt, (183/1587)
+23:14:42 Created .... /media/sda1/00000184.bkt, (184/1587)
+23:14:42 Created .... /media/sda1/00000185.bkt, (185/1587)
+23:14:42 Created .... /media/sda1/00000186.bkt, (186/1587)
+23:14:42 Created .... /media/sda1/00000187.bkt, (187/1587)
+23:14:42 Created .... /media/sda1/00000188.bkt, (188/1587)
+23:14:42 Created .... /media/sda1/00000189.bkt, (189/1587)
+23:14:42 Created .... /media/sda1/00000190.bkt, (190/1587)
+23:14:42 Created .... /media/sda1/00000191.bkt, (191/1587)
+23:14:42 Created .... /media/sda1/00000192.bkt, (192/1587)
+23:14:42 Created .... /media/sda1/00000193.bkt, (193/1587)
+23:14:42 Created .... /media/sda1/00000194.bkt, (194/1587)
+23:14:42 Created .... /media/sda1/00000195.bkt, (195/1587)
+23:14:42 Created .... /media/sda1/00000196.bkt, (196/1587)
+23:14:42 Created .... /media/sda1/00000197.bkt, (197/1587)
+23:14:42 Created .... /media/sda1/00000198.bkt, (198/1587)
+23:14:42 Created .... /media/sda1/00000199.bkt, (199/1587)
+23:14:42 Created .... /media/sda1/00000200.bkt, (200/1587)
+23:14:42 Created .... /media/sda1/00000201.bkt, (201/1587)
+23:14:42 Created .... /media/sda1/00000202.bkt, (202/1587)
+23:14:42 Created .... /media/sda1/00000203.bkt, (203/1587)
+23:14:42 Created .... /media/sda1/00000204.bkt, (204/1587)
+23:14:42 Created .... /media/sda1/00000205.bkt, (205/1587)
+23:14:42 Created .... /media/sda1/00000206.bkt, (206/1587)
+23:14:42 Created .... /media/sda1/00000207.bkt, (207/1587)
+23:14:42 Created .... /media/sda1/00000208.bkt, (208/1587)
+23:14:42 Created .... /media/sda1/00000209.bkt, (209/1587)
+23:14:42 Created .... /media/sda1/00000210.bkt, (210/1587)
+23:14:42 Created .... /media/sda1/00000211.bkt, (211/1587)
+23:14:42 Created .... /media/sda1/00000212.bkt, (212/1587)
+23:14:42 Created .... /media/sda1/00000213.bkt, (213/1587)
+23:14:42 Created .... /media/sda1/00000214.bkt, (214/1587)
+23:14:42 Created .... /media/sda1/00000215.bkt, (215/1587)
+23:14:42 Created .... /media/sda1/00000216.bkt, (216/1587)
+23:14:42 Created .... /media/sda1/00000217.bkt, (217/1587)
+23:14:42 Created .... /media/sda1/00000218.bkt, (218/1587)
+23:14:42 Created .... /media/sda1/00000219.bkt, (219/1587)
+23:14:42 Created .... /media/sda1/00000220.bkt, (220/1587)
+23:14:42 Created .... /media/sda1/00000221.bkt, (221/1587)
+23:14:42 Created .... /media/sda1/00000222.bkt, (222/1587)
+23:14:42 Created .... /media/sda1/00000223.bkt, (223/1587)
+23:14:42 Created .... /media/sda1/00000224.bkt, (224/1587)
+23:14:42 Created .... /media/sda1/00000225.bkt, (225/1587)
+23:14:42 Created .... /media/sda1/00000226.bkt, (226/1587)
+23:14:42 Created .... /media/sda1/00000227.bkt, (227/1587)
+23:14:42 Created .... /media/sda1/00000228.bkt, (228/1587)
+23:14:42 Created .... /media/sda1/00000229.bkt, (229/1587)
+23:14:42 Created .... /media/sda1/00000230.bkt, (230/1587)
+23:14:42 Created .... /media/sda1/00000231.bkt, (231/1587)
+23:14:42 Created .... /media/sda1/00000232.bkt, (232/1587)
+23:14:42 Created .... /media/sda1/00000233.bkt, (233/1587)
+23:14:42 Created .... /media/sda1/00000234.bkt, (234/1587)
+23:14:42 Created .... /media/sda1/00000235.bkt, (235/1587)
+23:14:42 Created .... /media/sda1/00000236.bkt, (236/1587)
+23:14:42 Created .... /media/sda1/00000237.bkt, (237/1587)
+23:14:42 Created .... /media/sda1/00000238.bkt, (238/1587)
+23:14:42 Created .... /media/sda1/00000239.bkt, (239/1587)
+23:14:42 Created .... /media/sda1/00000240.bkt, (240/1587)
+23:14:42 Created .... /media/sda1/00000241.bkt, (241/1587)
+23:14:42 Created .... /media/sda1/00000242.bkt, (242/1587)
+23:14:42 Created .... /media/sda1/00000243.bkt, (243/1587)
+23:14:42 Created .... /media/sda1/00000244.bkt, (244/1587)
+23:14:42 Created .... /media/sda1/00000245.bkt, (245/1587)
+23:14:42 Created .... /media/sda1/00000246.bkt, (246/1587)
+23:14:42 Created .... /media/sda1/00000247.bkt, (247/1587)
+23:14:42 Created .... /media/sda1/00000248.bkt, (248/1587)
+23:14:42 Created .... /media/sda1/00000249.bkt, (249/1587)
+23:14:42 Created .... /media/sda1/00000250.bkt, (250/1587)
+23:14:42 Created .... /media/sda1/00000251.bkt, (251/1587)
+23:14:42 Created .... /media/sda1/00000252.bkt, (252/1587)
+23:14:42 Created .... /media/sda1/00000253.bkt, (253/1587)
+23:14:42 Created .... /media/sda1/00000254.bkt, (254/1587)
+23:14:42 Created .... /media/sda1/00000255.bkt, (255/1587)
+23:14:42 Created .... /media/sda1/00000256.bkt, (256/1587)
+23:14:42 Created .... /media/sda1/00000257.bkt, (257/1587)
+23:14:42 Created .... /media/sda1/00000258.bkt, (258/1587)
+23:14:42 Created .... /media/sda1/00000259.bkt, (259/1587)
+23:14:42 Created .... /media/sda1/00000260.bkt, (260/1587)
+23:14:42 Created .... /media/sda1/00000261.bkt, (261/1587)
+23:14:42 Created .... /media/sda1/00000262.bkt, (262/1587)
+23:14:42 Created .... /media/sda1/00000263.bkt, (263/1587)
+23:14:42 Created .... /media/sda1/00000264.bkt, (264/1587)
+23:14:42 Created .... /media/sda1/00000265.bkt, (265/1587)
+23:14:42 Created .... /media/sda1/00000266.bkt, (266/1587)
+23:14:42 Created .... /media/sda1/00000267.bkt, (267/1587)
+23:14:42 Created .... /media/sda1/00000268.bkt, (268/1587)
+23:14:42 Created .... /media/sda1/00000269.bkt, (269/1587)
+23:14:42 Created .... /media/sda1/00000270.bkt, (270/1587)
+23:14:42 Created .... /media/sda1/00000271.bkt, (271/1587)
+23:14:42 Created .... /media/sda1/00000272.bkt, (272/1587)
+23:14:42 Created .... /media/sda1/00000273.bkt, (273/1587)
+23:14:42 Created .... /media/sda1/00000274.bkt, (274/1587)
+23:14:42 Created .... /media/sda1/00000275.bkt, (275/1587)
+23:14:42 Created .... /media/sda1/00000276.bkt, (276/1587)
+23:14:42 Created .... /media/sda1/00000277.bkt, (277/1587)
+23:14:42 Created .... /media/sda1/00000278.bkt, (278/1587)
+23:14:42 Created .... /media/sda1/00000279.bkt, (279/1587)
+23:14:42 Created .... /media/sda1/00000280.bkt, (280/1587)
+23:14:42 Created .... /media/sda1/00000281.bkt, (281/1587)
+23:14:42 Created .... /media/sda1/00000282.bkt, (282/1587)
+23:14:42 Created .... /media/sda1/00000283.bkt, (283/1587)
+23:14:42 Created .... /media/sda1/00000284.bkt, (284/1587)
+23:14:42 Created .... /media/sda1/00000285.bkt, (285/1587)
+23:14:42 Created .... /media/sda1/00000286.bkt, (286/1587)
+23:14:42 Created .... /media/sda1/00000287.bkt, (287/1587)
+23:14:42 Created .... /media/sda1/00000288.bkt, (288/1587)
+23:14:42 Created .... /media/sda1/00000289.bkt, (289/1587)
+23:14:42 Created .... /media/sda1/00000290.bkt, (290/1587)
+23:14:42 Created .... /media/sda1/00000291.bkt, (291/1587)
+23:14:42 Created .... /media/sda1/00000292.bkt, (292/1587)
+23:14:42 Created .... /media/sda1/00000293.bkt, (293/1587)
+23:14:42 Created .... /media/sda1/00000294.bkt, (294/1587)
+23:14:42 Created .... /media/sda1/00000295.bkt, (295/1587)
+23:14:42 Created .... /media/sda1/00000296.bkt, (296/1587)
+23:14:42 Created .... /media/sda1/00000297.bkt, (297/1587)
+23:14:42 Created .... /media/sda1/00000298.bkt, (298/1587)
+23:14:42 Created .... /media/sda1/00000299.bkt, (299/1587)
+23:14:42 Created .... /media/sda1/00000300.bkt, (300/1587)
+23:14:42 Created .... /media/sda1/00000301.bkt, (301/1587)
+23:14:42 Created .... /media/sda1/00000302.bkt, (302/1587)
+23:14:42 Created .... /media/sda1/00000303.bkt, (303/1587)
+23:14:42 Created .... /media/sda1/00000304.bkt, (304/1587)
+23:14:42 Created .... /media/sda1/00000305.bkt, (305/1587)
+23:14:42 Created .... /media/sda1/00000306.bkt, (306/1587)
+23:14:42 Created .... /media/sda1/00000307.bkt, (307/1587)
+23:14:42 Created .... /media/sda1/00000308.bkt, (308/1587)
+23:14:42 Created .... /media/sda1/00000309.bkt, (309/1587)
+23:14:42 Created .... /media/sda1/00000310.bkt, (310/1587)
+23:14:42 Created .... /media/sda1/00000311.bkt, (311/1587)
+23:14:42 Created .... /media/sda1/00000312.bkt, (312/1587)
+23:14:42 Created .... /media/sda1/00000313.bkt, (313/1587)
+23:14:42 Created .... /media/sda1/00000314.bkt, (314/1587)
+23:14:42 Created .... /media/sda1/00000315.bkt, (315/1587)
+23:14:42 Created .... /media/sda1/00000316.bkt, (316/1587)
+23:14:42 Created .... /media/sda1/00000317.bkt, (317/1587)
+23:14:42 Created .... /media/sda1/00000318.bkt, (318/1587)
+23:14:42 Created .... /media/sda1/00000319.bkt, (319/1587)
+23:14:42 Created .... /media/sda1/00000320.bkt, (320/1587)
+23:14:42 Created .... /media/sda1/00000321.bkt, (321/1587)
+23:14:42 Created .... /media/sda1/00000322.bkt, (322/1587)
+23:14:42 Created .... /media/sda1/00000323.bkt, (323/1587)
+23:14:42 Created .... /media/sda1/00000324.bkt, (324/1587)
+23:14:42 Created .... /media/sda1/00000325.bkt, (325/1587)
+23:14:42 Created .... /media/sda1/00000326.bkt, (326/1587)
+23:14:42 Created .... /media/sda1/00000327.bkt, (327/1587)
+23:14:42 Created .... /media/sda1/00000328.bkt, (328/1587)
+23:14:42 Created .... /media/sda1/00000329.bkt, (329/1587)
+23:14:42 Created .... /media/sda1/00000330.bkt, (330/1587)
+23:14:42 Created .... /media/sda1/00000331.bkt, (331/1587)
+23:14:42 Created .... /media/sda1/00000332.bkt, (332/1587)
+23:14:42 Created .... /media/sda1/00000333.bkt, (333/1587)
+23:14:42 Created .... /media/sda1/00000334.bkt, (334/1587)
+23:14:42 Created .... /media/sda1/00000335.bkt, (335/1587)
+23:14:42 Created .... /media/sda1/00000336.bkt, (336/1587)
+23:14:42 Created .... /media/sda1/00000337.bkt, (337/1587)
+23:14:42 Created .... /media/sda1/00000338.bkt, (338/1587)
+23:14:42 Created .... /media/sda1/00000339.bkt, (339/1587)
+23:14:42 Created .... /media/sda1/00000340.bkt, (340/1587)
+23:14:42 Created .... /media/sda1/00000341.bkt, (341/1587)
+23:14:42 Created .... /media/sda1/00000342.bkt, (342/1587)
+23:14:42 Created .... /media/sda1/00000343.bkt, (343/1587)
+23:14:42 Created .... /media/sda1/00000344.bkt, (344/1587)
+23:14:42 Created .... /media/sda1/00000345.bkt, (345/1587)
+23:14:42 Created .... /media/sda1/00000346.bkt, (346/1587)
+23:14:42 Created .... /media/sda1/00000347.bkt, (347/1587)
+23:14:42 Created .... /media/sda1/00000348.bkt, (348/1587)
+23:14:42 Created .... /media/sda1/00000349.bkt, (349/1587)
+23:14:42 Created .... /media/sda1/00000350.bkt, (350/1587)
+23:14:42 Created .... /media/sda1/00000351.bkt, (351/1587)
+23:14:42 Created .... /media/sda1/00000352.bkt, (352/1587)
+23:14:42 Created .... /media/sda1/00000353.bkt, (353/1587)
+23:14:42 Created .... /media/sda1/00000354.bkt, (354/1587)
+23:14:42 Created .... /media/sda1/00000355.bkt, (355/1587)
+23:14:42 Created .... /media/sda1/00000356.bkt, (356/1587)
+23:14:42 Created .... /media/sda1/00000357.bkt, (357/1587)
+23:14:42 Created .... /media/sda1/00000358.bkt, (358/1587)
+23:14:42 Created .... /media/sda1/00000359.bkt, (359/1587)
+23:14:42 Created .... /media/sda1/00000360.bkt, (360/1587)
+23:14:42 Created .... /media/sda1/00000361.bkt, (361/1587)
+23:14:42 Created .... /media/sda1/00000362.bkt, (362/1587)
+23:14:42 Created .... /media/sda1/00000363.bkt, (363/1587)
+23:14:42 Created .... /media/sda1/00000364.bkt, (364/1587)
+23:14:42 Created .... /media/sda1/00000365.bkt, (365/1587)
+23:14:42 Created .... /media/sda1/00000366.bkt, (366/1587)
+23:14:42 Created .... /media/sda1/00000367.bkt, (367/1587)
+23:14:42 Created .... /media/sda1/00000368.bkt, (368/1587)
+23:14:42 Created .... /media/sda1/00000369.bkt, (369/1587)
+23:14:42 Created .... /media/sda1/00000370.bkt, (370/1587)
+23:14:42 Created .... /media/sda1/00000371.bkt, (371/1587)
+23:14:42 Created .... /media/sda1/00000372.bkt, (372/1587)
+23:14:42 Created .... /media/sda1/00000373.bkt, (373/1587)
+23:14:42 Created .... /media/sda1/00000374.bkt, (374/1587)
+23:14:42 Created .... /media/sda1/00000375.bkt, (375/1587)
+23:14:42 Created .... /media/sda1/00000376.bkt, (376/1587)
+23:14:42 Created .... /media/sda1/00000377.bkt, (377/1587)
+23:14:42 Created .... /media/sda1/00000378.bkt, (378/1587)
+23:14:42 Created .... /media/sda1/00000379.bkt, (379/1587)
+23:14:42 Created .... /media/sda1/00000380.bkt, (380/1587)
+23:14:42 Created .... /media/sda1/00000381.bkt, (381/1587)
+23:14:42 Created .... /media/sda1/00000382.bkt, (382/1587)
+23:14:43 Created .... /media/sda1/00000383.bkt, (383/1587)
+23:14:43 Created .... /media/sda1/00000384.bkt, (384/1587)
+23:14:43 Created .... /media/sda1/00000385.bkt, (385/1587)
+23:14:43 Created .... /media/sda1/00000386.bkt, (386/1587)
+23:14:43 Created .... /media/sda1/00000387.bkt, (387/1587)
+23:14:43 Created .... /media/sda1/00000388.bkt, (388/1587)
+23:14:43 Created .... /media/sda1/00000389.bkt, (389/1587)
+23:14:43 Created .... /media/sda1/00000390.bkt, (390/1587)
+23:14:43 Created .... /media/sda1/00000391.bkt, (391/1587)
+23:14:43 Created .... /media/sda1/00000392.bkt, (392/1587)
+23:14:43 Created .... /media/sda1/00000393.bkt, (393/1587)
+23:14:43 Created .... /media/sda1/00000394.bkt, (394/1587)
+23:14:43 Created .... /media/sda1/00000395.bkt, (395/1587)
+23:14:43 Created .... /media/sda1/00000396.bkt, (396/1587)
+23:14:43 Created .... /media/sda1/00000397.bkt, (397/1587)
+23:14:43 Created .... /media/sda1/00000398.bkt, (398/1587)
+23:14:43 Created .... /media/sda1/00000399.bkt, (399/1587)
+23:14:43 Created .... /media/sda1/00000400.bkt, (400/1587)
+23:14:43 Created .... /media/sda1/00000401.bkt, (401/1587)
+23:14:43 Created .... /media/sda1/00000402.bkt, (402/1587)
+23:14:43 Created .... /media/sda1/00000403.bkt, (403/1587)
+23:14:43 Created .... /media/sda1/00000404.bkt, (404/1587)
+23:14:43 Created .... /media/sda1/00000405.bkt, (405/1587)
+23:14:43 Created .... /media/sda1/00000406.bkt, (406/1587)
+23:14:43 Created .... /media/sda1/00000407.bkt, (407/1587)
+23:14:43 Created .... /media/sda1/00000408.bkt, (408/1587)
+23:14:43 Created .... /media/sda1/00000409.bkt, (409/1587)
+23:14:43 Created .... /media/sda1/00000410.bkt, (410/1587)
+23:14:43 Created .... /media/sda1/00000411.bkt, (411/1587)
+23:14:43 Created .... /media/sda1/00000412.bkt, (412/1587)
+23:14:43 Created .... /media/sda1/00000413.bkt, (413/1587)
+23:14:43 Created .... /media/sda1/00000414.bkt, (414/1587)
+23:14:43 Created .... /media/sda1/00000415.bkt, (415/1587)
+23:14:43 Created .... /media/sda1/00000416.bkt, (416/1587)
+23:14:43 Created .... /media/sda1/00000417.bkt, (417/1587)
+23:14:43 Created .... /media/sda1/00000418.bkt, (418/1587)
+23:14:43 Created .... /media/sda1/00000419.bkt, (419/1587)
+23:14:43 Created .... /media/sda1/00000420.bkt, (420/1587)
+23:14:43 Created .... /media/sda1/00000421.bkt, (421/1587)
+23:14:43 Created .... /media/sda1/00000422.bkt, (422/1587)
+23:14:43 Created .... /media/sda1/00000423.bkt, (423/1587)
+23:14:43 Created .... /media/sda1/00000424.bkt, (424/1587)
+23:14:43 Created .... /media/sda1/00000425.bkt, (425/1587)
+23:14:43 Created .... /media/sda1/00000426.bkt, (426/1587)
+23:14:43 Created .... /media/sda1/00000427.bkt, (427/1587)
+23:14:43 Created .... /media/sda1/00000428.bkt, (428/1587)
+23:14:43 Created .... /media/sda1/00000429.bkt, (429/1587)
+23:14:43 Created .... /media/sda1/00000430.bkt, (430/1587)
+23:14:43 Created .... /media/sda1/00000431.bkt, (431/1587)
+23:14:43 Created .... /media/sda1/00000432.bkt, (432/1587)
+23:14:43 Created .... /media/sda1/00000433.bkt, (433/1587)
+23:14:43 Created .... /media/sda1/00000434.bkt, (434/1587)
+23:14:43 Created .... /media/sda1/00000435.bkt, (435/1587)
+23:14:43 Created .... /media/sda1/00000436.bkt, (436/1587)
+23:14:43 Created .... /media/sda1/00000437.bkt, (437/1587)
+23:14:43 Created .... /media/sda1/00000438.bkt, (438/1587)
+23:14:43 Created .... /media/sda1/00000439.bkt, (439/1587)
+23:14:43 Created .... /media/sda1/00000440.bkt, (440/1587)
+23:14:43 Created .... /media/sda1/00000441.bkt, (441/1587)
+23:14:43 Created .... /media/sda1/00000442.bkt, (442/1587)
+23:14:43 Created .... /media/sda1/00000443.bkt, (443/1587)
+23:14:43 Created .... /media/sda1/00000444.bkt, (444/1587)
+23:14:43 Created .... /media/sda1/00000445.bkt, (445/1587)
+23:14:43 Created .... /media/sda1/00000446.bkt, (446/1587)
+23:14:43 Created .... /media/sda1/00000447.bkt, (447/1587)
+23:14:43 Created .... /media/sda1/00000448.bkt, (448/1587)
+23:14:43 Created .... /media/sda1/00000449.bkt, (449/1587)
+23:14:43 Created .... /media/sda1/00000450.bkt, (450/1587)
+23:14:43 Created .... /media/sda1/00000451.bkt, (451/1587)
+23:14:43 Created .... /media/sda1/00000452.bkt, (452/1587)
+23:14:43 Created .... /media/sda1/00000453.bkt, (453/1587)
+23:14:43 Created .... /media/sda1/00000454.bkt, (454/1587)
+23:14:43 Created .... /media/sda1/00000455.bkt, (455/1587)
+23:14:43 Created .... /media/sda1/00000456.bkt, (456/1587)
+23:14:43 Created .... /media/sda1/00000457.bkt, (457/1587)
+23:14:43 Created .... /media/sda1/00000458.bkt, (458/1587)
+23:14:43 Created .... /media/sda1/00000459.bkt, (459/1587)
+23:14:43 Created .... /media/sda1/00000460.bkt, (460/1587)
+23:14:43 Created .... /media/sda1/00000461.bkt, (461/1587)
+23:14:43 Created .... /media/sda1/00000462.bkt, (462/1587)
+23:14:43 Created .... /media/sda1/00000463.bkt, (463/1587)
+23:14:43 Created .... /media/sda1/00000464.bkt, (464/1587)
+23:14:43 Created .... /media/sda1/00000465.bkt, (465/1587)
+23:14:43 Created .... /media/sda1/00000466.bkt, (466/1587)
+23:14:43 Created .... /media/sda1/00000467.bkt, (467/1587)
+23:14:43 Created .... /media/sda1/00000468.bkt, (468/1587)
+23:14:43 Created .... /media/sda1/00000469.bkt, (469/1587)
+23:14:43 Created .... /media/sda1/00000470.bkt, (470/1587)
+23:14:43 Created .... /media/sda1/00000471.bkt, (471/1587)
+23:14:43 Created .... /media/sda1/00000472.bkt, (472/1587)
+23:14:43 Created .... /media/sda1/00000473.bkt, (473/1587)
+23:14:43 Created .... /media/sda1/00000474.bkt, (474/1587)
+23:14:43 Created .... /media/sda1/00000475.bkt, (475/1587)
+23:14:43 Created .... /media/sda1/00000476.bkt, (476/1587)
+23:14:43 Created .... /media/sda1/00000477.bkt, (477/1587)
+23:14:43 Created .... /media/sda1/00000478.bkt, (478/1587)
+23:14:43 Created .... /media/sda1/00000479.bkt, (479/1587)
+23:14:43 Created .... /media/sda1/00000480.bkt, (480/1587)
+23:14:43 Created .... /media/sda1/00000481.bkt, (481/1587)
+23:14:43 Created .... /media/sda1/00000482.bkt, (482/1587)
+23:14:43 Created .... /media/sda1/00000483.bkt, (483/1587)
+23:14:43 Created .... /media/sda1/00000484.bkt, (484/1587)
+23:14:43 Created .... /media/sda1/00000485.bkt, (485/1587)
+23:14:43 Created .... /media/sda1/00000486.bkt, (486/1587)
+23:14:43 Created .... /media/sda1/00000487.bkt, (487/1587)
+23:14:43 Created .... /media/sda1/00000488.bkt, (488/1587)
+23:14:43 Created .... /media/sda1/00000489.bkt, (489/1587)
+23:14:43 Created .... /media/sda1/00000490.bkt, (490/1587)
+23:14:43 Created .... /media/sda1/00000491.bkt, (491/1587)
+23:14:43 Created .... /media/sda1/00000492.bkt, (492/1587)
+23:14:43 Created .... /media/sda1/00000493.bkt, (493/1587)
+23:14:43 Created .... /media/sda1/00000494.bkt, (494/1587)
+23:14:43 Created .... /media/sda1/00000495.bkt, (495/1587)
+23:14:43 Created .... /media/sda1/00000496.bkt, (496/1587)
+23:14:43 Created .... /media/sda1/00000497.bkt, (497/1587)
+23:14:43 Created .... /media/sda1/00000498.bkt, (498/1587)
+23:14:43 Created .... /media/sda1/00000499.bkt, (499/1587)
+23:14:43 Created .... /media/sda1/00000500.bkt, (500/1587)
+23:14:43 Created .... /media/sda1/00000501.bkt, (501/1587)
+23:14:43 Created .... /media/sda1/00000502.bkt, (502/1587)
+23:14:43 Created .... /media/sda1/00000503.bkt, (503/1587)
+23:14:43 Created .... /media/sda1/00000504.bkt, (504/1587)
+23:14:43 Created .... /media/sda1/00000505.bkt, (505/1587)
+23:14:43 Created .... /media/sda1/00000506.bkt, (506/1587)
+23:14:43 Created .... /media/sda1/00000507.bkt, (507/1587)
+23:14:43 Created .... /media/sda1/00000508.bkt, (508/1587)
+23:14:43 Created .... /media/sda1/00000509.bkt, (509/1587)
+23:14:43 Created .... /media/sda1/00000510.bkt, (510/1587)
+23:14:43 Created .... /media/sda1/00000511.bkt, (511/1587)
+23:14:43 Created .... /media/sda1/00000512.bkt, (512/1587)
+23:14:43 Created .... /media/sda1/00000513.bkt, (513/1587)
+23:14:43 Created .... /media/sda1/00000514.bkt, (514/1587)
+23:14:43 Created .... /media/sda1/00000515.bkt, (515/1587)
+23:14:43 Created .... /media/sda1/00000516.bkt, (516/1587)
+23:14:43 Created .... /media/sda1/00000517.bkt, (517/1587)
+23:14:43 Created .... /media/sda1/00000518.bkt, (518/1587)
+23:14:43 Created .... /media/sda1/00000519.bkt, (519/1587)
+23:14:43 Created .... /media/sda1/00000520.bkt, (520/1587)
+23:14:43 Created .... /media/sda1/00000521.bkt, (521/1587)
+23:14:44 Created .... /media/sda1/00000522.bkt, (522/1587)
+23:14:44 Created .... /media/sda1/00000523.bkt, (523/1587)
+23:14:44 Created .... /media/sda1/00000524.bkt, (524/1587)
+23:14:44 Created .... /media/sda1/00000525.bkt, (525/1587)
+23:14:44 Created .... /media/sda1/00000526.bkt, (526/1587)
+23:14:44 Created .... /media/sda1/00000527.bkt, (527/1587)
+23:14:44 Created .... /media/sda1/00000528.bkt, (528/1587)
+23:14:44 Created .... /media/sda1/00000529.bkt, (529/1587)
+23:14:44 Created .... /media/sda1/00000530.bkt, (530/1587)
+23:14:44 Created .... /media/sda1/00000531.bkt, (531/1587)
+23:14:44 Created .... /media/sda1/00000532.bkt, (532/1587)
+23:14:44 Created .... /media/sda1/00000533.bkt, (533/1587)
+23:14:44 Created .... /media/sda1/00000534.bkt, (534/1587)
+23:14:44 Created .... /media/sda1/00000535.bkt, (535/1587)
+23:14:44 Created .... /media/sda1/00000536.bkt, (536/1587)
+23:14:44 Created .... /media/sda1/00000537.bkt, (537/1587)
+23:14:44 Created .... /media/sda1/00000538.bkt, (538/1587)
+23:14:44 Created .... /media/sda1/00000539.bkt, (539/1587)
+23:14:44 Created .... /media/sda1/00000540.bkt, (540/1587)
+23:14:44 Created .... /media/sda1/00000541.bkt, (541/1587)
+23:14:44 Created .... /media/sda1/00000542.bkt, (542/1587)
+23:14:44 Created .... /media/sda1/00000543.bkt, (543/1587)
+23:14:44 Created .... /media/sda1/00000544.bkt, (544/1587)
+23:14:44 Created .... /media/sda1/00000545.bkt, (545/1587)
+23:14:44 Created .... /media/sda1/00000546.bkt, (546/1587)
+23:14:44 Created .... /media/sda1/00000547.bkt, (547/1587)
+23:14:44 Created .... /media/sda1/00000548.bkt, (548/1587)
+23:14:44 Created .... /media/sda1/00000549.bkt, (549/1587)
+23:14:44 Created .... /media/sda1/00000550.bkt, (550/1587)
+23:14:44 Created .... /media/sda1/00000551.bkt, (551/1587)
+23:14:44 Created .... /media/sda1/00000552.bkt, (552/1587)
+23:14:44 Created .... /media/sda1/00000553.bkt, (553/1587)
+23:14:44 Created .... /media/sda1/00000554.bkt, (554/1587)
+23:14:44 Created .... /media/sda1/00000555.bkt, (555/1587)
+23:14:44 Created .... /media/sda1/00000556.bkt, (556/1587)
+23:14:44 Created .... /media/sda1/00000557.bkt, (557/1587)
+23:14:44 Created .... /media/sda1/00000558.bkt, (558/1587)
+23:14:44 Created .... /media/sda1/00000559.bkt, (559/1587)
+23:14:44 Created .... /media/sda1/00000560.bkt, (560/1587)
+23:14:44 Created .... /media/sda1/00000561.bkt, (561/1587)
+23:14:44 Created .... /media/sda1/00000562.bkt, (562/1587)
+23:14:44 Created .... /media/sda1/00000563.bkt, (563/1587)
+23:14:44 Created .... /media/sda1/00000564.bkt, (564/1587)
+23:14:44 Created .... /media/sda1/00000565.bkt, (565/1587)
+23:14:44 Created .... /media/sda1/00000566.bkt, (566/1587)
+23:14:44 Created .... /media/sda1/00000567.bkt, (567/1587)
+23:14:44 Created .... /media/sda1/00000568.bkt, (568/1587)
+23:14:44 Created .... /media/sda1/00000569.bkt, (569/1587)
+23:14:44 Created .... /media/sda1/00000570.bkt, (570/1587)
+23:14:44 Created .... /media/sda1/00000571.bkt, (571/1587)
+23:14:44 Created .... /media/sda1/00000572.bkt, (572/1587)
+23:14:44 Created .... /media/sda1/00000573.bkt, (573/1587)
+23:14:44 Created .... /media/sda1/00000574.bkt, (574/1587)
+23:14:44 Created .... /media/sda1/00000575.bkt, (575/1587)
+23:14:44 Created .... /media/sda1/00000576.bkt, (576/1587)
+23:14:44 Created .... /media/sda1/00000577.bkt, (577/1587)
+23:14:44 Created .... /media/sda1/00000578.bkt, (578/1587)
+23:14:44 Created .... /media/sda1/00000579.bkt, (579/1587)
+23:14:44 Created .... /media/sda1/00000580.bkt, (580/1587)
+23:14:44 Created .... /media/sda1/00000581.bkt, (581/1587)
+23:14:44 Created .... /media/sda1/00000582.bkt, (582/1587)
+23:14:44 Created .... /media/sda1/00000583.bkt, (583/1587)
+23:14:44 Created .... /media/sda1/00000584.bkt, (584/1587)
+23:14:44 Created .... /media/sda1/00000585.bkt, (585/1587)
+23:14:44 Created .... /media/sda1/00000586.bkt, (586/1587)
+23:14:44 Created .... /media/sda1/00000587.bkt, (587/1587)
+23:14:44 Created .... /media/sda1/00000588.bkt, (588/1587)
+23:14:44 Created .... /media/sda1/00000589.bkt, (589/1587)
+23:14:44 Created .... /media/sda1/00000590.bkt, (590/1587)
+23:14:44 Created .... /media/sda1/00000591.bkt, (591/1587)
+23:14:44 Created .... /media/sda1/00000592.bkt, (592/1587)
+23:14:44 Created .... /media/sda1/00000593.bkt, (593/1587)
+23:14:44 Created .... /media/sda1/00000594.bkt, (594/1587)
+23:14:44 Created .... /media/sda1/00000595.bkt, (595/1587)
+23:14:44 Created .... /media/sda1/00000596.bkt, (596/1587)
+23:14:44 Created .... /media/sda1/00000597.bkt, (597/1587)
+23:14:44 Created .... /media/sda1/00000598.bkt, (598/1587)
+23:14:44 Created .... /media/sda1/00000599.bkt, (599/1587)
+23:14:44 Created .... /media/sda1/00000600.bkt, (600/1587)
+23:14:44 Created .... /media/sda1/00000601.bkt, (601/1587)
+23:14:44 Created .... /media/sda1/00000602.bkt, (602/1587)
+23:14:44 Created .... /media/sda1/00000603.bkt, (603/1587)
+23:14:44 Created .... /media/sda1/00000604.bkt, (604/1587)
+23:14:44 Created .... /media/sda1/00000605.bkt, (605/1587)
+23:14:44 Created .... /media/sda1/00000606.bkt, (606/1587)
+23:14:44 Created .... /media/sda1/00000607.bkt, (607/1587)
+23:14:44 Created .... /media/sda1/00000608.bkt, (608/1587)
+23:14:44 Created .... /media/sda1/00000609.bkt, (609/1587)
+23:14:44 Created .... /media/sda1/00000610.bkt, (610/1587)
+23:14:44 Created .... /media/sda1/00000611.bkt, (611/1587)
+23:14:44 Created .... /media/sda1/00000612.bkt, (612/1587)
+23:14:44 Created .... /media/sda1/00000613.bkt, (613/1587)
+23:14:44 Created .... /media/sda1/00000614.bkt, (614/1587)
+23:14:44 Created .... /media/sda1/00000615.bkt, (615/1587)
+23:14:44 Created .... /media/sda1/00000616.bkt, (616/1587)
+23:14:44 Created .... /media/sda1/00000617.bkt, (617/1587)
+23:14:44 Created .... /media/sda1/00000618.bkt, (618/1587)
+23:14:44 Created .... /media/sda1/00000619.bkt, (619/1587)
+23:14:44 Created .... /media/sda1/00000620.bkt, (620/1587)
+23:14:44 Created .... /media/sda1/00000621.bkt, (621/1587)
+23:14:44 Created .... /media/sda1/00000622.bkt, (622/1587)
+23:14:44 Created .... /media/sda1/00000623.bkt, (623/1587)
+23:14:44 Created .... /media/sda1/00000624.bkt, (624/1587)
+23:14:44 Created .... /media/sda1/00000625.bkt, (625/1587)
+23:14:44 Created .... /media/sda1/00000626.bkt, (626/1587)
+23:14:44 Created .... /media/sda1/00000627.bkt, (627/1587)
+23:14:44 Created .... /media/sda1/00000628.bkt, (628/1587)
+23:14:44 Created .... /media/sda1/00000629.bkt, (629/1587)
+23:14:44 Created .... /media/sda1/00000630.bkt, (630/1587)
+23:14:44 Created .... /media/sda1/00000631.bkt, (631/1587)
+23:14:44 Created .... /media/sda1/00000632.bkt, (632/1587)
+23:14:44 Created .... /media/sda1/00000633.bkt, (633/1587)
+23:14:44 Created .... /media/sda1/00000634.bkt, (634/1587)
+23:14:44 Created .... /media/sda1/00000635.bkt, (635/1587)
+23:14:44 Created .... /media/sda1/00000636.bkt, (636/1587)
+23:14:44 Created .... /media/sda1/00000637.bkt, (637/1587)
+23:14:44 Created .... /media/sda1/00000638.bkt, (638/1587)
+23:14:44 Created .... /media/sda1/00000639.bkt, (639/1587)
+23:14:44 Created .... /media/sda1/00000640.bkt, (640/1587)
+23:14:44 Created .... /media/sda1/00000641.bkt, (641/1587)
+23:14:44 Created .... /media/sda1/00000642.bkt, (642/1587)
+23:14:44 Created .... /media/sda1/00000643.bkt, (643/1587)
+23:14:44 Created .... /media/sda1/00000644.bkt, (644/1587)
+23:14:44 Created .... /media/sda1/00000645.bkt, (645/1587)
+23:14:44 Created .... /media/sda1/00000646.bkt, (646/1587)
+23:14:44 Created .... /media/sda1/00000647.bkt, (647/1587)
+23:14:44 Created .... /media/sda1/00000648.bkt, (648/1587)
+23:14:44 Created .... /media/sda1/00000649.bkt, (649/1587)
+23:14:44 Created .... /media/sda1/00000650.bkt, (650/1587)
+23:14:44 Created .... /media/sda1/00000651.bkt, (651/1587)
+23:14:44 Created .... /media/sda1/00000652.bkt, (652/1587)
+23:14:44 Created .... /media/sda1/00000653.bkt, (653/1587)
+23:14:44 Created .... /media/sda1/00000654.bkt, (654/1587)
+23:14:44 Created .... /media/sda1/00000655.bkt, (655/1587)
+23:14:44 Created .... /media/sda1/00000656.bkt, (656/1587)
+23:14:44 Created .... /media/sda1/00000657.bkt, (657/1587)
+23:14:44 Created .... /media/sda1/00000658.bkt, (658/1587)
+23:14:44 Created .... /media/sda1/00000659.bkt, (659/1587)
+23:14:44 Created .... /media/sda1/00000660.bkt, (660/1587)
+23:14:44 Created .... /media/sda1/00000661.bkt, (661/1587)
+23:14:44 Created .... /media/sda1/00000662.bkt, (662/1587)
+23:14:44 Created .... /media/sda1/00000663.bkt, (663/1587)
+23:14:44 Created .... /media/sda1/00000664.bkt, (664/1587)
+23:14:44 Created .... /media/sda1/00000665.bkt, (665/1587)
+23:14:44 Created .... /media/sda1/00000666.bkt, (666/1587)
+23:14:44 Created .... /media/sda1/00000667.bkt, (667/1587)
+23:14:44 Created .... /media/sda1/00000668.bkt, (668/1587)
+23:14:44 Created .... /media/sda1/00000669.bkt, (669/1587)
+23:14:44 Created .... /media/sda1/00000670.bkt, (670/1587)
+23:14:44 Created .... /media/sda1/00000671.bkt, (671/1587)
+23:14:44 Created .... /media/sda1/00000672.bkt, (672/1587)
+23:14:44 Created .... /media/sda1/00000673.bkt, (673/1587)
+23:14:44 Created .... /media/sda1/00000674.bkt, (674/1587)
+23:14:44 Created .... /media/sda1/00000675.bkt, (675/1587)
+23:14:44 Created .... /media/sda1/00000676.bkt, (676/1587)
+23:14:44 Created .... /media/sda1/00000677.bkt, (677/1587)
+23:14:44 Created .... /media/sda1/00000678.bkt, (678/1587)
+23:14:44 Created .... /media/sda1/00000679.bkt, (679/1587)
+23:14:44 Created .... /media/sda1/00000680.bkt, (680/1587)
+23:14:44 Created .... /media/sda1/00000681.bkt, (681/1587)
+23:14:44 Created .... /media/sda1/00000682.bkt, (682/1587)
+23:14:44 Created .... /media/sda1/00000683.bkt, (683/1587)
+23:14:44 Created .... /media/sda1/00000684.bkt, (684/1587)
+23:14:44 Created .... /media/sda1/00000685.bkt, (685/1587)
+23:14:44 Created .... /media/sda1/00000686.bkt, (686/1587)
+23:14:44 Created .... /media/sda1/00000687.bkt, (687/1587)
+23:14:44 Created .... /media/sda1/00000688.bkt, (688/1587)
+23:14:44 Created .... /media/sda1/00000689.bkt, (689/1587)
+23:14:44 Created .... /media/sda1/00000690.bkt, (690/1587)
+23:14:44 Created .... /media/sda1/00000691.bkt, (691/1587)
+23:14:44 Created .... /media/sda1/00000692.bkt, (692/1587)
+23:14:44 Created .... /media/sda1/00000693.bkt, (693/1587)
+23:14:44 Created .... /media/sda1/00000694.bkt, (694/1587)
+23:14:44 Created .... /media/sda1/00000695.bkt, (695/1587)
+23:14:44 Created .... /media/sda1/00000696.bkt, (696/1587)
+23:14:44 Created .... /media/sda1/00000697.bkt, (697/1587)
+23:14:44 Created .... /media/sda1/00000698.bkt, (698/1587)
+23:14:44 Created .... /media/sda1/00000699.bkt, (699/1587)
+23:14:44 Created .... /media/sda1/00000700.bkt, (700/1587)
+23:14:44 Created .... /media/sda1/00000701.bkt, (701/1587)
+23:14:44 Created .... /media/sda1/00000702.bkt, (702/1587)
+23:14:44 Created .... /media/sda1/00000703.bkt, (703/1587)
+23:14:44 Created .... /media/sda1/00000704.bkt, (704/1587)
+23:14:44 Created .... /media/sda1/00000705.bkt, (705/1587)
+23:14:44 Created .... /media/sda1/00000706.bkt, (706/1587)
+23:14:44 Created .... /media/sda1/00000707.bkt, (707/1587)
+23:14:44 Created .... /media/sda1/00000708.bkt, (708/1587)
+23:14:44 Created .... /media/sda1/00000709.bkt, (709/1587)
+23:14:44 Created .... /media/sda1/00000710.bkt, (710/1587)
+23:14:44 Created .... /media/sda1/00000711.bkt, (711/1587)
+23:14:44 Created .... /media/sda1/00000712.bkt, (712/1587)
+23:14:44 Created .... /media/sda1/00000713.bkt, (713/1587)
+23:14:44 Created .... /media/sda1/00000714.bkt, (714/1587)
+23:14:44 Created .... /media/sda1/00000715.bkt, (715/1587)
+23:14:44 Created .... /media/sda1/00000716.bkt, (716/1587)
+23:14:44 Created .... /media/sda1/00000717.bkt, (717/1587)
+23:14:44 Created .... /media/sda1/00000718.bkt, (718/1587)
+23:14:44 Created .... /media/sda1/00000719.bkt, (719/1587)
+23:14:44 Created .... /media/sda1/00000720.bkt, (720/1587)
+23:14:44 Created .... /media/sda1/00000721.bkt, (721/1587)
+23:14:44 Created .... /media/sda1/00000722.bkt, (722/1587)
+23:14:44 Created .... /media/sda1/00000723.bkt, (723/1587)
+23:14:44 Created .... /media/sda1/00000724.bkt, (724/1587)
+23:14:44 Created .... /media/sda1/00000725.bkt, (725/1587)
+23:14:44 Created .... /media/sda1/00000726.bkt, (726/1587)
+23:14:44 Created .... /media/sda1/00000727.bkt, (727/1587)
+23:14:44 Created .... /media/sda1/00000728.bkt, (728/1587)
+23:14:44 Created .... /media/sda1/00000729.bkt, (729/1587)
+23:14:44 Created .... /media/sda1/00000730.bkt, (730/1587)
+23:14:45 Created .... /media/sda1/00000731.bkt, (731/1587)
+23:14:45 Created .... /media/sda1/00000732.bkt, (732/1587)
+23:14:45 Created .... /media/sda1/00000733.bkt, (733/1587)
+23:14:45 Created .... /media/sda1/00000734.bkt, (734/1587)
+23:14:45 Created .... /media/sda1/00000735.bkt, (735/1587)
+23:14:45 Created .... /media/sda1/00000736.bkt, (736/1587)
+23:14:45 Created .... /media/sda1/00000737.bkt, (737/1587)
+23:14:45 Created .... /media/sda1/00000738.bkt, (738/1587)
+23:14:45 Created .... /media/sda1/00000739.bkt, (739/1587)
+23:14:45 Created .... /media/sda1/00000740.bkt, (740/1587)
+23:14:45 Created .... /media/sda1/00000741.bkt, (741/1587)
+23:14:45 Created .... /media/sda1/00000742.bkt, (742/1587)
+23:14:45 Created .... /media/sda1/00000743.bkt, (743/1587)
+23:14:45 Created .... /media/sda1/00000744.bkt, (744/1587)
+23:14:45 Created .... /media/sda1/00000745.bkt, (745/1587)
+23:14:45 Created .... /media/sda1/00000746.bkt, (746/1587)
+23:14:45 Created .... /media/sda1/00000747.bkt, (747/1587)
+23:14:45 Created .... /media/sda1/00000748.bkt, (748/1587)
+23:14:45 Created .... /media/sda1/00000749.bkt, (749/1587)
+23:14:45 Created .... /media/sda1/00000750.bkt, (750/1587)
+23:14:45 Created .... /media/sda1/00000751.bkt, (751/1587)
+23:14:45 Created .... /media/sda1/00000752.bkt, (752/1587)
+23:14:45 Created .... /media/sda1/00000753.bkt, (753/1587)
+23:14:45 Created .... /media/sda1/00000754.bkt, (754/1587)
+23:14:45 Created .... /media/sda1/00000755.bkt, (755/1587)
+23:14:45 Created .... /media/sda1/00000756.bkt, (756/1587)
+23:14:45 Created .... /media/sda1/00000757.bkt, (757/1587)
+23:14:45 Created .... /media/sda1/00000758.bkt, (758/1587)
+23:14:45 Created .... /media/sda1/00000759.bkt, (759/1587)
+23:14:45 Created .... /media/sda1/00000760.bkt, (760/1587)
+23:14:45 Created .... /media/sda1/00000761.bkt, (761/1587)
+23:14:45 Created .... /media/sda1/00000762.bkt, (762/1587)
+23:14:45 Created .... /media/sda1/00000763.bkt, (763/1587)
+23:14:45 Created .... /media/sda1/00000764.bkt, (764/1587)
+23:14:45 Created .... /media/sda1/00000765.bkt, (765/1587)
+23:14:45 Created .... /media/sda1/00000766.bkt, (766/1587)
+23:14:45 Created .... /media/sda1/00000767.bkt, (767/1587)
+23:14:45 Created .... /media/sda1/00000768.bkt, (768/1587)
+23:14:45 Created .... /media/sda1/00000769.bkt, (769/1587)
+23:14:45 Created .... /media/sda1/00000770.bkt, (770/1587)
+23:14:45 Created .... /media/sda1/00000771.bkt, (771/1587)
+23:14:45 Created .... /media/sda1/00000772.bkt, (772/1587)
+23:14:45 Created .... /media/sda1/00000773.bkt, (773/1587)
+23:14:45 Created .... /media/sda1/00000774.bkt, (774/1587)
+23:14:45 Created .... /media/sda1/00000775.bkt, (775/1587)
+23:14:45 Created .... /media/sda1/00000776.bkt, (776/1587)
+23:14:45 Created .... /media/sda1/00000777.bkt, (777/1587)
+23:14:45 Created .... /media/sda1/00000778.bkt, (778/1587)
+23:14:45 Created .... /media/sda1/00000779.bkt, (779/1587)
+23:14:45 Created .... /media/sda1/00000780.bkt, (780/1587)
+23:14:45 Created .... /media/sda1/00000781.bkt, (781/1587)
+23:14:45 Created .... /media/sda1/00000782.bkt, (782/1587)
+23:14:45 Created .... /media/sda1/00000783.bkt, (783/1587)
+23:14:45 Created .... /media/sda1/00000784.bkt, (784/1587)
+23:14:45 Created .... /media/sda1/00000785.bkt, (785/1587)
+23:14:45 Created .... /media/sda1/00000786.bkt, (786/1587)
+23:14:45 Created .... /media/sda1/00000787.bkt, (787/1587)
+23:14:45 Created .... /media/sda1/00000788.bkt, (788/1587)
+23:14:45 Created .... /media/sda1/00000789.bkt, (789/1587)
+23:14:45 Created .... /media/sda1/00000790.bkt, (790/1587)
+23:14:45 Created .... /media/sda1/00000791.bkt, (791/1587)
+23:14:45 Created .... /media/sda1/00000792.bkt, (792/1587)
+23:14:45 Created .... /media/sda1/00000793.bkt, (793/1587)
+23:14:45 Created .... /media/sda1/00000794.bkt, (794/1587)
+23:14:45 Created .... /media/sda1/00000795.bkt, (795/1587)
+23:14:45 Created .... /media/sda1/00000796.bkt, (796/1587)
+23:14:45 Created .... /media/sda1/00000797.bkt, (797/1587)
+23:14:45 Created .... /media/sda1/00000798.bkt, (798/1587)
+23:14:45 Created .... /media/sda1/00000799.bkt, (799/1587)
+23:14:45 Created .... /media/sda1/00000800.bkt, (800/1587)
+23:14:45 <AgentRecall> Check 2013/10/31 23:14:45
+23:14:45 Created .... /media/sda1/00000801.bkt, (801/1587)
+23:14:45 Created .... /media/sda1/00000802.bkt, (802/1587)
+23:14:45 Created .... /media/sda1/00000803.bkt, (803/1587)
+23:14:45 Created .... /media/sda1/00000804.bkt, (804/1587)
+23:14:45 Created .... /media/sda1/00000805.bkt, (805/1587)
+23:14:45 Created .... /media/sda1/00000806.bkt, (806/1587)
+23:14:45 Created .... /media/sda1/00000807.bkt, (807/1587)
+23:14:45 Created .... /media/sda1/00000808.bkt, (808/1587)
+23:14:45 Created .... /media/sda1/00000809.bkt, (809/1587)
+23:14:45 Created .... /media/sda1/00000810.bkt, (810/1587)
+23:14:45 Created .... /media/sda1/00000811.bkt, (811/1587)
+23:14:45 Created .... /media/sda1/00000812.bkt, (812/1587)
+23:14:45 Created .... /media/sda1/00000813.bkt, (813/1587)
+23:14:45 Created .... /media/sda1/00000814.bkt, (814/1587)
+23:14:45 Created .... /media/sda1/00000815.bkt, (815/1587)
+23:14:45 Created .... /media/sda1/00000816.bkt, (816/1587)
+23:14:45 Created .... /media/sda1/00000817.bkt, (817/1587)
+23:14:45 Created .... /media/sda1/00000818.bkt, (818/1587)
+23:14:45 Created .... /media/sda1/00000819.bkt, (819/1587)
+23:14:45 Created .... /media/sda1/00000820.bkt, (820/1587)
+23:14:45 Created .... /media/sda1/00000821.bkt, (821/1587)
+23:14:45 Created .... /media/sda1/00000822.bkt, (822/1587)
+23:14:45 Created .... /media/sda1/00000823.bkt, (823/1587)
+23:14:45 Created .... /media/sda1/00000824.bkt, (824/1587)
+23:14:45 Created .... /media/sda1/00000825.bkt, (825/1587)
+23:14:45 Created .... /media/sda1/00000826.bkt, (826/1587)
+23:14:45 Created .... /media/sda1/00000827.bkt, (827/1587)
+23:14:45 Created .... /media/sda1/00000828.bkt, (828/1587)
+23:14:45 Created .... /media/sda1/00000829.bkt, (829/1587)
+23:14:45 Created .... /media/sda1/00000830.bkt, (830/1587)
+23:14:45 Created .... /media/sda1/00000831.bkt, (831/1587)
+23:14:45 Created .... /media/sda1/00000832.bkt, (832/1587)
+23:14:45 Created .... /media/sda1/00000833.bkt, (833/1587)
+23:14:45 Created .... /media/sda1/00000834.bkt, (834/1587)
+23:14:45 Created .... /media/sda1/00000835.bkt, (835/1587)
+23:14:45 Created .... /media/sda1/00000836.bkt, (836/1587)
+23:14:45 Created .... /media/sda1/00000837.bkt, (837/1587)
+23:14:45 Created .... /media/sda1/00000838.bkt, (838/1587)
+23:14:45 Created .... /media/sda1/00000839.bkt, (839/1587)
+23:14:45 Created .... /media/sda1/00000840.bkt, (840/1587)
+23:14:45 Created .... /media/sda1/00000841.bkt, (841/1587)
+23:14:45 Created .... /media/sda1/00000842.bkt, (842/1587)
+23:14:45 Created .... /media/sda1/00000843.bkt, (843/1587)
+23:14:45 Created .... /media/sda1/00000844.bkt, (844/1587)
+23:14:45 Created .... /media/sda1/00000845.bkt, (845/1587)
+23:14:45 Created .... /media/sda1/00000846.bkt, (846/1587)
+23:14:45 Created .... /media/sda1/00000847.bkt, (847/1587)
+23:14:45 Created .... /media/sda1/00000848.bkt, (848/1587)
+23:14:45 Created .... /media/sda1/00000849.bkt, (849/1587)
+23:14:45 Created .... /media/sda1/00000850.bkt, (850/1587)
+23:14:45 Created .... /media/sda1/00000851.bkt, (851/1587)
+23:14:45 Created .... /media/sda1/00000852.bkt, (852/1587)
+23:14:45 Created .... /media/sda1/00000853.bkt, (853/1587)
+23:14:45 Created .... /media/sda1/00000854.bkt, (854/1587)
+23:14:45 Created .... /media/sda1/00000855.bkt, (855/1587)
+23:14:45 Created .... /media/sda1/00000856.bkt, (856/1587)
+23:14:45 Created .... /media/sda1/00000857.bkt, (857/1587)
+23:14:45 Created .... /media/sda1/00000858.bkt, (858/1587)
+23:14:45 Created .... /media/sda1/00000859.bkt, (859/1587)
+23:14:45 Created .... /media/sda1/00000860.bkt, (860/1587)
+23:14:45 Created .... /media/sda1/00000861.bkt, (861/1587)
+23:14:45 Created .... /media/sda1/00000862.bkt, (862/1587)
+23:14:45 Created .... /media/sda1/00000863.bkt, (863/1587)
+23:14:45 Created .... /media/sda1/00000864.bkt, (864/1587)
+23:14:45 Created .... /media/sda1/00000865.bkt, (865/1587)
+23:14:45 Created .... /media/sda1/00000866.bkt, (866/1587)
+23:14:45 Created .... /media/sda1/00000867.bkt, (867/1587)
+23:14:45 Created .... /media/sda1/00000868.bkt, (868/1587)
+23:14:45 Created .... /media/sda1/00000869.bkt, (869/1587)
+23:14:45 Created .... /media/sda1/00000870.bkt, (870/1587)
+23:14:45 Created .... /media/sda1/00000871.bkt, (871/1587)
+23:14:45 Created .... /media/sda1/00000872.bkt, (872/1587)
+23:14:45 Created .... /media/sda1/00000873.bkt, (873/1587)
+23:14:45 Created .... /media/sda1/00000874.bkt, (874/1587)
+23:14:45 Created .... /media/sda1/00000875.bkt, (875/1587)
+23:14:45 Created .... /media/sda1/00000876.bkt, (876/1587)
+23:14:45 Created .... /media/sda1/00000877.bkt, (877/1587)
+23:14:45 Created .... /media/sda1/00000878.bkt, (878/1587)
+23:14:45 Created .... /media/sda1/00000879.bkt, (879/1587)
+23:14:45 Created .... /media/sda1/00000880.bkt, (880/1587)
+23:14:45 Created .... /media/sda1/00000881.bkt, (881/1587)
+23:14:45 Created .... /media/sda1/00000882.bkt, (882/1587)
+23:14:45 Created .... /media/sda1/00000883.bkt, (883/1587)
+23:14:45 Created .... /media/sda1/00000884.bkt, (884/1587)
+23:14:45 Created .... /media/sda1/00000885.bkt, (885/1587)
+23:14:45 Created .... /media/sda1/00000886.bkt, (886/1587)
+23:14:45 Created .... /media/sda1/00000887.bkt, (887/1587)
+23:14:45 Created .... /media/sda1/00000888.bkt, (888/1587)
+23:14:45 Created .... /media/sda1/00000889.bkt, (889/1587)
+23:14:45 Created .... /media/sda1/00000890.bkt, (890/1587)
+23:14:45 Created .... /media/sda1/00000891.bkt, (891/1587)
+23:14:45 Created .... /media/sda1/00000892.bkt, (892/1587)
+23:14:45 Created .... /media/sda1/00000893.bkt, (893/1587)
+23:14:45 Created .... /media/sda1/00000894.bkt, (894/1587)
+23:14:45 Created .... /media/sda1/00000895.bkt, (895/1587)
+23:14:45 Created .... /media/sda1/00000896.bkt, (896/1587)
+23:14:45 Created .... /media/sda1/00000897.bkt, (897/1587)
+23:14:45 Created .... /media/sda1/00000898.bkt, (898/1587)
+23:14:45 Created .... /media/sda1/00000899.bkt, (899/1587)
+23:14:45 Created .... /media/sda1/00000900.bkt, (900/1587)
+23:14:45 Created .... /media/sda1/00000901.bkt, (901/1587)
+23:14:45 Created .... /media/sda1/00000902.bkt, (902/1587)
+23:14:45 Created .... /media/sda1/00000903.bkt, (903/1587)
+23:14:45 Created .... /media/sda1/00000904.bkt, (904/1587)
+23:14:45 Created .... /media/sda1/00000905.bkt, (905/1587)
+23:14:45 Created .... /media/sda1/00000906.bkt, (906/1587)
+23:14:45 Created .... /media/sda1/00000907.bkt, (907/1587)
+23:14:45 Created .... /media/sda1/00000908.bkt, (908/1587)
+23:14:45 Created .... /media/sda1/00000909.bkt, (909/1587)
+23:14:45 Created .... /media/sda1/00000910.bkt, (910/1587)
+23:14:45 Created .... /media/sda1/00000911.bkt, (911/1587)
+23:14:45 Created .... /media/sda1/00000912.bkt, (912/1587)
+23:14:45 Created .... /media/sda1/00000913.bkt, (913/1587)
+23:14:45 Created .... /media/sda1/00000914.bkt, (914/1587)
+23:14:45 Created .... /media/sda1/00000915.bkt, (915/1587)
+23:14:45 Created .... /media/sda1/00000916.bkt, (916/1587)
+23:14:45 Created .... /media/sda1/00000917.bkt, (917/1587)
+23:14:45 Created .... /media/sda1/00000918.bkt, (918/1587)
+23:14:45 Created .... /media/sda1/00000919.bkt, (919/1587)
+23:14:45 Created .... /media/sda1/00000920.bkt, (920/1587)
+23:14:45 Created .... /media/sda1/00000921.bkt, (921/1587)
+23:14:45 Created .... /media/sda1/00000922.bkt, (922/1587)
+23:14:45 Created .... /media/sda1/00000923.bkt, (923/1587)
+23:14:45 Created .... /media/sda1/00000924.bkt, (924/1587)
+23:14:45 Created .... /media/sda1/00000925.bkt, (925/1587)
+23:14:45 Created .... /media/sda1/00000926.bkt, (926/1587)
+23:14:45 Created .... /media/sda1/00000927.bkt, (927/1587)
+23:14:45 Created .... /media/sda1/00000928.bkt, (928/1587)
+23:14:45 Created .... /media/sda1/00000929.bkt, (929/1587)
+23:14:45 Created .... /media/sda1/00000930.bkt, (930/1587)
+23:14:45 Created .... /media/sda1/00000931.bkt, (931/1587)
+23:14:45 Created .... /media/sda1/00000932.bkt, (932/1587)
+23:14:45 Created .... /media/sda1/00000933.bkt, (933/1587)
+23:14:45 Created .... /media/sda1/00000934.bkt, (934/1587)
+23:14:45 Created .... /media/sda1/00000935.bkt, (935/1587)
+23:14:45 Created .... /media/sda1/00000936.bkt, (936/1587)
+23:14:45 Created .... /media/sda1/00000937.bkt, (937/1587)
+23:14:45 Created .... /media/sda1/00000938.bkt, (938/1587)
+23:14:45 Created .... /media/sda1/00000939.bkt, (939/1587)
+23:14:46 Created .... /media/sda1/00000940.bkt, (940/1587)
+23:14:46 Created .... /media/sda1/00000941.bkt, (941/1587)
+23:14:46 Created .... /media/sda1/00000942.bkt, (942/1587)
+23:14:46 Created .... /media/sda1/00000943.bkt, (943/1587)
+23:14:46 Created .... /media/sda1/00000944.bkt, (944/1587)
+23:14:46 Created .... /media/sda1/00000945.bkt, (945/1587)
+23:14:46 Created .... /media/sda1/00000946.bkt, (946/1587)
+23:14:46 Created .... /media/sda1/00000947.bkt, (947/1587)
+23:14:46 Created .... /media/sda1/00000948.bkt, (948/1587)
+23:14:46 Created .... /media/sda1/00000949.bkt, (949/1587)
+23:14:46 Created .... /media/sda1/00000950.bkt, (950/1587)
+23:14:46 Created .... /media/sda1/00000951.bkt, (951/1587)
+23:14:46 Created .... /media/sda1/00000952.bkt, (952/1587)
+23:14:46 Created .... /media/sda1/00000953.bkt, (953/1587)
+23:14:46 Created .... /media/sda1/00000954.bkt, (954/1587)
+23:14:46 Created .... /media/sda1/00000955.bkt, (955/1587)
+23:14:46 Created .... /media/sda1/00000956.bkt, (956/1587)
+23:14:46 Created .... /media/sda1/00000957.bkt, (957/1587)
+23:14:46 Created .... /media/sda1/00000958.bkt, (958/1587)
+23:14:46 Created .... /media/sda1/00000959.bkt, (959/1587)
+23:14:46 Created .... /media/sda1/00000960.bkt, (960/1587)
+23:14:46 Created .... /media/sda1/00000961.bkt, (961/1587)
+23:14:46 Created .... /media/sda1/00000962.bkt, (962/1587)
+23:14:46 Created .... /media/sda1/00000963.bkt, (963/1587)
+23:14:46 Created .... /media/sda1/00000964.bkt, (964/1587)
+23:14:46 Created .... /media/sda1/00000965.bkt, (965/1587)
+23:14:46 Created .... /media/sda1/00000966.bkt, (966/1587)
+23:14:46 Created .... /media/sda1/00000967.bkt, (967/1587)
+23:14:46 Created .... /media/sda1/00000968.bkt, (968/1587)
+23:14:46 Created .... /media/sda1/00000969.bkt, (969/1587)
+23:14:46 Created .... /media/sda1/00000970.bkt, (970/1587)
+23:14:46 Created .... /media/sda1/00000971.bkt, (971/1587)
+23:14:46 Created .... /media/sda1/00000972.bkt, (972/1587)
+23:14:46 Created .... /media/sda1/00000973.bkt, (973/1587)
+23:14:46 Created .... /media/sda1/00000974.bkt, (974/1587)
+23:14:46 Created .... /media/sda1/00000975.bkt, (975/1587)
+23:14:46 Created .... /media/sda1/00000976.bkt, (976/1587)
+23:14:46 Created .... /media/sda1/00000977.bkt, (977/1587)
+23:14:46 Created .... /media/sda1/00000978.bkt, (978/1587)
+23:14:46 Created .... /media/sda1/00000979.bkt, (979/1587)
+23:14:46 Created .... /media/sda1/00000980.bkt, (980/1587)
+23:14:46 Created .... /media/sda1/00000981.bkt, (981/1587)
+23:14:46 Created .... /media/sda1/00000982.bkt, (982/1587)
+23:14:46 Created .... /media/sda1/00000983.bkt, (983/1587)
+23:14:46 Created .... /media/sda1/00000984.bkt, (984/1587)
+23:14:46 Created .... /media/sda1/00000985.bkt, (985/1587)
+23:14:46 Created .... /media/sda1/00000986.bkt, (986/1587)
+23:14:46 Created .... /media/sda1/00000987.bkt, (987/1587)
+23:14:46 Created .... /media/sda1/00000988.bkt, (988/1587)
+23:14:46 Created .... /media/sda1/00000989.bkt, (989/1587)
+23:14:46 Created .... /media/sda1/00000990.bkt, (990/1587)
+23:14:46 Created .... /media/sda1/00000991.bkt, (991/1587)
+23:14:46 Created .... /media/sda1/00000992.bkt, (992/1587)
+23:14:46 Created .... /media/sda1/00000993.bkt, (993/1587)
+23:14:46 Created .... /media/sda1/00000994.bkt, (994/1587)
+23:14:46 Created .... /media/sda1/00000995.bkt, (995/1587)
+23:14:46 Created .... /media/sda1/00000996.bkt, (996/1587)
+23:14:46 Created .... /media/sda1/00000997.bkt, (997/1587)
+23:14:46 Created .... /media/sda1/00000998.bkt, (998/1587)
+23:14:46 Created .... /media/sda1/00000999.bkt, (999/1587)
+23:14:46 Created .... /media/sda1/00001000.bkt, (1000/1587)
+23:14:46 Created .... /media/sda1/00001001.bkt, (1001/1587)
+23:14:46 Created .... /media/sda1/00001002.bkt, (1002/1587)
+23:14:46 Created .... /media/sda1/00001003.bkt, (1003/1587)
+23:14:46 Created .... /media/sda1/00001004.bkt, (1004/1587)
+23:14:46 Created .... /media/sda1/00001005.bkt, (1005/1587)
+23:14:46 Created .... /media/sda1/00001006.bkt, (1006/1587)
+23:14:46 Created .... /media/sda1/00001007.bkt, (1007/1587)
+23:14:46 Created .... /media/sda1/00001008.bkt, (1008/1587)
+23:14:46 Created .... /media/sda1/00001009.bkt, (1009/1587)
+23:14:46 Created .... /media/sda1/00001010.bkt, (1010/1587)
+23:14:46 Created .... /media/sda1/00001011.bkt, (1011/1587)
+23:14:46 Created .... /media/sda1/00001012.bkt, (1012/1587)
+23:14:46 Created .... /media/sda1/00001013.bkt, (1013/1587)
+23:14:46 Created .... /media/sda1/00001014.bkt, (1014/1587)
+23:14:46 Created .... /media/sda1/00001015.bkt, (1015/1587)
+23:14:46 Created .... /media/sda1/00001016.bkt, (1016/1587)
+23:14:46 Created .... /media/sda1/00001017.bkt, (1017/1587)
+23:14:46 Created .... /media/sda1/00001018.bkt, (1018/1587)
+23:14:46 Created .... /media/sda1/00001019.bkt, (1019/1587)
+23:14:46 Created .... /media/sda1/00001020.bkt, (1020/1587)
+23:14:46 Created .... /media/sda1/00001021.bkt, (1021/1587)
+23:14:46 Created .... /media/sda1/00001022.bkt, (1022/1587)
+23:14:46 Created .... /media/sda1/00001023.bkt, (1023/1587)
+23:14:46 Created .... /media/sda1/00001024.bkt, (1024/1587)
+23:14:46 Created .... /media/sda1/00001025.bkt, (1025/1587)
+23:14:46 Created .... /media/sda1/00001026.bkt, (1026/1587)
+23:14:46 Created .... /media/sda1/00001027.bkt, (1027/1587)
+23:14:46 Created .... /media/sda1/00001028.bkt, (1028/1587)
+23:14:46 Created .... /media/sda1/00001029.bkt, (1029/1587)
+23:14:46 Created .... /media/sda1/00001030.bkt, (1030/1587)
+23:14:46 Created .... /media/sda1/00001031.bkt, (1031/1587)
+23:14:46 Created .... /media/sda1/00001032.bkt, (1032/1587)
+23:14:46 Created .... /media/sda1/00001033.bkt, (1033/1587)
+23:14:46 Created .... /media/sda1/00001034.bkt, (1034/1587)
+23:14:46 Created .... /media/sda1/00001035.bkt, (1035/1587)
+23:14:46 Created .... /media/sda1/00001036.bkt, (1036/1587)
+23:14:46 Created .... /media/sda1/00001037.bkt, (1037/1587)
+23:14:46 Created .... /media/sda1/00001038.bkt, (1038/1587)
+23:14:46 Created .... /media/sda1/00001039.bkt, (1039/1587)
+23:14:46 Created .... /media/sda1/00001040.bkt, (1040/1587)
+23:14:46 Created .... /media/sda1/00001041.bkt, (1041/1587)
+23:14:46 Created .... /media/sda1/00001042.bkt, (1042/1587)
+23:14:46 Created .... /media/sda1/00001043.bkt, (1043/1587)
+23:14:46 Created .... /media/sda1/00001044.bkt, (1044/1587)
+23:14:46 Created .... /media/sda1/00001045.bkt, (1045/1587)
+23:14:46 Created .... /media/sda1/00001046.bkt, (1046/1587)
+23:14:46 Created .... /media/sda1/00001047.bkt, (1047/1587)
+23:14:46 Created .... /media/sda1/00001048.bkt, (1048/1587)
+23:14:46 Created .... /media/sda1/00001049.bkt, (1049/1587)
+23:14:46 Created .... /media/sda1/00001050.bkt, (1050/1587)
+23:14:46 Created .... /media/sda1/00001051.bkt, (1051/1587)
+23:14:46 Created .... /media/sda1/00001052.bkt, (1052/1587)
+23:14:46 Created .... /media/sda1/00001053.bkt, (1053/1587)
+23:14:46 Created .... /media/sda1/00001054.bkt, (1054/1587)
+23:14:46 Created .... /media/sda1/00001055.bkt, (1055/1587)
+23:14:46 Created .... /media/sda1/00001056.bkt, (1056/1587)
+23:14:46 Created .... /media/sda1/00001057.bkt, (1057/1587)
+23:14:46 Created .... /media/sda1/00001058.bkt, (1058/1587)
+23:14:46 Created .... /media/sda1/00001059.bkt, (1059/1587)
+23:14:46 Created .... /media/sda1/00001060.bkt, (1060/1587)
+23:14:46 Created .... /media/sda1/00001061.bkt, (1061/1587)
+23:14:46 Created .... /media/sda1/00001062.bkt, (1062/1587)
+23:14:46 Created .... /media/sda1/00001063.bkt, (1063/1587)
+23:14:46 Created .... /media/sda1/00001064.bkt, (1064/1587)
+23:14:46 Created .... /media/sda1/00001065.bkt, (1065/1587)
+23:14:46 Created .... /media/sda1/00001066.bkt, (1066/1587)
+23:14:46 Created .... /media/sda1/00001067.bkt, (1067/1587)
+23:14:46 Created .... /media/sda1/00001068.bkt, (1068/1587)
+23:14:46 Created .... /media/sda1/00001069.bkt, (1069/1587)
+23:14:46 Created .... /media/sda1/00001070.bkt, (1070/1587)
+23:14:46 Created .... /media/sda1/00001071.bkt, (1071/1587)
+23:14:46 Created .... /media/sda1/00001072.bkt, (1072/1587)
+23:14:46 Created .... /media/sda1/00001073.bkt, (1073/1587)
+23:14:46 Created .... /media/sda1/00001074.bkt, (1074/1587)
+23:14:46 Created .... /media/sda1/00001075.bkt, (1075/1587)
+23:14:46 Created .... /media/sda1/00001076.bkt, (1076/1587)
+23:14:46 Created .... /media/sda1/00001077.bkt, (1077/1587)
+23:14:46 Created .... /media/sda1/00001078.bkt, (1078/1587)
+23:14:46 Created .... /media/sda1/00001079.bkt, (1079/1587)
+23:14:46 Created .... /media/sda1/00001080.bkt, (1080/1587)
+23:14:46 Created .... /media/sda1/00001081.bkt, (1081/1587)
+23:14:46 Created .... /media/sda1/00001082.bkt, (1082/1587)
+23:14:46 Created .... /media/sda1/00001083.bkt, (1083/1587)
+23:14:46 Created .... /media/sda1/00001084.bkt, (1084/1587)
+23:14:46 Created .... /media/sda1/00001085.bkt, (1085/1587)
+23:14:46 Created .... /media/sda1/00001086.bkt, (1086/1587)
+23:14:46 Created .... /media/sda1/00001087.bkt, (1087/1587)
+23:14:46 Created .... /media/sda1/00001088.bkt, (1088/1587)
+23:14:46 Created .... /media/sda1/00001089.bkt, (1089/1587)
+23:14:46 Created .... /media/sda1/00001090.bkt, (1090/1587)
+23:14:46 Created .... /media/sda1/00001091.bkt, (1091/1587)
+23:14:46 Created .... /media/sda1/00001092.bkt, (1092/1587)
+23:14:46 Created .... /media/sda1/00001093.bkt, (1093/1587)
+23:14:46 Created .... /media/sda1/00001094.bkt, (1094/1587)
+23:14:46 Created .... /media/sda1/00001095.bkt, (1095/1587)
+23:14:46 Created .... /media/sda1/00001096.bkt, (1096/1587)
+23:14:46 Created .... /media/sda1/00001097.bkt, (1097/1587)
+23:14:46 Created .... /media/sda1/00001098.bkt, (1098/1587)
+23:14:46 Created .... /media/sda1/00001099.bkt, (1099/1587)
+23:14:46 Created .... /media/sda1/00001100.bkt, (1100/1587)
+23:14:46 Created .... /media/sda1/00001101.bkt, (1101/1587)
+23:14:46 Created .... /media/sda1/00001102.bkt, (1102/1587)
+23:14:46 Created .... /media/sda1/00001103.bkt, (1103/1587)
+23:14:46 Created .... /media/sda1/00001104.bkt, (1104/1587)
+23:14:46 Created .... /media/sda1/00001105.bkt, (1105/1587)
+23:14:46 Created .... /media/sda1/00001106.bkt, (1106/1587)
+23:14:46 Created .... /media/sda1/00001107.bkt, (1107/1587)
+23:14:46 Created .... /media/sda1/00001108.bkt, (1108/1587)
+23:14:46 Created .... /media/sda1/00001109.bkt, (1109/1587)
+23:14:46 Created .... /media/sda1/00001110.bkt, (1110/1587)
+23:14:46 Created .... /media/sda1/00001111.bkt, (1111/1587)
+23:14:46 Created .... /media/sda1/00001112.bkt, (1112/1587)
+23:14:46 Created .... /media/sda1/00001113.bkt, (1113/1587)
+23:14:46 Created .... /media/sda1/00001114.bkt, (1114/1587)
+23:14:46 Created .... /media/sda1/00001115.bkt, (1115/1587)
+23:14:46 Created .... /media/sda1/00001116.bkt, (1116/1587)
+23:14:46 Created .... /media/sda1/00001117.bkt, (1117/1587)
+23:14:46 Created .... /media/sda1/00001118.bkt, (1118/1587)
+23:14:46 Created .... /media/sda1/00001119.bkt, (1119/1587)
+23:14:46 Created .... /media/sda1/00001120.bkt, (1120/1587)
+23:14:46 Created .... /media/sda1/00001121.bkt, (1121/1587)
+23:14:46 Created .... /media/sda1/00001122.bkt, (1122/1587)
+23:14:46 Created .... /media/sda1/00001123.bkt, (1123/1587)
+23:14:46 Created .... /media/sda1/00001124.bkt, (1124/1587)
+23:14:46 Created .... /media/sda1/00001125.bkt, (1125/1587)
+23:14:46 Created .... /media/sda1/00001126.bkt, (1126/1587)
+23:14:46 Created .... /media/sda1/00001127.bkt, (1127/1587)
+23:14:46 Created .... /media/sda1/00001128.bkt, (1128/1587)
+23:14:46 Created .... /media/sda1/00001129.bkt, (1129/1587)
+23:14:46 Created .... /media/sda1/00001130.bkt, (1130/1587)
+23:14:46 Created .... /media/sda1/00001131.bkt, (1131/1587)
+23:14:46 Created .... /media/sda1/00001132.bkt, (1132/1587)
+23:14:46 Created .... /media/sda1/00001133.bkt, (1133/1587)
+23:14:46 Created .... /media/sda1/00001134.bkt, (1134/1587)
+23:14:46 Created .... /media/sda1/00001135.bkt, (1135/1587)
+23:14:46 Created .... /media/sda1/00001136.bkt, (1136/1587)
+23:14:46 Created .... /media/sda1/00001137.bkt, (1137/1587)
+23:14:46 Created .... /media/sda1/00001138.bkt, (1138/1587)
+23:14:46 Created .... /media/sda1/00001139.bkt, (1139/1587)
+23:14:46 Created .... /media/sda1/00001140.bkt, (1140/1587)
+23:14:46 Created .... /media/sda1/00001141.bkt, (1141/1587)
+23:14:46 Created .... /media/sda1/00001142.bkt, (1142/1587)
+23:14:46 Created .... /media/sda1/00001143.bkt, (1143/1587)
+23:14:46 Created .... /media/sda1/00001144.bkt, (1144/1587)
+23:14:46 Created .... /media/sda1/00001145.bkt, (1145/1587)
+23:14:46 Created .... /media/sda1/00001146.bkt, (1146/1587)
+23:14:46 Created .... /media/sda1/00001147.bkt, (1147/1587)
+23:14:46 Created .... /media/sda1/00001148.bkt, (1148/1587)
+23:14:47 Created .... /media/sda1/00001149.bkt, (1149/1587)
+23:14:47 Created .... /media/sda1/00001150.bkt, (1150/1587)
+23:14:47 Created .... /media/sda1/00001151.bkt, (1151/1587)
+23:14:47 Created .... /media/sda1/00001152.bkt, (1152/1587)
+23:14:47 Created .... /media/sda1/00001153.bkt, (1153/1587)
+23:14:47 Created .... /media/sda1/00001154.bkt, (1154/1587)
+23:14:47 Created .... /media/sda1/00001155.bkt, (1155/1587)
+23:14:47 Created .... /media/sda1/00001156.bkt, (1156/1587)
+23:14:47 Created .... /media/sda1/00001157.bkt, (1157/1587)
+23:14:47 Created .... /media/sda1/00001158.bkt, (1158/1587)
+23:14:47 Created .... /media/sda1/00001159.bkt, (1159/1587)
+23:14:47 Created .... /media/sda1/00001160.bkt, (1160/1587)
+23:14:47 Created .... /media/sda1/00001161.bkt, (1161/1587)
+23:14:47 Created .... /media/sda1/00001162.bkt, (1162/1587)
+23:14:47 Created .... /media/sda1/00001163.bkt, (1163/1587)
+23:14:47 Created .... /media/sda1/00001164.bkt, (1164/1587)
+23:14:47 Created .... /media/sda1/00001165.bkt, (1165/1587)
+23:14:47 Created .... /media/sda1/00001166.bkt, (1166/1587)
+23:14:47 Created .... /media/sda1/00001167.bkt, (1167/1587)
+23:14:47 Created .... /media/sda1/00001168.bkt, (1168/1587)
+23:14:47 Created .... /media/sda1/00001169.bkt, (1169/1587)
+23:14:47 Created .... /media/sda1/00001170.bkt, (1170/1587)
+23:14:47 Created .... /media/sda1/00001171.bkt, (1171/1587)
+23:14:47 Created .... /media/sda1/00001172.bkt, (1172/1587)
+23:14:47 Created .... /media/sda1/00001173.bkt, (1173/1587)
+23:14:47 Created .... /media/sda1/00001174.bkt, (1174/1587)
+23:14:47 Created .... /media/sda1/00001175.bkt, (1175/1587)
+23:14:47 Created .... /media/sda1/00001176.bkt, (1176/1587)
+23:14:47 Created .... /media/sda1/00001177.bkt, (1177/1587)
+23:14:47 Created .... /media/sda1/00001178.bkt, (1178/1587)
+23:14:47 Created .... /media/sda1/00001179.bkt, (1179/1587)
+23:14:47 Created .... /media/sda1/00001180.bkt, (1180/1587)
+23:14:47 Created .... /media/sda1/00001181.bkt, (1181/1587)
+23:14:47 Created .... /media/sda1/00001182.bkt, (1182/1587)
+23:14:47 Created .... /media/sda1/00001183.bkt, (1183/1587)
+23:14:47 Created .... /media/sda1/00001184.bkt, (1184/1587)
+23:14:47 Created .... /media/sda1/00001185.bkt, (1185/1587)
+23:14:47 Created .... /media/sda1/00001186.bkt, (1186/1587)
+23:14:47 Created .... /media/sda1/00001187.bkt, (1187/1587)
+23:14:47 Created .... /media/sda1/00001188.bkt, (1188/1587)
+23:14:47 Created .... /media/sda1/00001189.bkt, (1189/1587)
+23:14:47 Created .... /media/sda1/00001190.bkt, (1190/1587)
+23:14:47 Created .... /media/sda1/00001191.bkt, (1191/1587)
+23:14:47 Created .... /media/sda1/00001192.bkt, (1192/1587)
+23:14:47 Created .... /media/sda1/00001193.bkt, (1193/1587)
+23:14:47 Created .... /media/sda1/00001194.bkt, (1194/1587)
+23:14:47 Created .... /media/sda1/00001195.bkt, (1195/1587)
+23:14:47 Created .... /media/sda1/00001196.bkt, (1196/1587)
+23:14:47 Created .... /media/sda1/00001197.bkt, (1197/1587)
+23:14:47 Created .... /media/sda1/00001198.bkt, (1198/1587)
+23:14:47 Created .... /media/sda1/00001199.bkt, (1199/1587)
+23:14:47 Created .... /media/sda1/00001200.bkt, (1200/1587)
+23:14:47 Created .... /media/sda1/00001201.bkt, (1201/1587)
+23:14:47 Created .... /media/sda1/00001202.bkt, (1202/1587)
+23:14:47 Created .... /media/sda1/00001203.bkt, (1203/1587)
+23:14:47 Created .... /media/sda1/00001204.bkt, (1204/1587)
+23:14:47 Created .... /media/sda1/00001205.bkt, (1205/1587)
+23:14:47 Created .... /media/sda1/00001206.bkt, (1206/1587)
+23:14:47 Created .... /media/sda1/00001207.bkt, (1207/1587)
+23:14:47 Created .... /media/sda1/00001208.bkt, (1208/1587)
+23:14:47 Created .... /media/sda1/00001209.bkt, (1209/1587)
+23:14:47 Created .... /media/sda1/00001210.bkt, (1210/1587)
+23:14:47 Created .... /media/sda1/00001211.bkt, (1211/1587)
+23:14:47 Created .... /media/sda1/00001212.bkt, (1212/1587)
+23:14:47 Created .... /media/sda1/00001213.bkt, (1213/1587)
+23:14:47 Created .... /media/sda1/00001214.bkt, (1214/1587)
+23:14:47 Created .... /media/sda1/00001215.bkt, (1215/1587)
+23:14:47 Created .... /media/sda1/00001216.bkt, (1216/1587)
+23:14:47 Created .... /media/sda1/00001217.bkt, (1217/1587)
+23:14:47 Created .... /media/sda1/00001218.bkt, (1218/1587)
+23:14:47 Created .... /media/sda1/00001219.bkt, (1219/1587)
+23:14:47 Created .... /media/sda1/00001220.bkt, (1220/1587)
+23:14:47 Created .... /media/sda1/00001221.bkt, (1221/1587)
+23:14:47 Created .... /media/sda1/00001222.bkt, (1222/1587)
+23:14:47 Created .... /media/sda1/00001223.bkt, (1223/1587)
+23:14:47 Created .... /media/sda1/00001224.bkt, (1224/1587)
+23:14:47 Created .... /media/sda1/00001225.bkt, (1225/1587)
+23:14:47 Created .... /media/sda1/00001226.bkt, (1226/1587)
+23:14:47 Created .... /media/sda1/00001227.bkt, (1227/1587)
+23:14:47 Created .... /media/sda1/00001228.bkt, (1228/1587)
+23:14:47 Created .... /media/sda1/00001229.bkt, (1229/1587)
+23:14:47 Created .... /media/sda1/00001230.bkt, (1230/1587)
+23:14:47 Created .... /media/sda1/00001231.bkt, (1231/1587)
+23:14:47 Created .... /media/sda1/00001232.bkt, (1232/1587)
+23:14:47 Created .... /media/sda1/00001233.bkt, (1233/1587)
+23:14:47 Created .... /media/sda1/00001234.bkt, (1234/1587)
+23:14:47 Created .... /media/sda1/00001235.bkt, (1235/1587)
+23:14:47 Created .... /media/sda1/00001236.bkt, (1236/1587)
+23:14:47 Created .... /media/sda1/00001237.bkt, (1237/1587)
+23:14:47 Created .... /media/sda1/00001238.bkt, (1238/1587)
+23:14:47 Created .... /media/sda1/00001239.bkt, (1239/1587)
+23:14:47 Created .... /media/sda1/00001240.bkt, (1240/1587)
+23:14:47 Created .... /media/sda1/00001241.bkt, (1241/1587)
+23:14:47 Created .... /media/sda1/00001242.bkt, (1242/1587)
+23:14:47 Created .... /media/sda1/00001243.bkt, (1243/1587)
+23:14:47 Created .... /media/sda1/00001244.bkt, (1244/1587)
+23:14:47 Created .... /media/sda1/00001245.bkt, (1245/1587)
+23:14:47 Created .... /media/sda1/00001246.bkt, (1246/1587)
+23:14:47 Created .... /media/sda1/00001247.bkt, (1247/1587)
+23:14:47 Created .... /media/sda1/00001248.bkt, (1248/1587)
+23:14:47 Created .... /media/sda1/00001249.bkt, (1249/1587)
+23:14:47 Created .... /media/sda1/00001250.bkt, (1250/1587)
+23:14:47 Created .... /media/sda1/00001251.bkt, (1251/1587)
+23:14:47 Created .... /media/sda1/00001252.bkt, (1252/1587)
+23:14:47 Created .... /media/sda1/00001253.bkt, (1253/1587)
+23:14:47 Created .... /media/sda1/00001254.bkt, (1254/1587)
+23:14:47 Created .... /media/sda1/00001255.bkt, (1255/1587)
+23:14:47 Created .... /media/sda1/00001256.bkt, (1256/1587)
+23:14:47 Created .... /media/sda1/00001257.bkt, (1257/1587)
+23:14:47 Created .... /media/sda1/00001258.bkt, (1258/1587)
+23:14:47 Created .... /media/sda1/00001259.bkt, (1259/1587)
+23:14:47 Created .... /media/sda1/00001260.bkt, (1260/1587)
+23:14:47 Created .... /media/sda1/00001261.bkt, (1261/1587)
+23:14:47 Created .... /media/sda1/00001262.bkt, (1262/1587)
+23:14:47 Created .... /media/sda1/00001263.bkt, (1263/1587)
+23:14:47 Created .... /media/sda1/00001264.bkt, (1264/1587)
+23:14:47 Created .... /media/sda1/00001265.bkt, (1265/1587)
+23:14:47 Created .... /media/sda1/00001266.bkt, (1266/1587)
+23:14:47 Created .... /media/sda1/00001267.bkt, (1267/1587)
+23:14:47 Created .... /media/sda1/00001268.bkt, (1268/1587)
+23:14:47 Created .... /media/sda1/00001269.bkt, (1269/1587)
+23:14:47 Created .... /media/sda1/00001270.bkt, (1270/1587)
+23:14:47 Created .... /media/sda1/00001271.bkt, (1271/1587)
+23:14:47 Created .... /media/sda1/00001272.bkt, (1272/1587)
+23:14:47 Created .... /media/sda1/00001273.bkt, (1273/1587)
+23:14:47 Created .... /media/sda1/00001274.bkt, (1274/1587)
+23:14:47 Created .... /media/sda1/00001275.bkt, (1275/1587)
+23:14:47 Created .... /media/sda1/00001276.bkt, (1276/1587)
+23:14:47 Created .... /media/sda1/00001277.bkt, (1277/1587)
+23:14:47 Created .... /media/sda1/00001278.bkt, (1278/1587)
+23:14:47 Created .... /media/sda1/00001279.bkt, (1279/1587)
+23:14:47 Created .... /media/sda1/00001280.bkt, (1280/1587)
+23:14:47 Created .... /media/sda1/00001281.bkt, (1281/1587)
+23:14:47 Created .... /media/sda1/00001282.bkt, (1282/1587)
+23:14:47 Created .... /media/sda1/00001283.bkt, (1283/1587)
+23:14:47 Created .... /media/sda1/00001284.bkt, (1284/1587)
+23:14:47 Created .... /media/sda1/00001285.bkt, (1285/1587)
+23:14:48 Created .... /media/sda1/00001286.bkt, (1286/1587)
+23:14:48 Created .... /media/sda1/00001287.bkt, (1287/1587)
+23:14:48 Created .... /media/sda1/00001288.bkt, (1288/1587)
+23:14:48 Created .... /media/sda1/00001289.bkt, (1289/1587)
+23:14:48 Created .... /media/sda1/00001290.bkt, (1290/1587)
+23:14:48 Created .... /media/sda1/00001291.bkt, (1291/1587)
+23:14:48 Created .... /media/sda1/00001292.bkt, (1292/1587)
+23:14:48 Created .... /media/sda1/00001293.bkt, (1293/1587)
+23:14:48 Created .... /media/sda1/00001294.bkt, (1294/1587)
+23:14:48 Created .... /media/sda1/00001295.bkt, (1295/1587)
+23:14:48 Created .... /media/sda1/00001296.bkt, (1296/1587)
+23:14:48 Created .... /media/sda1/00001297.bkt, (1297/1587)
+23:14:48 Created .... /media/sda1/00001298.bkt, (1298/1587)
+23:14:48 Created .... /media/sda1/00001299.bkt, (1299/1587)
+23:14:48 Created .... /media/sda1/00001300.bkt, (1300/1587)
+23:14:48 Created .... /media/sda1/00001301.bkt, (1301/1587)
+23:14:48 Created .... /media/sda1/00001302.bkt, (1302/1587)
+23:14:48 Created .... /media/sda1/00001303.bkt, (1303/1587)
+23:14:48 Created .... /media/sda1/00001304.bkt, (1304/1587)
+23:14:48 Created .... /media/sda1/00001305.bkt, (1305/1587)
+23:14:48 Created .... /media/sda1/00001306.bkt, (1306/1587)
+23:14:48 Created .... /media/sda1/00001307.bkt, (1307/1587)
+23:14:48 Created .... /media/sda1/00001308.bkt, (1308/1587)
+23:14:48 Created .... /media/sda1/00001309.bkt, (1309/1587)
+23:14:48 Created .... /media/sda1/00001310.bkt, (1310/1587)
+23:14:48 Created .... /media/sda1/00001311.bkt, (1311/1587)
+23:14:48 Created .... /media/sda1/00001312.bkt, (1312/1587)
+23:14:48 Created .... /media/sda1/00001313.bkt, (1313/1587)
+23:14:48 Created .... /media/sda1/00001314.bkt, (1314/1587)
+23:14:48 Created .... /media/sda1/00001315.bkt, (1315/1587)
+23:14:48 Created .... /media/sda1/00001316.bkt, (1316/1587)
+23:14:48 Created .... /media/sda1/00001317.bkt, (1317/1587)
+23:14:48 Created .... /media/sda1/00001318.bkt, (1318/1587)
+23:14:48 Created .... /media/sda1/00001319.bkt, (1319/1587)
+23:14:48 Created .... /media/sda1/00001320.bkt, (1320/1587)
+23:14:48 Created .... /media/sda1/00001321.bkt, (1321/1587)
+23:14:48 Created .... /media/sda1/00001322.bkt, (1322/1587)
+23:14:48 Created .... /media/sda1/00001323.bkt, (1323/1587)
+23:14:48 Created .... /media/sda1/00001324.bkt, (1324/1587)
+23:14:48 Created .... /media/sda1/00001325.bkt, (1325/1587)
+23:14:48 Created .... /media/sda1/00001326.bkt, (1326/1587)
+23:14:48 Created .... /media/sda1/00001327.bkt, (1327/1587)
+23:14:48 Created .... /media/sda1/00001328.bkt, (1328/1587)
+23:14:48 Created .... /media/sda1/00001329.bkt, (1329/1587)
+23:14:48 Created .... /media/sda1/00001330.bkt, (1330/1587)
+23:14:48 Created .... /media/sda1/00001331.bkt, (1331/1587)
+23:14:48 Created .... /media/sda1/00001332.bkt, (1332/1587)
+23:14:48 Created .... /media/sda1/00001333.bkt, (1333/1587)
+23:14:48 Created .... /media/sda1/00001334.bkt, (1334/1587)
+23:14:48 Created .... /media/sda1/00001335.bkt, (1335/1587)
+23:14:48 Created .... /media/sda1/00001336.bkt, (1336/1587)
+23:14:48 Created .... /media/sda1/00001337.bkt, (1337/1587)
+23:14:48 Created .... /media/sda1/00001338.bkt, (1338/1587)
+23:14:48 Created .... /media/sda1/00001339.bkt, (1339/1587)
+23:14:48 Created .... /media/sda1/00001340.bkt, (1340/1587)
+23:14:48 Created .... /media/sda1/00001341.bkt, (1341/1587)
+23:14:48 Created .... /media/sda1/00001342.bkt, (1342/1587)
+23:14:48 Created .... /media/sda1/00001343.bkt, (1343/1587)
+23:14:48 Created .... /media/sda1/00001344.bkt, (1344/1587)
+23:14:48 Created .... /media/sda1/00001345.bkt, (1345/1587)
+23:14:48 Created .... /media/sda1/00001346.bkt, (1346/1587)
+23:14:48 Created .... /media/sda1/00001347.bkt, (1347/1587)
+23:14:48 Created .... /media/sda1/00001348.bkt, (1348/1587)
+23:14:48 Created .... /media/sda1/00001349.bkt, (1349/1587)
+23:14:48 Created .... /media/sda1/00001350.bkt, (1350/1587)
+23:14:48 Created .... /media/sda1/00001351.bkt, (1351/1587)
+23:14:48 Created .... /media/sda1/00001352.bkt, (1352/1587)
+23:14:48 Created .... /media/sda1/00001353.bkt, (1353/1587)
+23:14:48 Created .... /media/sda1/00001354.bkt, (1354/1587)
+23:14:48 Created .... /media/sda1/00001355.bkt, (1355/1587)
+23:14:48 Created .... /media/sda1/00001356.bkt, (1356/1587)
+23:14:48 Created .... /media/sda1/00001357.bkt, (1357/1587)
+23:14:48 Created .... /media/sda1/00001358.bkt, (1358/1587)
+23:14:48 Created .... /media/sda1/00001359.bkt, (1359/1587)
+23:14:48 Created .... /media/sda1/00001360.bkt, (1360/1587)
+23:14:48 Created .... /media/sda1/00001361.bkt, (1361/1587)
+23:14:48 Created .... /media/sda1/00001362.bkt, (1362/1587)
+23:14:48 Created .... /media/sda1/00001363.bkt, (1363/1587)
+23:14:48 Created .... /media/sda1/00001364.bkt, (1364/1587)
+23:14:48 Created .... /media/sda1/00001365.bkt, (1365/1587)
+23:14:48 Created .... /media/sda1/00001366.bkt, (1366/1587)
+23:14:48 Created .... /media/sda1/00001367.bkt, (1367/1587)
+23:14:48 Created .... /media/sda1/00001368.bkt, (1368/1587)
+23:14:48 Created .... /media/sda1/00001369.bkt, (1369/1587)
+23:14:48 Created .... /media/sda1/00001370.bkt, (1370/1587)
+23:14:48 Created .... /media/sda1/00001371.bkt, (1371/1587)
+23:14:48 Created .... /media/sda1/00001372.bkt, (1372/1587)
+23:14:48 Created .... /media/sda1/00001373.bkt, (1373/1587)
+23:14:48 Created .... /media/sda1/00001374.bkt, (1374/1587)
+23:14:48 Created .... /media/sda1/00001375.bkt, (1375/1587)
+23:14:48 Created .... /media/sda1/00001376.bkt, (1376/1587)
+23:14:48 Created .... /media/sda1/00001377.bkt, (1377/1587)
+23:14:48 Created .... /media/sda1/00001378.bkt, (1378/1587)
+23:14:48 Created .... /media/sda1/00001379.bkt, (1379/1587)
+23:14:48 Created .... /media/sda1/00001380.bkt, (1380/1587)
+23:14:48 Created .... /media/sda1/00001381.bkt, (1381/1587)
+23:14:48 Created .... /media/sda1/00001382.bkt, (1382/1587)
+23:14:48 Created .... /media/sda1/00001383.bkt, (1383/1587)
+23:14:48 Created .... /media/sda1/00001384.bkt, (1384/1587)
+23:14:48 Created .... /media/sda1/00001385.bkt, (1385/1587)
+23:14:48 Created .... /media/sda1/00001386.bkt, (1386/1587)
+23:14:48 Created .... /media/sda1/00001387.bkt, (1387/1587)
+23:14:48 Created .... /media/sda1/00001388.bkt, (1388/1587)
+23:14:48 Created .... /media/sda1/00001389.bkt, (1389/1587)
+23:14:48 Created .... /media/sda1/00001390.bkt, (1390/1587)
+23:14:48 Created .... /media/sda1/00001391.bkt, (1391/1587)
+23:14:48 Created .... /media/sda1/00001392.bkt, (1392/1587)
+23:14:48 Created .... /media/sda1/00001393.bkt, (1393/1587)
+23:14:48 Created .... /media/sda1/00001394.bkt, (1394/1587)
+23:14:48 Created .... /media/sda1/00001395.bkt, (1395/1587)
+23:14:48 Created .... /media/sda1/00001396.bkt, (1396/1587)
+23:14:48 Created .... /media/sda1/00001397.bkt, (1397/1587)
+23:14:48 Created .... /media/sda1/00001398.bkt, (1398/1587)
+23:14:48 Created .... /media/sda1/00001399.bkt, (1399/1587)
+23:14:48 Created .... /media/sda1/00001400.bkt, (1400/1587)
+23:14:48 Created .... /media/sda1/00001401.bkt, (1401/1587)
+23:14:48 Created .... /media/sda1/00001402.bkt, (1402/1587)
+23:14:48 Created .... /media/sda1/00001403.bkt, (1403/1587)
+23:14:48 Created .... /media/sda1/00001404.bkt, (1404/1587)
+23:14:48 Created .... /media/sda1/00001405.bkt, (1405/1587)
+23:14:48 Created .... /media/sda1/00001406.bkt, (1406/1587)
+23:14:48 Created .... /media/sda1/00001407.bkt, (1407/1587)
+23:14:48 Created .... /media/sda1/00001408.bkt, (1408/1587)
+23:14:48 Created .... /media/sda1/00001409.bkt, (1409/1587)
+23:14:48 Created .... /media/sda1/00001410.bkt, (1410/1587)
+23:14:48 Created .... /media/sda1/00001411.bkt, (1411/1587)
+23:14:48 Created .... /media/sda1/00001412.bkt, (1412/1587)
+23:14:48 Created .... /media/sda1/00001413.bkt, (1413/1587)
+23:14:48 Created .... /media/sda1/00001414.bkt, (1414/1587)
+23:14:48 Created .... /media/sda1/00001415.bkt, (1415/1587)
+23:14:48 Created .... /media/sda1/00001416.bkt, (1416/1587)
+23:14:48 Created .... /media/sda1/00001417.bkt, (1417/1587)
+23:14:48 Created .... /media/sda1/00001418.bkt, (1418/1587)
+23:14:48 Created .... /media/sda1/00001419.bkt, (1419/1587)
+23:14:48 Created .... /media/sda1/00001420.bkt, (1420/1587)
+23:14:48 Created .... /media/sda1/00001421.bkt, (1421/1587)
+23:14:48 Created .... /media/sda1/00001422.bkt, (1422/1587)
+23:14:48 Created .... /media/sda1/00001423.bkt, (1423/1587)
+23:14:48 Created .... /media/sda1/00001424.bkt, (1424/1587)
+23:14:48 Created .... /media/sda1/00001425.bkt, (1425/1587)
+23:14:48 Created .... /media/sda1/00001426.bkt, (1426/1587)
+23:14:48 Created .... /media/sda1/00001427.bkt, (1427/1587)
+23:14:48 Created .... /media/sda1/00001428.bkt, (1428/1587)
+23:14:48 Created .... /media/sda1/00001429.bkt, (1429/1587)
+23:14:48 Created .... /media/sda1/00001430.bkt, (1430/1587)
+23:14:48 Created .... /media/sda1/00001431.bkt, (1431/1587)
+23:14:48 Created .... /media/sda1/00001432.bkt, (1432/1587)
+23:14:48 Created .... /media/sda1/00001433.bkt, (1433/1587)
+23:14:48 Created .... /media/sda1/00001434.bkt, (1434/1587)
+23:14:48 Created .... /media/sda1/00001435.bkt, (1435/1587)
+23:14:48 Created .... /media/sda1/00001436.bkt, (1436/1587)
+23:14:48 Created .... /media/sda1/00001437.bkt, (1437/1587)
+23:14:48 Created .... /media/sda1/00001438.bkt, (1438/1587)
+23:14:48 Created .... /media/sda1/00001439.bkt, (1439/1587)
+23:14:48 Created .... /media/sda1/00001440.bkt, (1440/1587)
+23:14:48 Created .... /media/sda1/00001441.bkt, (1441/1587)
+23:14:48 Created .... /media/sda1/00001442.bkt, (1442/1587)
+23:14:48 Created .... /media/sda1/00001443.bkt, (1443/1587)
+23:14:48 Created .... /media/sda1/00001444.bkt, (1444/1587)
+23:14:48 Created .... /media/sda1/00001445.bkt, (1445/1587)
+23:14:48 Created .... /media/sda1/00001446.bkt, (1446/1587)
+23:14:48 Created .... /media/sda1/00001447.bkt, (1447/1587)
+23:14:48 Created .... /media/sda1/00001448.bkt, (1448/1587)
+23:14:48 Created .... /media/sda1/00001449.bkt, (1449/1587)
+23:14:48 Created .... /media/sda1/00001450.bkt, (1450/1587)
+23:14:48 Created .... /media/sda1/00001451.bkt, (1451/1587)
+23:14:48 Created .... /media/sda1/00001452.bkt, (1452/1587)
+23:14:48 Created .... /media/sda1/00001453.bkt, (1453/1587)
+23:14:48 Created .... /media/sda1/00001454.bkt, (1454/1587)
+23:14:48 Created .... /media/sda1/00001455.bkt, (1455/1587)
+23:14:48 Created .... /media/sda1/00001456.bkt, (1456/1587)
+23:14:48 Created .... /media/sda1/00001457.bkt, (1457/1587)
+23:14:48 Created .... /media/sda1/00001458.bkt, (1458/1587)
+23:14:48 Created .... /media/sda1/00001459.bkt, (1459/1587)
+23:14:48 Created .... /media/sda1/00001460.bkt, (1460/1587)
+23:14:48 Created .... /media/sda1/00001461.bkt, (1461/1587)
+23:14:48 Created .... /media/sda1/00001462.bkt, (1462/1587)
+23:14:48 Created .... /media/sda1/00001463.bkt, (1463/1587)
+23:14:48 Created .... /media/sda1/00001464.bkt, (1464/1587)
+23:14:48 Created .... /media/sda1/00001465.bkt, (1465/1587)
+23:14:48 Created .... /media/sda1/00001466.bkt, (1466/1587)
+23:14:48 Created .... /media/sda1/00001467.bkt, (1467/1587)
+23:14:48 Created .... /media/sda1/00001468.bkt, (1468/1587)
+23:14:48 Created .... /media/sda1/00001469.bkt, (1469/1587)
+23:14:48 Created .... /media/sda1/00001470.bkt, (1470/1587)
+23:14:48 Created .... /media/sda1/00001471.bkt, (1471/1587)
+23:14:48 Created .... /media/sda1/00001472.bkt, (1472/1587)
+23:14:48 Created .... /media/sda1/00001473.bkt, (1473/1587)
+23:14:48 Created .... /media/sda1/00001474.bkt, (1474/1587)
+23:14:48 Created .... /media/sda1/00001475.bkt, (1475/1587)
+23:14:48 Created .... /media/sda1/00001476.bkt, (1476/1587)
+23:14:48 Created .... /media/sda1/00001477.bkt, (1477/1587)
+23:14:48 Created .... /media/sda1/00001478.bkt, (1478/1587)
+23:14:48 Created .... /media/sda1/00001479.bkt, (1479/1587)
+23:14:48 Created .... /media/sda1/00001480.bkt, (1480/1587)
+23:14:48 Created .... /media/sda1/00001481.bkt, (1481/1587)
+23:14:48 Created .... /media/sda1/00001482.bkt, (1482/1587)
+23:14:48 Created .... /media/sda1/00001483.bkt, (1483/1587)
+23:14:48 Created .... /media/sda1/00001484.bkt, (1484/1587)
+23:14:48 Created .... /media/sda1/00001485.bkt, (1485/1587)
+23:14:48 Created .... /media/sda1/00001486.bkt, (1486/1587)
+23:14:48 Created .... /media/sda1/00001487.bkt, (1487/1587)
+23:14:48 Created .... /media/sda1/00001488.bkt, (1488/1587)
+23:14:48 Created .... /media/sda1/00001489.bkt, (1489/1587)
+23:14:48 Created .... /media/sda1/00001490.bkt, (1490/1587)
+23:14:48 Created .... /media/sda1/00001491.bkt, (1491/1587)
+23:14:49 Created .... /media/sda1/00001492.bkt, (1492/1587)
+23:14:49 Created .... /media/sda1/00001493.bkt, (1493/1587)
+23:14:49 Created .... /media/sda1/00001494.bkt, (1494/1587)
+23:14:49 Created .... /media/sda1/00001495.bkt, (1495/1587)
+23:14:49 Created .... /media/sda1/00001496.bkt, (1496/1587)
+23:14:49 Created .... /media/sda1/00001497.bkt, (1497/1587)
+23:14:49 Created .... /media/sda1/00001498.bkt, (1498/1587)
+23:14:49 Created .... /media/sda1/00001499.bkt, (1499/1587)
+23:14:49 Created .... /media/sda1/00001500.bkt, (1500/1587)
+23:14:49 Created .... /media/sda1/00001501.bkt, (1501/1587)
+23:14:49 Created .... /media/sda1/00001502.bkt, (1502/1587)
+23:14:49 Created .... /media/sda1/00001503.bkt, (1503/1587)
+23:14:49 Created .... /media/sda1/00001504.bkt, (1504/1587)
+23:14:49 Created .... /media/sda1/00001505.bkt, (1505/1587)
+23:14:49 Created .... /media/sda1/00001506.bkt, (1506/1587)
+23:14:49 Created .... /media/sda1/00001507.bkt, (1507/1587)
+23:14:49 Created .... /media/sda1/00001508.bkt, (1508/1587)
+23:14:49 Created .... /media/sda1/00001509.bkt, (1509/1587)
+23:14:49 Created .... /media/sda1/00001510.bkt, (1510/1587)
+23:14:49 Created .... /media/sda1/00001511.bkt, (1511/1587)
+23:14:49 Created .... /media/sda1/00001512.bkt, (1512/1587)
+23:14:49 Created .... /media/sda1/00001513.bkt, (1513/1587)
+23:14:49 Created .... /media/sda1/00001514.bkt, (1514/1587)
+23:14:49 Created .... /media/sda1/00001515.bkt, (1515/1587)
+23:14:49 Created .... /media/sda1/00001516.bkt, (1516/1587)
+23:14:49 Created .... /media/sda1/00001517.bkt, (1517/1587)
+23:14:49 Created .... /media/sda1/00001518.bkt, (1518/1587)
+23:14:49 Created .... /media/sda1/00001519.bkt, (1519/1587)
+23:14:49 Created .... /media/sda1/00001520.bkt, (1520/1587)
+23:14:49 Created .... /media/sda1/00001521.bkt, (1521/1587)
+23:14:49 Created .... /media/sda1/00001522.bkt, (1522/1587)
+23:14:49 Created .... /media/sda1/00001523.bkt, (1523/1587)
+23:14:49 Created .... /media/sda1/00001524.bkt, (1524/1587)
+23:14:49 Created .... /media/sda1/00001525.bkt, (1525/1587)
+23:14:49 Created .... /media/sda1/00001526.bkt, (1526/1587)
+23:14:49 Created .... /media/sda1/00001527.bkt, (1527/1587)
+23:14:49 Created .... /media/sda1/00001528.bkt, (1528/1587)
+23:14:49 Created .... /media/sda1/00001529.bkt, (1529/1587)
+23:14:49 Created .... /media/sda1/00001530.bkt, (1530/1587)
+23:14:49 Created .... /media/sda1/00001531.bkt, (1531/1587)
+23:14:49 Created .... /media/sda1/00001532.bkt, (1532/1587)
+23:14:49 Created .... /media/sda1/00001533.bkt, (1533/1587)
+23:14:49 Created .... /media/sda1/00001534.bkt, (1534/1587)
+23:14:49 Created .... /media/sda1/00001535.bkt, (1535/1587)
+23:14:49 Created .... /media/sda1/00001536.bkt, (1536/1587)
+23:14:49 Created .... /media/sda1/00001537.bkt, (1537/1587)
+23:14:49 Created .... /media/sda1/00001538.bkt, (1538/1587)
+23:14:49 Created .... /media/sda1/00001539.bkt, (1539/1587)
+23:14:49 Created .... /media/sda1/00001540.bkt, (1540/1587)
+23:14:49 Created .... /media/sda1/00001541.bkt, (1541/1587)
+23:14:49 Created .... /media/sda1/00001542.bkt, (1542/1587)
+23:14:49 Created .... /media/sda1/00001543.bkt, (1543/1587)
+23:14:49 Created .... /media/sda1/00001544.bkt, (1544/1587)
+23:14:49 Created .... /media/sda1/00001545.bkt, (1545/1587)
+23:14:49 Created .... /media/sda1/00001546.bkt, (1546/1587)
+23:14:49 Created .... /media/sda1/00001547.bkt, (1547/1587)
+23:14:49 Created .... /media/sda1/00001548.bkt, (1548/1587)
+23:14:49 Created .... /media/sda1/00001549.bkt, (1549/1587)
+23:14:49 Created .... /media/sda1/00001550.bkt, (1550/1587)
+23:14:49 Created .... /media/sda1/00001551.bkt, (1551/1587)
+23:14:49 Created .... /media/sda1/00001552.bkt, (1552/1587)
+23:14:49 Created .... /media/sda1/00001553.bkt, (1553/1587)
+23:14:49 Created .... /media/sda1/00001554.bkt, (1554/1587)
+23:14:49 Created .... /media/sda1/00001555.bkt, (1555/1587)
+23:14:49 Created .... /media/sda1/00001556.bkt, (1556/1587)
+23:14:49 Created .... /media/sda1/00001557.bkt, (1557/1587)
+23:14:49 Created .... /media/sda1/00001558.bkt, (1558/1587)
+23:14:49 Created .... /media/sda1/00001559.bkt, (1559/1587)
+23:14:49 Created .... /media/sda1/00001560.bkt, (1560/1587)
+23:14:49 Created .... /media/sda1/00001561.bkt, (1561/1587)
+23:14:49 Created .... /media/sda1/00001562.bkt, (1562/1587)
+23:14:49 Created .... /media/sda1/00001563.bkt, (1563/1587)
+23:14:49 Created .... /media/sda1/00001564.bkt, (1564/1587)
+23:14:49 Created .... /media/sda1/00001565.bkt, (1565/1587)
+23:14:49 Created .... /media/sda1/00001566.bkt, (1566/1587)
+23:14:49 Created .... /media/sda1/00001567.bkt, (1567/1587)
+23:14:49 Created .... /media/sda1/00001568.bkt, (1568/1587)
+23:14:49 Created .... /media/sda1/00001569.bkt, (1569/1587)
+23:14:49 Created .... /media/sda1/00001570.bkt, (1570/1587)
+23:14:49 Created .... /media/sda1/00001571.bkt, (1571/1587)
+23:14:49 Created .... /media/sda1/00001572.bkt, (1572/1587)
+23:14:49 Created .... /media/sda1/00001573.bkt, (1573/1587)
+23:14:49 Created .... /media/sda1/00001574.bkt, (1574/1587)
+23:14:49 Created .... /media/sda1/00001575.bkt, (1575/1587)
+23:14:49 Created .... /media/sda1/00001576.bkt, (1576/1587)
+23:14:49 Created .... /media/sda1/00001577.bkt, (1577/1587)
+23:14:49 Created .... /media/sda1/00001578.bkt, (1578/1587)
+23:14:49 Created .... /media/sda1/00001579.bkt, (1579/1587)
+23:14:49 Created .... /media/sda1/00001580.bkt, (1580/1587)
+23:14:49 Created .... /media/sda1/00001581.bkt, (1581/1587)
+23:14:49 Created .... /media/sda1/00001582.bkt, (1582/1587)
+23:14:49 Created .... /media/sda1/00001583.bkt, (1583/1587)
+23:14:49 Created .... /media/sda1/00001584.bkt, (1584/1587)
+23:14:49 Created .... /media/sda1/00001585.bkt, (1585/1587)
+23:14:49 Created .... /media/sda1/00001586.bkt, (1586/1587)
+23:14:49 Created .... /media/sda1/00001587.bkt, (1587/1587)
+ [m3vpss ] BLAKE_1_AVSYNC:WallTime IGNORE Unexpected Discontinuity.PrevTs[159071]/CurTs[0]
+23:14:53 <AgentRecall> Check 2013/10/31 23:14:53
+23:14:53 #### BKTREC_getTargetDisk
+23:14:53 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:53 ================================================================ Begin, mp.cnt = 1
+23:14:53        Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:53 ================================================================ End, mp.cnt = 1
+23:14:53 gbkt_mount_info.hddInfo[0].isMounted = 1
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+23:14:53 gbkt_mount_info.hddInfo[1].isMounted = 0
+23:14:53 gbkt_mount_info.hddInfo[2].isMounted = 0
+23:14:53 gbkt_mount_info.hddInfo[3].isMounted = 0
+23:14:53 ================================================================ Save topmgr.udf
+23:14:53 open /media/sda1/topmgr.udf
+23:14:53                Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:53 SAVE topmgr.udf ok
+23:14:53 ================================================================ Save topmgr.udf
+23:14:53 gbkt_mount_info.hddCnt = 1
+23:14:53 =================================================
+23:14:53          UPDATE MULTI-HDD INFORMATION            
+23:14:53 =================================================
+23:14:53  IDX      Date            Path       Prev   Next 
+23:14:53 =================================================
+23:14:53 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+23:14:53 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:53 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:53 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:53 =================================================
+23:14:53 
+23:14:53 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+23:14:53 
+23:14:53 =================================================
+23:14:53            GET TARGET DISK INFORMATION           
+23:14:53 =================================================
+23:14:53   IDX        Path  
+23:14:53 =================================================
+23:14:53    00     /media/sda1
+23:14:53 =================================================
+23:14:53 
+23:14:53 app: basket creation ... done 1587
+23:14:53 <Format> ==================================================================== Basket Create End, 12 Secs
+23:14:53 <LIB816x_setRecChannel> ch(0) enable(1) mode(1) audio(0) IPNC1
+23:14:53 WriterEnableChSave (0, 1, 1, 0, IPNC1) is_basket_opened(0)
+23:14:53 <WriterEnableChSave> WriterUpdateMountInfo
+23:14:53 #### BKTREC_getTargetDisk
+23:14:53 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:53 ================================================================ Begin, mp.cnt = 1
+23:14:53        Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:53 ================================================================ End, mp.cnt = 1
+23:14:53 gbkt_mount_info.hddInfo[0].isMounted = 1
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+23:14:54 gbkt_mount_info.hddInfo[1].isMounted = 0
+23:14:54 gbkt_mount_info.hddInfo[2].isMounted = 0
+23:14:54 gbkt_mount_info.hddInfo[3].isMounted = 0
+23:14:54 ================================================================ Save topmgr.udf
+23:14:54 open /media/sda1/topmgr.udf
+23:14:54                Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:54 SAVE topmgr.udf ok
+23:14:54 ================================================================ Save topmgr.udf
+23:14:54 gbkt_mount_info.hddCnt = 1
+23:14:54 =================================================
+23:14:54          UPDATE MULTI-HDD INFORMATION            
+23:14:54 =================================================
+23:14:54  IDX      Date            Path       Prev   Next 
+23:14:54 =================================================
+23:14:54 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+23:14:54 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:54 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:54 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:54 =================================================
+23:14:54 
+23:14:54 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+23:14:54 
+23:14:54 =================================================
+23:14:54            GET TARGET DISK INFORMATION           
+23:14:54 =================================================
+23:14:54   IDX        Path  
+23:14:54 =================================================
+23:14:54    00     /media/sda1
+23:14:54 =================================================
+23:14:54 
+23:14:54 #### BKTREC_open
+23:14:54 #### BKTREC_setTargetDisk
+23:14:54 #### BKTREC_get_count
+23:14:54 #### BKTREC_searchBasket
+23:14:54 #### BKTREC_searchUsingBasket
+23:14:54 **** There is no /media/sda1/bkt_rec_info.udf file.
+23:14:54 #### BKTREC_searchStoppedBasket
+23:14:54 **** There is no /media/sda1/bkt_rec_info.udf file.
+23:14:54 #### BKTREC_searchEmptyBasket
+23:14:54 (EMPTY) <BKTREC_searchEmptyBasket> found empty basket id:00000001, path:/media/sda1/00000001
+23:14:54 BKTREC_searchBasket, path(/media/sda1/00000001) bid(1) saveflag(0)
+23:14:54 path_bkt = /media/sda1/00000001.bkt
+23:14:54 path_idx = /media/sda1/00000001.idx
+23:14:54 #### BKTREC_setBasketStatus
+23:14:54 #### BKTREC_setBasketRecinfo
+23:14:54 Succeeded open basket for rec, BKT:/media/sda1/00000001.bkt, IDX:/media/sda1/00000001.idx
+23:14:54 recorder_start_rec... basket open success..
+23:14:54 <WriterEnableChSave> ch[00] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (0) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(1) enable(1) mode(1) audio(0) IPNC2
+23:14:54 WriterEnableChSave (1, 1, 1, 0, IPNC2) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[01] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (1) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(2) enable(1) mode(1) audio(0) IPNC3
+23:14:54 WriterEnableChSave (2, 1, 1, 0, IPNC3) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[02] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (2) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(3) enable(1) mode(1) audio(0) IPNC4
+23:14:54 WriterEnableChSave (3, 1, 1, 0, IPNC4) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[03] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (3) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(4) enable(1) mode(1) audio(0) IPNC5
+23:14:54 WriterEnableChSave (4, 1, 1, 0, IPNC5) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[04] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (4) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(5) enable(1) mode(1) audio(0) IPNC6
+23:14:54 WriterEnableChSave (5, 1, 1, 0, IPNC6) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[05] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (5) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(6) enable(1) mode(1) audio(0) IPNC7
+23:14:54 WriterEnableChSave (6, 1, 1, 0, IPNC7) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[06] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (6) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(7) enable(1) mode(1) audio(0) IPNC8
+23:14:54 WriterEnableChSave (7, 1, 1, 0, IPNC8) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[07] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (7) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(8) enable(1) mode(1) audio(0) IPNC9
+23:14:54 WriterEnableChSave (8, 1, 1, 0, IPNC9) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[08] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (8) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(9) enable(1) mode(1) audio(0) IPNC10
+23:14:54 WriterEnableChSave (9, 1, 1, 0, IPNC10) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[09] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (9) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(10) enable(1) mode(1) audio(0) IPNC11
+23:14:54 WriterEnableChSave (10, 1, 1, 0, IPNC11) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[10] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (10) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(11) enable(1) mode(1) audio(0) IPNC12
+23:14:54 WriterEnableChSave (11, 1, 1, 0, IPNC12) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[11] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (11) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(12) enable(1) mode(1) audio(0) IPNC13
+23:14:54 WriterEnableChSave (12, 1, 1, 0, IPNC13) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[12] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (12) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(13) enable(1) mode(1) audio(0) IPNC14
+23:14:54 WriterEnableChSave (13, 1, 1, 0, IPNC14) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[13] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (13) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(14) enable(1) mode(1) audio(0) IPNC15
+23:14:54 WriterEnableChSave (14, 1, 1, 0, IPNC15) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[14] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (14) enable 1080P
+23:14:54 <LIB816x_setRecChannel> ch(15) enable(1) mode(1) audio(0) IPNC16
+23:14:54 WriterEnableChSave (15, 1, 1, 0, IPNC16) is_basket_opened(1)
+23:14:54 <WriterEnableChSave> ch[15] enable[1]
+23:14:54  Why Set To 0 Again
+23:14:54 <WriterEnableChSave> (15) enable 1080P
+23:14:54 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (0) IP(192.168.22.85) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(192.168.22.85) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (1) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (1) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (2) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (2) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 =========       IPCAM HTTP OPEN:0 !! ======================
+23:14:54 <Http_Open> Main.0. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:0 !! ======================
+23:14:54 <Http_Open> Sub.0. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:1 !! ======================
+23:14:54 <Http_Open> Main.1. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:1 !! ======================
+23:14:54 <Http_Open> Sub.1. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:2 !! ======================
+23:14:54 <Http_Open> Main.2. Login:Password = admin:1111
+23:14:54 <LiveView> (3) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (3) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (4) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (4) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (5) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (5) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (6) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (6) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (7) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (7) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (8) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (8) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (9) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (9) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (10) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (10) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (11) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (11) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (12) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (12) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (13) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (13) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (14) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:54 <LiveView> (0) 192.168.22.85:80 TI-IPCAM bountary [boundarymediastream] Main
+23:14:55 <LiveView> Main.0 Type(1) 192.168.22.85:80 Started
+<dvrmain_event_callback> Ignore This Event Ch(0) Type(192.168.22.85:80 )
+23:14:54 =========       IPCAM HTTP OPEN:13 !! ======================
+23:14:55 <Http_Open> Sub.13. Login:Password = admin:1111
+23:14:54 <LiveView> (0) 192.168.22.85:80 TI-IPCAM bountary [boundarymediastream] Sub
+23:14:55 <LiveView> Sub.0 Type(1) 192.168.22.85:80 Started
+<dvrmain_event_callback> Ignore This Event Ch(0) Type(192.168.22.85:80 )
+23:14:54 =========       IPCAM HTTP OPEN:2 !! ======================
+23:14:55 <Http_Open> Sub.2. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:3 !! ======================
+23:14:55 <Http_Open> Main.3. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:3 !! ======================
+23:14:55 <Http_Open> Sub.3. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:4 !! ======================
+23:14:55 <Http_Open> Main.4. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:4 !! ======================
+23:14:55 <Http_Open> Sub.4. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:5 !! ======================
+23:14:55 <Http_Open> Main.5. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:5 !! ======================
+23:14:55 <Http_Open> Sub.5. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:6 !! ======================
+23:14:55 <Http_Open> Main.6. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:6 !! ======================
+23:14:55 <Http_Open> Sub.6. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:7 !! ======================
+23:14:55 <Http_Open> Main.7. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:7 !! ======================
+23:14:55 <Http_Open> Sub.7. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:8 !! ======================
+23:14:55 <Http_Open> Main.8. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:8 !! ======================
+23:14:55 <Http_Open> Sub.8. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:9 !! ======================
+23:14:55 <Http_Open> Main.9. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:9 !! ======================
+23:14:55 <Http_Open> Sub.9. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:10 !! ======================
+23:14:55 <Http_Open> Main.10. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:10 !! ======================
+23:14:55 <Http_Open> Sub.10. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:11 !! ======================
+23:14:55 <Http_Open> Main.11. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:11 !! ======================
+23:14:55 <Http_Open> Sub.11. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:12 !! ======================
+23:14:55 <Http_Open> Main.12. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:12 !! ======================
+23:14:55 <Http_Open> Sub.12. Login:Password = admin:1111
+23:14:54 =========       IPCAM HTTP OPEN:13 !! ======================
+23:14:55 <Http_Open> Main.13. Login:Password = admin:1111
+23:14:55 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+23:14:55 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+23:14:55 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+23:14:55 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+23:14:55 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+23:14:55 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+23:14:55 <LiveView> (14) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:55 <LiveView> (15) IP(0.0.0.0) Port(80) Show(0) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+23:14:55 <LiveView> (15) IP(0.0.0.0) Port(80) Show(1) FREQUENCY(0) Disable ---> IP(0.0.0.0) Port(80) Port1(80) Show(1) FREQUENCY(0) Enable 
+plughw:0,0: underrun !!!
+23:14:55 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:55 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:55 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:55 =========       IPCAM HTTP OPEN:14 !! ======================
+23:14:55 <Http_Open> Main.14. Login:Password = admin:1111
+23:14:55 =========       IPCAM HTTP OPEN:14 !! ======================
+23:14:55 <Http_Open> Sub.14. Login:Password = admin:1111
+23:14:55 =========       IPCAM HTTP OPEN:15 !! ======================
+23:14:55 <Http_Open> Main.15. Login:Password = admin:1111
+23:14:55 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+23:14:55 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+23:14:55 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:55 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ LIB816x_disk_info() 
+23:14:55 ####  DVR_GetDiskInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:55 <DVR_CheckHddDependency> Current Hdd Index = 0
+23:14:55 <DVR_CheckHddDependency> Check /media/sda1
+23:14:55 <DVR_CheckHddDependency> count(1) loss(0)
+23:14:55 #### BKTREC_getTargetDisk
+23:14:55 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:55 ================================================================ Begin, mp.cnt = 1
+23:14:55        Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:55 ================================================================ End, mp.cnt = 1
+23:14:55 gbkt_mount_info.hddInfo[0].isMounted = 1
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+23:14:55 =========       IPCAM HTTP OPEN:15 !! ======================
+23:14:55 <Http_Open> Sub.15. Login:Password = admin:1111
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+23:14:55 gbkt_mount_info.hddInfo[1].isMounted = 0
+23:14:55 gbkt_mount_info.hddInfo[2].isMounted = 0
+23:14:55 gbkt_mount_info.hddInfo[3].isMounted = 0
+23:14:55 ================================================================ Save topmgr.udf
+23:14:55 open /media/sda1/topmgr.udf
+23:14:55                Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:55 SAVE topmgr.udf ok
+23:14:55 ================================================================ Save topmgr.udf
+23:14:55 gbkt_mount_info.hddCnt = 1
+23:14:55 =================================================
+23:14:55          UPDATE MULTI-HDD INFORMATION            
+23:14:55 =================================================
+23:14:55  IDX      Date            Path       Prev   Next 
+23:14:55 =================================================
+23:14:55 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+23:14:55 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:55 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:55 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:55 =================================================
+23:14:55 
+23:14:55 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+23:14:55 
+23:14:55 =================================================
+23:14:55            GET TARGET DISK INFORMATION           
+23:14:55 =================================================
+23:14:55   IDX        Path  
+23:14:55 =================================================
+23:14:55    00     /media/sda1
+23:14:55 =================================================
+23:14:55 
+23:14:55 #### BKTREC_getTargetDisk
+23:14:55 #### BKTREC_updateHddInfo
+
+ <App Dvr Disk> Line:720, File:app_Dvr_Disk.c 
+really have partions!
+
+ <Get_QV_DfInfo> Line:434 mp->dev:/dev/sda1, mp->dir:/media/sda1 
+23:14:55 ================================================================ Begin, mp.cnt = 1
+23:14:55        Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:55 ================================================================ End, mp.cnt = 1
+23:14:55 gbkt_mount_info.hddInfo[0].isMounted = 1
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+23:14:55 gbkt_mount_info.hddInfo[1].isMounted = 0
+23:14:55 gbkt_mount_info.hddInfo[2].isMounted = 0
+23:14:55 gbkt_mount_info.hddInfo[3].isMounted = 0
+23:14:55 ================================================================ Save topmgr.udf
+23:14:55 open /media/sda1/topmgr.udf
+23:14:55                Hdd(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1)
+23:14:55 SAVE topmgr.udf ok
+23:14:55 ================================================================ Save topmgr.udf
+23:14:55 gbkt_mount_info.hddCnt = 1
+23:14:55 =================================================
+23:14:55          UPDATE MULTI-HDD INFORMATION            
+23:14:55 =================================================
+23:14:55  IDX      Date            Path       Prev   Next 
+23:14:55 =================================================
+23:14:55 Hdd(0) Mount(1) Pre(0) Next(0) Format(2013/10/31 23:14:41) UsedSize(217784) Path(/media/sda1) Model(WDC) SerialNO(WD-WCC4J5DFE7XS)
+23:14:55 Hdd(1) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:55 Hdd(2) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:55 Hdd(3) Mount(0) Pre(0) Next(0) Format(1970/01/01 00:00:00) UsedSize(0) Path() Model() SerialNO()
+23:14:55 =================================================
+23:14:55 
+23:14:55 <hddmgr.udf> CurId(0) NexId(0) HddCnt(1)
+23:14:55 
+23:14:55 =================================================
+23:14:55            GET TARGET DISK INFORMATION           
+23:14:55 =================================================
+23:14:55   IDX        Path  
+23:14:55 =================================================
+23:14:55    00     /media/sda1
+23:14:55 =================================================
+23:14:55 
+23:14:55  mp(/media/sda1) == mount(/media/sda1)
+23:14:55 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+23:14:55 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+23:14:55 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+23:14:55 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+23:14:55 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:55 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+================================== dev 0 
+        dev: /dev/sda1
+        dir : /media/sda1
+        model : WDC WD10PURX-64D85Y0    state : 3
+        type : ext4
+        sz_total : 975956
+        sz_avail : 926932
+        sz_used  : 212
+        rec used : 1
+================================== dev 0 
+rfs type : 0
+23:14:56 <DVR_GetCurrentHddSerialNo> Current Hdd Index = 0, SerialNo:[WD-WCC4J5DFE7XS]
+<LIB816x_GetHddModel> Model Name:[WDC WD10PURX-64D85Y0]
+<LIB816x_GetHddSerialNO> serialNo:[WD-WCC4J5DFE7XS]
+<<<LIB816x_GetHddSmartInfo>>> SmartInfo:PASSED
+<DVR_HddIdxMapper> dirPath=2107780, diskIndex=0
+23:14:56 #### BKTREC_PerHddBasketInfo
+23:14:56 Hdd(00)        Basket(01587)   Path(/media/sda1/bktmgr.udf)
+23:14:56 #### BKTREC_TotalBasketInfo
+23:14:56 
+23:14:56 =================================================
+23:14:56               GET BASKET INFORMATION             
+23:14:56 =================================================
+23:14:56 Hdd(00)        Basket(01587)   Path(/media/sda1/bktmgr.udf)
+23:14:56 =================================================
+23:14:56 TotalCount(01587)      CurrIdx(00)     CurrCount(01587)
+23:14:56 =================================================
+23:14:56 
+23:14:56 <DVR_CheckHddDependency> Current Hdd Index = 0
+23:14:56 <DVR_CheckHddDependency> Check /media/sda1
+23:14:56 <DVR_CheckHddDependency> count(1) loss(0)
+23:14:56 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+23:14:56 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+23:14:56 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+23:14:56 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+23:14:56 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+23:14:56 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+23:14:56 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:56 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+23:14:56 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+23:14:56 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:56 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:56 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 =========       IPCAM HTTP OPEN:1 !! ======================
+23:14:57 <Http_Open> Main.1. Login:Password = admin:1111
+23:14:57 =========       IPCAM HTTP OPEN:2 !! ======================
+23:14:57 <Http_Open> Main.2. Login:Password = admin:1111
+23:14:57 =========       IPCAM HTTP OPEN:1 !! ======================
+23:14:57 <Http_Open> Sub.1. Login:Password = admin:1111
+23:14:57 =========       IPCAM HTTP OPEN:13 !! ======================
+23:14:57 <Http_Open> Sub.13. Login:Password = admin:1111
+23:14:57 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+23:14:57 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+23:14:57 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+23:14:57 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+23:14:57 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+23:14:57 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+23:14:57 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+23:14:57 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+23:14:57 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+23:14:57 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+23:14:57 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+23:14:57 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+23:14:57 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+23:14:57 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+23:14:57 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:57 =========       IPCAM HTTP OPEN:3 !! ======================
+23:14:57 <Http_Open> Main.3. Login:Password = admin:1111
+23:14:57 =========       IPCAM HTTP OPEN:2 !! ======================
+23:14:57 <Http_Open> Sub.2. Login:Password = admin:1111
+23:14:58 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> (14) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> (14) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Sub.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> Main.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (11) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (10) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (10) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Main.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (9) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> Sub.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (9) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Main.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> Sub.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> Main.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+23:14:58 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+23:14:58 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:58 =========       IPCAM HTTP OPEN:5 !! ======================
+23:14:58 <Http_Open> Main.5. Login:Password = admin:1111
+23:14:58 =========       IPCAM HTTP OPEN:4 !! ======================
+23:14:58 <Http_Open> Sub.4. Login:Password = admin:1111
+23:14:58 =========       IPCAM HTTP OPEN:4 !! ======================
+23:14:58 <Http_Open> Main.4. Login:Password = admin:1111
+23:14:58 =========       IPCAM HTTP OPEN:3 !! ======================
+23:14:58 <Http_Open> Sub.3. Login:Password = admin:1111
+23:14:58 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+23:14:58 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+23:14:58 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:59 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+23:14:59 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+23:14:59 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+23:14:59 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+23:14:59 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+23:14:59 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+23:14:59 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:59 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:59 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:14:59 =========       IPCAM HTTP OPEN:8 !! ======================
+23:14:59 <Http_Open> Sub.8. Login:Password = admin:1111
+23:14:59 =========       IPCAM HTTP OPEN:8 !! ======================
+23:14:59 <Http_Open> Main.8. Login:Password = admin:1111
+23:14:59 =========       IPCAM HTTP OPEN:7 !! ======================
+23:14:59 <Http_Open> Sub.7. Login:Password = admin:1111
+23:14:59 =========       IPCAM HTTP OPEN:7 !! ======================
+23:14:59 <Http_Open> Main.7. Login:Password = admin:1111
+23:14:59 =========       IPCAM HTTP OPEN:6 !! ======================
+23:14:59 <Http_Open> Sub.6. Login:Password = admin:1111
+23:14:59 =========       IPCAM HTTP OPEN:6 !! ======================
+23:14:59 <Http_Open> Main.6. Login:Password = admin:1111
+23:14:59 =========       IPCAM HTTP OPEN:5 !! ======================
+23:14:59 <Http_Open> Sub.5. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:15 !! ======================
+23:15:00 <Http_Open> Main.15. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:14 !! ======================
+23:15:00 <Http_Open> Sub.14. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:14 !! ======================
+23:15:00 <Http_Open> Main.14. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:13 !! ======================
+23:15:00 <Http_Open> Main.13. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:12 !! ======================
+23:15:00 <Http_Open> Sub.12. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:12 !! ======================
+23:15:00 <Http_Open> Main.12. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:11 !! ======================
+23:15:00 <Http_Open> Sub.11. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:11 !! ======================
+23:15:00 <Http_Open> Main.11. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:10 !! ======================
+23:15:00 <Http_Open> Sub.10. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:10 !! ======================
+23:15:00 <Http_Open> Main.10. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:9 !! ======================
+23:15:00 <Http_Open> Sub.9. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:9 !! ======================
+23:15:00 <Http_Open> Main.9. Login:Password = admin:1111
+23:15:00 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+23:15:00 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+23:15:00 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:00 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+23:15:00 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+23:15:00 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+23:15:00 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+23:15:00 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:00 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:00 =========       IPCAM HTTP OPEN:1 !! ======================
+23:15:00 <Http_Open> Main.1. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:15 !! ======================
+23:15:00 <Http_Open> Sub.15. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:2 !! ======================
+23:15:00 <Http_Open> Sub.2. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:3 !! ======================
+23:15:00 <Http_Open> Main.3. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:13 !! ======================
+23:15:00 <Http_Open> Sub.13. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:1 !! ======================
+23:15:00 <Http_Open> Sub.1. Login:Password = admin:1111
+23:15:00 =========       IPCAM HTTP OPEN:2 !! ======================
+23:15:00 <Http_Open> Main.2. Login:Password = admin:1111
+23:15:00 <DVR_CheckHddDependency> Current Hdd Index = 0
+23:15:00 <DVR_CheckHddDependency> Check /media/sda1
+23:15:00 <DVR_CheckHddDependency> count(1) loss(0)
+23:15:00 =========       IPCAM HTTP OPEN:5 !! ======================
+23:15:00 <Http_Open> Main.5. Login:Password = admin:1111
+23:15:01 =========       IPCAM HTTP OPEN:4 !! ======================
+23:15:01 <Http_Open> Main.4. Login:Password = admin:1111
+23:15:01 =========       IPCAM HTTP OPEN:4 !! ======================
+23:15:01 <Http_Open> Sub.4. Login:Password = admin:1111
+23:15:01 =========       IPCAM HTTP OPEN:3 !! ======================
+23:15:01 <Http_Open> Sub.3. Login:Password = admin:1111
+23:15:01 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+23:15:01 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+23:15:01 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+23:15:01 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+23:15:01 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+23:15:01 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+23:15:01 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:01 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+23:15:01 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+23:15:01 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:01 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:01 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:01 <AgentRecall> Check 2013/10/31 23:15:01
+23:15:02 =========       IPCAM HTTP OPEN:8 !! ======================
+23:15:02 <Http_Open> Sub.8. Login:Password = admin:1111
+23:15:02 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (14) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (14) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> Main.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> Sub.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 =========       IPCAM HTTP OPEN:7 !! ======================
+23:15:02 <Http_Open> Sub.7. Login:Password = admin:1111
+23:15:02 =========       IPCAM HTTP OPEN:8 !! ======================
+23:15:02 <Http_Open> Main.8. Login:Password = admin:1111
+23:15:02 <UPDATER> 192.168.22.85:80 admin:password = admin:admin
+23:15:02 ===============admin:admin===============================
+23:15:02 
+ <Updater_SendCommand> TIMING SYNC IPCAM PARAS 
+23:15:02 command = GET /vb.htm?alarmenable=0&motionenable=0&motioncenable=0&motionsensitivity=0&motionblock=0&framerate1=23&bitrate1=4096&ratecontrol1=2&framerate2=23&bitrate2=512&ratecontrol2=2&VideoGop1=23&VideoGop2=23&VideoResolution1=SXGA&VideoResolution2=VGA&brightness=50&contrast=50&saturation=50&audioenable=1&audioencoding=0&audiosamplerate=0&audiooutvolume=50 HTTP/1.1
+Authorization: Basic YWRtaW46YWRtaW4=
+User-Agent: HTTP Live Transfer Tool
+Accept: */*
+Range: bytes=0-
+Host: 192.168.22.23
+Connection: close
+
+
+23:15:02 ==========================================================
+23:15:02 <UPDATER> 0. 192.168.22.85:80 Send Command OK.............No.(1)
+23:15:02 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (9) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> (9) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (9) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (10) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> Main.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (10) 0.0.0.0:80 404 Error Sub
+23:15:02 **** <LiveView> (10) 0.0.0.0:80 Boundary not found Sub
+23:15:02 **** <LiveView> Sub.9 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> (11) 0.0.0.0:80 404 Error Main
+23:15:02 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Main
+23:15:02 **** <LiveView> Main.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> Sub.10 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:02 **** <LiveView> Main.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> (8) 0.0.0.0:80 404 Error Sub
+23:15:03 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Sub
+23:15:03 **** <LiveView> (3) 0.0.0.0:80 404 Error Sub
+23:15:03 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Sub
+23:15:03 **** <LiveView> (4) 0.0.0.0:80 404 Error Sub
+23:15:03 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Sub
+23:15:03 **** <LiveView> Sub.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> (4) 0.0.0.0:80 404 Error Main
+23:15:03 **** <LiveView> (4) 0.0.0.0:80 Boundary not found Main
+23:15:03 **** <LiveView> Sub.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> (5) 0.0.0.0:80 404 Error Main
+23:15:03 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Main
+23:15:03 **** <LiveView> Sub.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> (8) 0.0.0.0:80 404 Error Main
+23:15:03 **** <LiveView> (8) 0.0.0.0:80 Boundary not found Main
+23:15:03 **** <LiveView> Main.4 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> (7) 0.0.0.0:80 404 Error Sub
+23:15:03 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Sub
+23:15:03 **** <LiveView> Main.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> Main.8 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> Sub.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 =========       IPCAM HTTP OPEN:5 !! ======================
+23:15:03 <Http_Open> Sub.5. Login:Password = admin:1111
+23:15:03 =========       IPCAM HTTP OPEN:6 !! ======================
+23:15:03 <Http_Open> Main.6. Login:Password = admin:1111
+23:15:03 =========       IPCAM HTTP OPEN:6 !! ======================
+23:15:03 <Http_Open> Sub.6. Login:Password = admin:1111
+23:15:03 =========       IPCAM HTTP OPEN:7 !! ======================
+23:15:03 <Http_Open> Main.7. Login:Password = admin:1111
+23:15:03 #### BKTREC_Flush_RDBDATA
+23:15:03 BKTREC_Flush_RDBDATA /media/sda1/rdb/20131031
+23:15:03 Flush To Storage /media/sda1/00000001.bkt /media/sda1/00000001.idx
+23:15:03 **** <LiveView> (5) 0.0.0.0:80 404 Error Sub
+23:15:03 **** <LiveView> (5) 0.0.0.0:80 Boundary not found Sub
+23:15:03 **** <LiveView> Sub.5 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> (6) 0.0.0.0:80 404 Error Sub
+23:15:03 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Sub
+23:15:03 **** <LiveView> (6) 0.0.0.0:80 404 Error Main
+23:15:03 **** <LiveView> (6) 0.0.0.0:80 Boundary not found Main
+23:15:03 **** <LiveView> (7) 0.0.0.0:80 404 Error Main
+23:15:03 **** <LiveView> (7) 0.0.0.0:80 Boundary not found Main
+23:15:03 **** <LiveView> Sub.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> Main.6 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:03 **** <LiveView> Main.7 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:04 =========       IPCAM HTTP OPEN:11 !! ======================
+23:15:04 <Http_Open> Sub.11. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:12 !! ======================
+23:15:04 <Http_Open> Main.12. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:12 !! ======================
+23:15:04 <Http_Open> Sub.12. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:13 !! ======================
+23:15:04 <Http_Open> Main.13. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:14 !! ======================
+23:15:04 <Http_Open> Main.14. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:14 !! ======================
+23:15:04 <Http_Open> Sub.14. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:15 !! ======================
+23:15:04 <Http_Open> Main.15. Login:Password = admin:1111
+23:15:04 **** <LiveView> (11) 0.0.0.0:80 404 Error Sub
+23:15:04 **** <LiveView> (11) 0.0.0.0:80 Boundary not found Sub
+23:15:04 **** <LiveView> Sub.11 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:04 =========       IPCAM HTTP OPEN:2 !! ======================
+23:15:04 <Http_Open> Main.2. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:1 !! ======================
+23:15:04 <Http_Open> Sub.1. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:13 !! ======================
+23:15:04 <Http_Open> Sub.13. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:3 !! ======================
+23:15:04 <Http_Open> Main.3. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:2 !! ======================
+23:15:04 <Http_Open> Sub.2. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:15 !! ======================
+23:15:04 <Http_Open> Sub.15. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:1 !! ======================
+23:15:04 <Http_Open> Main.1. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:9 !! ======================
+23:15:04 <Http_Open> Main.9. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:9 !! ======================
+23:15:04 <Http_Open> Sub.9. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:10 !! ======================
+23:15:04 <Http_Open> Main.10. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:10 !! ======================
+23:15:04 <Http_Open> Sub.10. Login:Password = admin:1111
+23:15:04 =========       IPCAM HTTP OPEN:11 !! ======================
+23:15:04 <Http_Open> Main.11. Login:Password = admin:1111
+23:15:05 **** <LiveView> (12) 0.0.0.0:80 404 Error Sub
+23:15:05 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Sub
+23:15:05 **** <LiveView> (12) 0.0.0.0:80 404 Error Main
+23:15:05 **** <LiveView> (12) 0.0.0.0:80 Boundary not found Main
+23:15:05 **** <LiveView> Sub.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:05 **** <LiveView> Main.12 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:05 =========       IPCAM HTTP OPEN:8 !! ======================
+23:15:05 <Http_Open> Sub.8. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:3 !! ======================
+23:15:05 <Http_Open> Sub.3. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:4 !! ======================
+23:15:05 <Http_Open> Sub.4. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:4 !! ======================
+23:15:05 <Http_Open> Main.4. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:5 !! ======================
+23:15:05 <Http_Open> Main.5. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:8 !! ======================
+23:15:05 <Http_Open> Main.8. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:7 !! ======================
+23:15:05 <Http_Open> Sub.7. Login:Password = admin:1111
+23:15:05 **** <LiveView> (15) 0.0.0.0:80 404 Error Main
+23:15:05 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Main
+23:15:05 **** <LiveView> (14) 0.0.0.0:80 404 Error Sub
+23:15:05 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Sub
+23:15:05 **** <LiveView> (14) 0.0.0.0:80 404 Error Main
+23:15:05 **** <LiveView> (14) 0.0.0.0:80 Boundary not found Main
+23:15:05 **** <LiveView> Main.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:05 **** <LiveView> Sub.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:05 **** <LiveView> (13) 0.0.0.0:80 404 Error Main
+23:15:05 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Main
+23:15:05 **** <LiveView> Main.14 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:05 **** <LiveView> Main.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:05 =========       IPCAM HTTP OPEN:5 !! ======================
+23:15:05 <Http_Open> Sub.5. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:6 !! ======================
+23:15:05 <Http_Open> Sub.6. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:6 !! ======================
+23:15:05 <Http_Open> Main.6. Login:Password = admin:1111
+23:15:05 =========       IPCAM HTTP OPEN:7 !! ======================
+23:15:05 <Http_Open> Main.7. Login:Password = admin:1111
+23:15:05 **** <LiveView> (2) 0.0.0.0:80 404 Error Main
+23:15:05 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Main
+23:15:05 **** <LiveView> Main.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:06 **** <LiveView> (1) 0.0.0.0:80 404 Error Main
+23:15:06 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Main
+23:15:06 **** <LiveView> Main.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:06 **** <LiveView> (15) 0.0.0.0:80 404 Error Sub
+23:15:06 **** <LiveView> (15) 0.0.0.0:80 Boundary not found Sub
+23:15:06 **** <LiveView> (2) 0.0.0.0:80 404 Error Sub
+23:15:06 **** <LiveView> (2) 0.0.0.0:80 Boundary not found Sub
+23:15:06 **** <LiveView> (3) 0.0.0.0:80 404 Error Main
+23:15:06 **** <LiveView> (3) 0.0.0.0:80 Boundary not found Main
+23:15:06 **** <LiveView> Sub.15 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:06 **** <LiveView> (13) 0.0.0.0:80 404 Error Sub
+23:15:06 **** <LiveView> (13) 0.0.0.0:80 Boundary not found Sub
+23:15:06 **** <LiveView> Sub.2 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:06 **** <LiveView> (1) 0.0.0.0:80 404 Error Sub
+23:15:06 **** <LiveView> (1) 0.0.0.0:80 Boundary not found Sub
+23:15:06 **** <LiveView> Main.3 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:06 **** <LiveView> Sub.13 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:06 **** <LiveView> Sub.1 Type(0)  0.0.0.0:80 Waiting 2 Sec for Reconnect...
+23:15:06 =========       IPCAM HTTP OPEN:11 !! ======================
+23:15:06 <Http_Open> Sub.11. Login:Password = admin:1111
+23:15:07 =========       IPCAM HTTP OPEN:12 !! ======================
+23:15:07 <Http_Open> Sub.12. Login:Password = admin:1111
+23:15:07 =========       IPCAM HTTP OPEN:12 !! ======================
+23:15:07 <Http_Open> Main.12. Login:Password = admin:1111
+23:15:07 =========       IPCAM HTTP OPEN:15 !! ======================
+23:15:07 <Http_Open> Main.15. Login:Password = admin:1111
+23:15:07 =========       IPCAM HTTP OPEN:14 !! ======================
+23:15:07 <Http_Open> Sub.14. Login:Password = admin:1111
+23:15:07 =========       IPCAM HTTP OPEN:14 !! ======================
+23:15:07 <Http_Open> Main.14. Login:Password = admin:1111
+23:15:07 =
