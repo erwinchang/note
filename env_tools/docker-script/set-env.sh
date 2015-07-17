@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ../script/functions.sh
+. functions.sh
 
 ck=$(check_cross_env)
 
