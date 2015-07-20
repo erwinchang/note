@@ -21,7 +21,7 @@ download_tgz_and_extract "$CROSS_DL_DIR" "$CROSS_ST_DIR" "$HISIV200_TOOLCHAIN_NA
 
 [ "$OK_STATUS" == "1" ] && {
 	echo "download file error"
-	return
+	exit 1
 }
 
 echo "success download and extract file $HISIV200_TOOLCHAIN_NAME -> $CROSS_ST_DIR"
