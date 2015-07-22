@@ -31,8 +31,8 @@ download_file(){
 	local chk="0"
 
 	[ ! -d $file_path ] && mkdir -p $file_path
-	wget --no-check-certificate https://googledrive.com/host/$file_id -O $file_path/$file_name
-	wget --no-check-certificate https://googledrive.com/host/$file_ck_id -O $file_path/$file_name.md5sum
+	[ ! -f $file_patn/$file_name ] && wget --no-check-certificate https://googledrive.com/host/$file_id -O $file_path/$file_name
+	[ ! -f $file_path/$file_name.md5sum ] && wget --no-check-certificate https://googledrive.com/host/$file_ck_id -O $file_path/$file_name.md5sum
 	chk=$(check_file "file_path" "file_name")
 	echo "$chk"
 }
