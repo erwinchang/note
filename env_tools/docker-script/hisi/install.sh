@@ -4,7 +4,7 @@
 
 mkdir -p ./env_tools
 wget --no-check-certificate https://raw.githubusercontent.com/erwinchang/note/master/env_tools/docker-script/functions.sh -O ./env_tools/functions.sh
-chmod +x ./env_tools/function.sh
+chmod +x ./env_tools/functions.sh
 
 wget --no-check-certificate https://raw.githubusercontent.com/erwinchang/note/master/env_tools/docker-script/set-env.sh -O ./env_tools/set-env.sh
 chmod +x ./env_tools/set-env.sh
