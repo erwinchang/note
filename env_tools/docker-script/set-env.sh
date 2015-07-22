@@ -16,12 +16,15 @@ HISIV200_TOOLCHAIN_ID="0ByYIdZcmx_I8VC1ORlZIcUJCQlU"
 HISIV200_TOOLCHAIN_MD5_ID="0ByYIdZcmx_I8S0tLdFFoQXVRd0U"
 HISIV200_TOOLCHAIN_NAME="arm-hisiv200-linux"
 
+if [ ! -f $DL_PATH/$HISIV200_TOOLCHAIN_NAME.tgz ] && [ -f /opt/data/$HISIV200_TOOLCHAIN_NAME.tgz ]; then
+	cp -f /opt/data/$HISIV200_TOOLCHAIN_NAME.tgz $DL_PATH
+fi
 
-download_tgz_and_extract "$CROSS_DL_DIR" "$CROSS_ST_DIR" "$HISIV200_TOOLCHAIN_NAME" "$HISIV200_TOOLCHAIN_ID" "$HISIV200_TOOLCHAIN_MD5_ID"
+download_tgz_and_extract "$DL_PATH" "$STAGE_PATH" "$HISIV200_TOOLCHAIN_NAME" "$HISIV200_TOOLCHAIN_ID" "$HISIV200_TOOLCHAIN_MD5_ID"
 
 [ "$OK_STATUS" == "1" ] && {
 	echo "download file error"
 	exit 1
 }
 
-echo "success download and extract file $HISIV200_TOOLCHAIN_NAME -> $CROSS_ST_DIR"
+echo "success download and extract file $HISIV200_TOOLCHAIN_NAME -> $STAGE_PATH"
