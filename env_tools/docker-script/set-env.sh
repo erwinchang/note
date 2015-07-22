@@ -11,8 +11,8 @@ ck=$(check_cross_env)
 
 DL_PATH="$CROSS_DL_DIR"
 STAGE_PATH="$CROSS_ST_DIR"
-[ ! -d $DL_PATH ] && mkdir $DL_PATH
-[ ! -d $STAGE_PATH ] && mkdir $STAGE_PATH
+[ ! -d $DL_PATH ] && mkdir -p $DL_PATH
+[ ! -d $STAGE_PATH ] && mkdir -p $STAGE_PATH
 
 HISIV200_TOOLCHAIN_ID="0ByYIdZcmx_I8VC1ORlZIcUJCQlU"
 HISIV200_TOOLCHAIN_MD5_ID="0ByYIdZcmx_I8S0tLdFFoQXVRd0U"
