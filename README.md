@@ -3,6 +3,10 @@ note
 
 note
 
+GitHub 資源
+--------------
+* [C 语言资源大全中文版][11]
+
 目前使用手冊
 --------------
 * [Node.js v0.10.41 Manual & Documentation][4]
@@ -38,3 +42,4 @@ note
 [8]:http://www.sqlite.org/cvstrac/wiki?p=HowToCompile
 [9]:http://daydreamer.idv.tw/rewrite.php/read-33.html
 [10]:http://ju.outofmemory.cn/entry/62187
+[11]:https://github.com/jobbole/awesome-c-cn#networking-and-internet
