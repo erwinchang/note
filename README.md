@@ -29,6 +29,8 @@ GitHub 資源
 	* [嵌入式 嵌入式工程师必备软件Valgrind][3]
 * ttysnoop
 	* [ttysnoop][5]
+* QEMU
+	* [Compile Linux, BusyBox for ARM and load it using QEMU][12]
 
 
 
@@ -43,3 +45,4 @@ GitHub 資源
 [9]:http://daydreamer.idv.tw/rewrite.php/read-33.html
 [10]:http://ju.outofmemory.cn/entry/62187
 [11]:https://github.com/jobbole/awesome-c-cn#networking-and-internet
+[12]:https://github.com/surajx/qemu-arm-linux
