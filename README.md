@@ -31,6 +31,9 @@ GitHub 資源
 	* [ttysnoop][5]
 * QEMU
 	* [Compile Linux, BusyBox for ARM and load it using QEMU][12]
+* 影像處理
+	* [OpenALPR is an open source Automatic License Plate Recognition library][13]
+	
 
 
 
@@ -46,3 +49,4 @@ GitHub 資源
 [10]:http://ju.outofmemory.cn/entry/62187
 [11]:https://github.com/jobbole/awesome-c-cn#networking-and-internet
 [12]:https://github.com/surajx/qemu-arm-linux
+[13]:https://github.com/openalpr/openalpr
