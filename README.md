@@ -33,6 +33,9 @@ GitHub 資源
 	* [Compile Linux, BusyBox for ARM and load it using QEMU][12]
 * 影像處理
 	* [OpenALPR is an open source Automatic License Plate Recognition library][13]
+
+* 其它
+	* [NTP, UTC, and Working with Time on Linux][14]
 	
 
 
@@ -50,3 +53,4 @@ GitHub 資源
 [11]:https://github.com/jobbole/awesome-c-cn#networking-and-internet
 [12]:https://github.com/surajx/qemu-arm-linux
 [13]:https://github.com/openalpr/openalpr
+[14]:http://souptonuts.sourceforge.net/README_Working_With_Time.html
