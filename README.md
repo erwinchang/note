@@ -36,6 +36,7 @@ GitHub 資源
 
 * 其它
 	* [NTP, UTC, and Working with Time on Linux][14]
+	* [Sources for Time Zone and Daylight Saving Time Data][15]
 	
 
 
@@ -54,3 +55,4 @@ GitHub 資源
 [12]:https://github.com/surajx/qemu-arm-linux
 [13]:https://github.com/openalpr/openalpr
 [14]:http://souptonuts.sourceforge.net/README_Working_With_Time.html
+[15]:http://www.twinsun.com/tz/tz-link.htm
