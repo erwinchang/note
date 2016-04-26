@@ -43,6 +43,7 @@ OpenWrt
 	* [NTP, UTC, and Working with Time on Linux][14]
 	* [Sources for Time Zone and Daylight Saving Time Data][15]
 	* [POSIX線程(pthread)入門文章分享][16]
+	* [Dell Latitude D410 手提電腦Type Y6142 鋰離子充電池組電路板拆解][18]
 	
 
 
@@ -64,3 +65,4 @@ OpenWrt
 [15]:http://www.twinsun.com/tz/tz-link.htm
 [16]:http://dragonspring.pixnet.net/blog/post/32963482-posix%E7%B7%9A%E7%A8%8B(pthread)%E5%85%A5%E9%96%80%E6%96%87%E7%AB%A0%E5%88%86%E4%BA%AB
 [17]:https://github.com/pepe2k/u-boot_mod
+[18]:http://bugworkshop.blogspot.tw/2016/01/dell-latitude-d410-type-y6142_6.html
