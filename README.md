@@ -6,7 +6,7 @@ note
 網路資源
 --------------
 * [TV Show Transcripts][20]
-
+ * [The Walking Dead][21]
 GitHub 資源
 --------------
 * [C 语言资源大全中文版][11]
@@ -72,3 +72,4 @@ OpenWrt
 [18]:http://bugworkshop.blogspot.tw/2016/01/dell-latitude-d410-type-y6142_6.html
 [19]:https://www.codecademy.com/learn/all
 [20]:http://transcripts.foreverdreaming.org/index.php?sid=46df92464bd81762b3cac4a85eca1264
+[21]:http://transcripts.foreverdreaming.org/viewforum.php?f=15
