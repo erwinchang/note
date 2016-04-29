@@ -7,6 +7,7 @@ note
 --------------
 * [TV Show Transcripts][20]
  * [The Walking Dead][21]
+
 GitHub 資源
 --------------
 * [C 语言资源大全中文版][11]
