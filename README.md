@@ -2,6 +2,9 @@ note
 ====
 
 note
+好文章
+--------------
+* [Being A Developer After 40 (如何在四十歲後繼續從事軟體開發)][22]
 
 網路資源
 --------------
@@ -74,3 +77,4 @@ OpenWrt
 [19]:https://www.codecademy.com/learn/all
 [20]:http://transcripts.foreverdreaming.org/index.php?sid=46df92464bd81762b3cac4a85eca1264
 [21]:http://transcripts.foreverdreaming.org/viewforum.php?f=15
+[22]:http://www.evanlin.com/developer-after-40/
