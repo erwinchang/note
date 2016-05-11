@@ -1,0 +1,6 @@
+git config --global core.autocrlf false
+git config core.filemode false
+export PKG_TOP_DIR=$PWD
+export PKG_CROSS_COMPILE=
+export PKG_TARGET=ubuntu
+source scripts/default_bashrc
