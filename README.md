@@ -34,10 +34,16 @@ OpenWrt
 -------------
 * [U-Boot 1.1.4 modification for routers][17]
 
+
 待了解library
 --------------
 * [libuv][6]
 	* [libuv 与 libev 的对比][10]
+* libuv example
+ * [利用libuv编写异步多线程的addon实例][24]
+ * [uvbook中文][25]
+ * [An Introduction to libuv][26]
+
 * SQLite
 	* [Research and Application of SQLite Embedded Database Based on ARM-Linux ][7]
 	* [sqlite - How To Compile][8]
@@ -89,3 +95,6 @@ OpenWrt
 [21]:http://transcripts.foreverdreaming.org/viewforum.php?f=15
 [22]:http://www.evanlin.com/developer-after-40/
 [23]:http://semver.org/lang/zh-TW/
+[24]:http://snoopyxdy.blog.163.com/blog/static/601174402013422103614385/
+[25]:http://www.nowx.org/uvbook/index.html
+[26]:https://nikhilm.github.io/uvbook/
