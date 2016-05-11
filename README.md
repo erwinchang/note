@@ -88,3 +88,4 @@ OpenWrt
 [20]:http://transcripts.foreverdreaming.org/index.php?sid=46df92464bd81762b3cac4a85eca1264
 [21]:http://transcripts.foreverdreaming.org/viewforum.php?f=15
 [22]:http://www.evanlin.com/developer-after-40/
+[23]:http://semver.org/lang/zh-TW/
