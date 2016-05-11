@@ -1,0 +1,6 @@
+git config --global core.autocrlf false
+git config core.filemode false
+export PKG_TOP_DIR=$PWD
+export PKG_CROSS_COMPILE=arm-hisiv200-linux-
+export PKG_TARGET=hiv200
+source scripts/default_bashrc

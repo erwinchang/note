@@ -1,0 +1,33 @@
+export  LC_ALL="C"
+export  LANG="C"
+
+get_git_since_last_commit() {
+    now=`date +%s`;
+    last_commit=$(git log --pretty=format:%at -1 2> /dev/null) || return;
+    seconds_since_last_commit=$((now-last_commit));
+    minutes_since_last_commit=$((seconds_since_last_commit/60));
+    hours_since_last_commit=$((minutes_since_last_commit/60));
+    minutes_since_last_commit=$((minutes_since_last_commit%60));
+
+    echo "${hours_since_last_commit}h${minutes_since_last_commit}m";
+}
+
+get_underline() {
+	echo "\e[32m""_""\e[39m";
+}
+
+get_git_status() {
+	ref=$(git symbolic-ref HEAD 2> /dev/null) || return;
+	commit_md5=$(git log --pretty=oneline --abbrev-commit -n 1 2> /dev/null);
+	echo "(${ref#refs/heads/}-${commit_md5:0:7})";
+}
+
+get_env_status() {
+	echo "\e[33m[$PKG_TARGET]";
+}
+
+get_ps1() {
+	echo "$(get_env_status)\e[32m\$(get_git_status)\$(get_git_since_last_commit) \e[39m\\u@\\h:[\\W]$ "
+}
+
+PS1="$(get_ps1)"
