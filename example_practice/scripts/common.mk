@@ -1,12 +1,19 @@
-UV_PATH		:= $(PKG_TOP_DIR)/library/libuv/$(LIBUV_V)/build_dir/$(PKG_TARGET)/libuv-$(LIBUV_V)
-UV_SO_PATH 	:= $(UV_PATH)
 
-ifeq (v0.10.36, $(LIBUV_V))
-	UV_SO_PATH	:= $(UV_PATH)
-else
-	UV_SO_PATH	:= $(UV_PATH)/.libs
+
+ifeq (v1.9.0, $(LIBUV_V))
+UV_PATH		:= $(PKG_TOP_DIR)/library/libuv/$(LIBUV_V)/build_dir/$(PKG_TARGET)/libuv-1.9.0
+UV_SO_PATH	:= $(UV_PATH)/.libs
 endif
 
+ifeq (v1.6.1, $(LIBUV_V))
+UV_PATH		:= $(PKG_TOP_DIR)/library/libuv/$(LIBUV_V)/build_dir/$(PKG_TARGET)/libuv-$(LIBUV_V)
+UV_SO_PATH	:= $(UV_PATH)/.libs
+endif
+
+ifeq (v0.10.36, $(LIBUV_V))
+UV_PATH		:= $(PKG_TOP_DIR)/library/libuv/$(LIBUV_V)/build_dir/$(PKG_TARGET)/libuv-$(LIBUV_V)
+UV_SO_PATH	:= $(UV_PATH)
+endif
 
 
 UV_LIBSO	:= $(UV_SO_PATH)/libuv.so
