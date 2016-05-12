@@ -27,6 +27,7 @@ libuv-v1.9.0在hiv200上面遇到問題
  - 目前node gk350a (0.10.43-rc1) ,,使用的libuv 是 0.10.36(Stable)
 
 ```
+
 src/unix/linux-inotify.c:185: note: initialized from here
 src/unix/linux-inotify.c:185: warning: dereferencing pointer '({anonymous})' does break strict-aliasing rules
 src/unix/linux-inotify.c:185: note: initialized from here
@@ -46,9 +47,12 @@ src/unix/internal.h:310: warning: dereferencing type-punned pointer will break s
   CCLD   libuv.la
 make[2]: Leaving directory `/opt/DOCKER-erwin-build-hiv200/workspace/github/note/example_practice/library/libuv/v1.9.0/build_dir/hiv200/libuv-1.9.0'
 make[1]: Leaving directory `/opt/DOCKER-erwin-build-hiv200/workspace/github/note/example_practice/library/libuv/v1.9.0'
+
 ```
 
-```[hiv200](master-0629f4f)10h48m root@92c48df6ab70:[t01_helloworld]$ make
+```
+
+[hiv200](master-0629f4f)10h48m root@92c48df6ab70:[t01_helloworld]$ make
 gcc -c -g -O2 -Wall -I/opt/DOCKER-erwin-build-hiv200/workspace/github/note/example_practice/library/libuv/v1.9.0/build_dir/hiv200/libuv-1.9.0/include main.c -o main.o
 gcc -g -O2 -Wall -I/opt/DOCKER-erwin-build-hiv200/workspace/github/note/example_practice/library/libuv/v1.9.0/build_dir/hiv200/libuv-1.9.0/include -o t01-main    main.o   /opt/DOCKER-er
 win-build-hiv200/workspace/github/note/example_practice/library/libuv/v1.9.0/build_dir/hiv200/libuv-1.9.0/.libs/libuv.a -lrt -ldl -lm -lpthread
