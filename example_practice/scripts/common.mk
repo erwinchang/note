@@ -1,10 +1,22 @@
 UV_PATH		:= $(PKG_TOP_DIR)/library/libuv/$(LIBUV_V)/build_dir/$(PKG_TARGET)/libuv-$(LIBUV_V)
-UV_LIBSO	:= $(UV_PATH)/libuv.so
+UV_SO_PATH 	:= $(UV_PATH)
+
+ifeq (v0.10.36, $(LIBUV_V))
+	UV_SO_PATH	:= $(UV_PATH)
+else
+	UV_SO_PATH	:= $(UV_PATH)/.libs
+endif
+
+
+
+UV_LIBSO	:= $(UV_SO_PATH)/libuv.so
+
 CFLAGS		:= -g -O2 -Wall -I$(UV_PATH)/include
 
 CC			:= $(PKG_CROSS_COMPILE)gcc
 
-LIBS=-L$(UV_PATH) -lrt -lm -lpthread -luv
+LIBS  		+= -lpthread -lm
+LIBS  		+= -L$(UV_SO_PATH) -luv
 
 $(BIN): $(UV_LIBSO) $(OBJS)
 	$(CC) $(CFLAGS) -o $(BIN) $(OBJS) $(LIBS)
