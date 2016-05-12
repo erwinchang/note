@@ -43,6 +43,7 @@ OpenWrt
  * [利用libuv编写异步多线程的addon实例][24]
  * [uvbook中文][25]
  * [An Introduction to libuv][26]
+ * [Simple example webserver using libuv and lua][27]
 
 * SQLite
 	* [Research and Application of SQLite Embedded Database Based on ARM-Linux ][7]
@@ -98,3 +99,4 @@ OpenWrt
 [24]:http://snoopyxdy.blog.163.com/blog/static/601174402013422103614385/
 [25]:http://www.nowx.org/uvbook/index.html
 [26]:https://nikhilm.github.io/uvbook/
+[27]:https://github.com/erikdubbelboer/libuv-lua-http-server
