@@ -6,6 +6,7 @@ libuv library
 * [An Introduction to libuv][3]
 * [Examples were added to show how the API is used.][4]
 * [companycy/libuv-practice][5]
+* [libuv package download][9]
 
 How does libuv compare to Boost/ASIO
 ============
@@ -25,6 +26,7 @@ libuv-v1.9.0在hiv200上面遇到問題
  - [comp script-aliasing ][8]
 - 改用 v0.10.36版本試一下
  - 目前node gk350a (0.10.43-rc1) ,,使用的libuv 是 0.10.36(Stable)
+- [openwrt 使用v1.6.1][10]
 
 ```
 
@@ -69,3 +71,5 @@ generic ELF (EM: 40)
 [6]:http://blog.csdn.net/dulin201004/article/details/7884658
 [7]:http://stackoverflow.com/questions/98650/what-is-the-strict-aliasing-rule
 [8]:http://binlust.blogspot.tw/2006/01/comp-script-aliasing.html
+[9]:http://dist.libuv.org/dist/
+[10]:https://github.com/openwrt/packages/blob/master/libs/libuv/Makefile
