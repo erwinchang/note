@@ -1,5 +1,5 @@
 
-UV_PATH	:= $(PKG_TOP_DIR)/library/libuv/v1.9.0/build_dir/$(PKG_TARGET)/libuv-1.9.0
+UV_PATH	:= $(PKG_TOP_DIR)/library/libuv/v1.6.1/build_dir/$(PKG_TARGET)/libuv-v1.6.1
 UV_LIB	:= $(UV_PATH)/.libs/libuv.a
 CFLAGS	:= -g -O2 -Wall -I$(UV_PATH)/include
 
