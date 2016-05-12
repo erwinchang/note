@@ -1,24 +1,21 @@
+UV_PATH		:= $(PKG_TOP_DIR)/library/libuv/$(LIBUV_V)/build_dir/$(PKG_TARGET)/libuv-$(LIBUV_V)
+UV_LIBSO	:= $(UV_PATH)/libuv.so
+CFLAGS		:= -g -O2 -Wall -I$(UV_PATH)/include
 
-UV_PATH	:= $(PKG_TOP_DIR)/library/libuv/v1.6.1/build_dir/$(PKG_TARGET)/libuv-v1.6.1
-UV_LIB	:= $(UV_PATH)/.libs/libuv.a
-CFLAGS	:= -g -O2 -Wall -I$(UV_PATH)/include
+CC			:= $(PKG_CROSS_COMPILE)gcc
 
-CC		:= $(TARGET_CROSS)gcc
-LD      := $(TARGET_CROSS)gcc
+LIBS=-L$(UV_PATH) -lrt -lm -lpthread -luv
 
-
-LIBS=-lrt -ldl -lm -lpthread
-
-$(BIN): $(UV_LIB) $(OBJS)
-	$(CC) $(CFLAGS) -o $(BIN) $(OBJS) $(UV_LIB) $(LIBS)
-
-$(UV_LIB):
-		pushd $(PKG_TOP_DIR)//library/libuv/v1.9.0;make;popd
+$(BIN): $(UV_LIBSO) $(OBJS)
+	$(CC) $(CFLAGS) -o $(BIN) $(OBJS) $(LIBS)
 
 .c.o:
 	$(CC) -c $(CFLAGS) $< -o $@
 
 clean:
 	rm -f $(BIN) $(OBJS)
+
+$(UV_LIBSO):
+		pushd $(PKG_TOP_DIR)//library/libuv/$(LIBUV_V);make;popd	
 
 .PHONY: all clean
