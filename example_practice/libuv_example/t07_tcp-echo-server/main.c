@@ -3,18 +3,12 @@
 #include <string.h>
 #include <uv.h>
 
+//https://github.com/mrjoes/sockjs-libuv/blob/master/src/client.c
 //https://gist.github.com/loggerhead/06d936286e7f21797826
 #define LOG(fmt, params...) printf("\x1b[33m" fmt "\x1b[0m\n", ## params)
 
 #define DEFAULT_PORT 7000
 #define DEFAULT_BACKLOG 128
-
-#define RESPONSE                   \
-    "HTTP/1.1 200 OK\r\n"          \
-    "Content-Type: text/plain\r\n" \
-    "Content-Length: 12\r\n"       \
-    "\r\n"                         \
-    "hello world\n"
 
 uv_loop_t *loop;
 struct sockaddr_in addr;
@@ -33,6 +27,7 @@ void echo_write(uv_write_t *req, int status) {
 }
 
 void echo_read(uv_stream_t *client, ssize_t nread, const uv_buf_t *buf) {
+    int i;
     LOG("   [echo_read]");
 
     if (nread < 0) {
@@ -40,6 +35,13 @@ void echo_read(uv_stream_t *client, ssize_t nread, const uv_buf_t *buf) {
             fprintf(stderr, "Read error %s\n", uv_err_name(nread));
         uv_close((uv_handle_t*) client, NULL);
     } else if (nread > 0) {
+        /*
+        */
+        printf("nread size:%d\n",nread);
+        printf("buf:\n");
+        for(i=0; i<nread; i++){
+            printf("%c",buf->base[i]);
+        }
         uv_write_t *req = (uv_write_t *) malloc(sizeof(uv_write_t));
         uv_buf_t wrbuf = uv_buf_init(buf->base, nread);
         uv_write(req, client, &wrbuf, 1, echo_write);
