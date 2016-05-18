@@ -29,6 +29,7 @@ GitHub 資源
 目前使用手冊
 --------------
 * [Node.js v0.10.41 Manual & Documentation][4]
+* [Beej's Guide to Network Programming 正體中文版][28]
 
 OpenWrt
 -------------
@@ -100,3 +101,4 @@ OpenWrt
 [25]:http://www.nowx.org/uvbook/index.html
 [26]:https://nikhilm.github.io/uvbook/
 [27]:https://github.com/erikdubbelboer/libuv-lua-http-server
+[28]:http://beej-zhtw.netdpi.net/
