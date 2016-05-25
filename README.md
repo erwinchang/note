@@ -79,6 +79,7 @@ OpenWrt
 * 自制3d printer
  * [Prusa i3 Build Manual][33]
  * [Constructing a 3D Printer [Prusa I3]][34]
+ * [This is Prusa iteration 3][35]
  * [Building a Prusa i3 printer - Wood box frame ][30]
  * [3D printer parts reprap mendel prusa I3 laser cut frame wooden in 6mm plywood free shipping][31]
  * [3D Printers Reprap Mendel Prusa I3 linden wood frame housing an upgraded version of 6mm][32]
@@ -120,3 +121,4 @@ OpenWrt
 [32]:http://www.aliexpress.com/item/3D-Printers-Reprap-Mendel-Prusa-I3-linden-wood-frame-housing-an-upgraded-version-of-6mm/2035074052.html
 [33]:http://reprap.org/wiki/Prusa_i3_Build_Manual
 [34]:http://www.trustfm.net/hardware/3DPrinter.php?page=Frame2
+[35]:https://github.com/josefprusa/Prusa3
