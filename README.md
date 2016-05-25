@@ -72,6 +72,12 @@ OpenWrt
 	* [Sources for Time Zone and Daylight Saving Time Data][15]
 	* [POSIX線程(pthread)入門文章分享][16]
 	* [Dell Latitude D410 手提電腦Type Y6142 鋰離子充電池組電路板拆解][18]
+	* 
+
+3D printer
+-------------
+* 自制3d printer
+ * [Building a Prusa i3 printer - Wood box frame ]
 	
 
 
@@ -105,3 +111,4 @@ OpenWrt
 [27]:https://github.com/erikdubbelboer/libuv-lua-http-server
 [28]:http://beej-zhtw.netdpi.net/
 [29]:https://technet.microsoft.com/en-us/sysinternals/bb897437
+[30]:www.dragonflydiy.com/2010/10/building-prusa-i3-printer-wood-box-frame.html
