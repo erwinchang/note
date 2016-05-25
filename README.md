@@ -77,7 +77,7 @@ OpenWrt
 3D printer
 -------------
 * 自制3d printer
- * [Building a Prusa i3 printer - Wood box frame ]
+ * [Building a Prusa i3 printer - Wood box frame ][30]
 	
 
 
