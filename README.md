@@ -19,6 +19,7 @@ note
   * 每個類別的代碼保持在500行內
   * 在當我們要了解其中一個類別，就必須了解它們全部
  * [程式員求生指南：關於寫程式的二三事][37]
+ * [科技如何劫持人們的心智][38]
 
 網路資源
 --------------
@@ -128,3 +129,4 @@ OpenWrt
 [35]:https://github.com/josefprusa/Prusa3
 [36]:https://tw.twincl.com/programming/*662v
 [37]:https://tw.twincl.com/programming/*652e
+[38]:https://tw.twincl.com/science/*652p
