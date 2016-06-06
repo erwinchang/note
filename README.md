@@ -15,6 +15,9 @@ note
  * 修訂號(Z)：當你做了向下相容的問題修正。
  * 每當主版號遞增時，次版號和修訂號「必須 MUST」歸零。 1.0.0 < 1.1.0 < 2.0.0 < 2.1.0
 ```
+ * [物件導向程式設計：為何說composition優於inheritance？][36]
+  * 每個類別的代碼保持在500行內
+  * 在當我們要了解其中一個類別，就必須了解它們全部
 
 網路資源
 --------------
@@ -122,3 +125,4 @@ OpenWrt
 [33]:http://reprap.org/wiki/Prusa_i3_Build_Manual
 [34]:http://www.trustfm.net/hardware/3DPrinter.php?page=Frame2
 [35]:https://github.com/josefprusa/Prusa3
+[36]:https://tw.twincl.com/programming/*662v
