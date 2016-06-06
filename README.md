@@ -18,6 +18,7 @@ note
  * [物件導向程式設計：為何說composition優於inheritance？][36]
   * 每個類別的代碼保持在500行內
   * 在當我們要了解其中一個類別，就必須了解它們全部
+ * [程式員求生指南：關於寫程式的二三事][37]
 
 網路資源
 --------------
@@ -126,3 +127,4 @@ OpenWrt
 [34]:http://www.trustfm.net/hardware/3DPrinter.php?page=Frame2
 [35]:https://github.com/josefprusa/Prusa3
 [36]:https://tw.twincl.com/programming/*662v
+[37]:https://tw.twincl.com/programming/*652e
