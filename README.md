@@ -32,6 +32,7 @@ GitHub 資源
 --------------
 * [C 语言资源大全中文版][11]
 * [codecademy-線上程式學習網站][19]
+* [中文文案排版指北][39]
 
 目前使用手冊
 --------------
@@ -130,3 +131,4 @@ OpenWrt
 [36]:https://tw.twincl.com/programming/*662v
 [37]:https://tw.twincl.com/programming/*652e
 [38]:https://tw.twincl.com/science/*652p
+[39]:https://github.com/sparanoid/chinese-copywriting-guidelines
