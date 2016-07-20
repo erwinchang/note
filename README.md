@@ -90,8 +90,12 @@ OpenWrt
  * [3D printer parts reprap mendel prusa I3 laser cut frame wooden in 6mm plywood free shipping][31]
  * [3D Printers Reprap Mendel Prusa I3 linden wood frame housing an upgraded version of 6mm][32]
 	
-
-
+電子電路
+-------------
+* 射頻電子
+ * [第一章 知識回顧與通訊系統簡介][40]
+ * [第三章 史密斯圖與阻抗匹配][42]
+ * [第六章 低雜訊放大器設計][41]
 
 [1]:http://shyuanliang.blogspot.tw/2013/08/crosstool-ng-toolchain.html
 [2]:http://wiki.ubuntu.org.cn/Crosstool-ng%E5%88%B6%E4%BD%9C%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E9%93%BE
@@ -132,3 +136,7 @@ OpenWrt
 [37]:https://tw.twincl.com/programming/*652e
 [38]:https://tw.twincl.com/science/*652p
 [39]:https://github.com/sparanoid/chinese-copywriting-guidelines
+
+[40]:http://www.slideshare.net/simenli/ch1-49340800
+[41]:http://www.slideshare.net/simenli/ch6-49340807
+[42]:http://www.slideshare.net/simenli/ch3-49340803
