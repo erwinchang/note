@@ -4,6 +4,9 @@ note
 
 好文章
 --------------
+* [亞馬遜CEO 傑夫．貝佐斯：選擇，比天賦更重要][44]
+ * 有一天你會明白，善良比聰明更難
+ * 你們要做憤世嫉俗者，還是踏實的建設者？
 * [Being A Developer After 40 (如何在四十歲後繼續從事軟體開發)][22]
 * [語意化版本 2.0.0][23]
 
@@ -143,3 +146,4 @@ OpenWrt
 [41]:http://www.slideshare.net/simenli/ch6-49340807
 [42]:http://www.slideshare.net/simenli/ch3-49340803
 [43]:https://www.maximintegrated.com/cn/app-notes/index.mvp/id/742
+[44]:http://www.cheers.com.tw/article/article.action?id=5063792
