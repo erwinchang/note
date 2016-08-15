@@ -31,6 +31,8 @@ Git Blog 學習
 
 網路資源
 --------------
+* [DevDocs combines multiple API documentations in a fast](http://devdocs.io/)
+ * [JavaScript](http://devdocs.io/javascript/)
 * [TV Show Transcripts][20]
  * [The Walking Dead][21]
 * 好工具
