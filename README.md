@@ -26,8 +26,8 @@ note
 
 Git Blog 學習
 --------
-* [vakila][http://vakila.github.io/]
- * [resume][http://vakila.github.io/resume/]
+* [vakila](http://vakila.github.io/)
+ * [resume](http://vakila.github.io/resume/)
 
 網路資源
 --------------
