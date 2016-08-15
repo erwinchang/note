@@ -24,6 +24,11 @@ note
  * [程式員求生指南：關於寫程式的二三事][37]
  * [科技如何劫持人們的心智][38]
 
+Git Blog 學習
+--------
+* [vakila][http://vakila.github.io/]
+ * [resume][http://vakila.github.io/resume/]
+
 網路資源
 --------------
 * [TV Show Transcripts][20]
