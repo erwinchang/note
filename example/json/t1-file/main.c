@@ -40,5 +40,6 @@ int main(void)
     getValByKey(pobj,"iblack");
 
     json_object_to_file("/tmp/t1-new.json",pobj);
+    json_object_put(pobj);
     return 0;
 }
