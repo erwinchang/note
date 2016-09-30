@@ -69,6 +69,7 @@ library -1
 	* [sqlite - How To Compile][8]
 	* [SQLite-麻雀雖小五臟俱全][9]
 * [libATA Developer's Guide][46]	
+ * [How to configure and use libata SATA / PATA drivers][47]
 
 tools -1
 --------------
@@ -161,3 +162,4 @@ tools -1
 
 [45]:https://www.flightradar24.com/23.42,120.25/8
 [46]:https://www.kernel.org/doc/htmldocs/libata/index.html
+[47]:https://www.kernel.org/doc/htmldocs/libata/index.html
