@@ -54,7 +54,7 @@ OpenWrt
 * [U-Boot 1.1.4 modification for routers][17]
 
 
-待了解library
+library -1
 --------------
 * [libuv][6]
 	* [libuv 与 libev 的对比][10]
@@ -69,7 +69,7 @@ OpenWrt
 	* [sqlite - How To Compile][8]
 	* [SQLite-麻雀雖小五臟俱全][9]
 
-待了解
+tools -1
 --------------
 * crosstool-NG
 	* [使用 crosstool-NG 產生 toolchain][1]
@@ -88,7 +88,6 @@ OpenWrt
 	* [Sources for Time Zone and Daylight Saving Time Data][15]
 	* [POSIX線程(pthread)入門文章分享][16]
 	* [Dell Latitude D410 手提電腦Type Y6142 鋰離子充電池組電路板拆解][18]
-	* 
 
 3D printer
 -------------
@@ -108,6 +107,10 @@ OpenWrt
  * [第六章 低雜訊放大器設計][41]
 * 设计指南
  * [阻抗匹配与史密斯(Smith)圆图：基本原理][43]
+ 
+其它
+------------- 
+* [Flightradar24.com - Live flight tracker!][45]
 
 [1]:http://shyuanliang.blogspot.tw/2013/08/crosstool-ng-toolchain.html
 [2]:http://wiki.ubuntu.org.cn/Crosstool-ng%E5%88%B6%E4%BD%9C%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E9%93%BE
@@ -154,3 +157,5 @@ OpenWrt
 [42]:http://www.slideshare.net/simenli/ch3-49340803
 [43]:https://www.maximintegrated.com/cn/app-notes/index.mvp/id/742
 [44]:http://www.cheers.com.tw/article/article.action?id=5063792
+
+[45]:https://www.flightradar24.com/23.42,120.25/8
