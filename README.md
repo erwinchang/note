@@ -68,6 +68,7 @@ library -1
 	* [Research and Application of SQLite Embedded Database Based on ARM-Linux ][7]
 	* [sqlite - How To Compile][8]
 	* [SQLite-麻雀雖小五臟俱全][9]
+* [libATA Developer's Guide][46]	
 
 tools -1
 --------------
@@ -159,3 +160,4 @@ tools -1
 [44]:http://www.cheers.com.tw/article/article.action?id=5063792
 
 [45]:https://www.flightradar24.com/23.42,120.25/8
+[46]:https://www.kernel.org/doc/htmldocs/libata/index.html
