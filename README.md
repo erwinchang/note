@@ -24,10 +24,12 @@ note
  * [程式員求生指南：關於寫程式的二三事][37]
  * [科技如何劫持人們的心智][38]
 
-Git Blog 學習
+Blog 學習
 --------
 * [vakila](http://vakila.github.io/)
  * [resume](http://vakila.github.io/resume/)
+* [ihower](https://ihower.tw/blog/posts)
+ * [軟體開發 Software Development](https://ihower.tw/blog/posts)
 
 網路資源
 --------------
