@@ -28,7 +28,7 @@ Blog 學習
 --------
 * [vakila](http://vakila.github.io/)
  * [resume](http://vakila.github.io/resume/)
-* [ihower](https://ihower.tw/blog/posts)
+* [ihower](https://ihower.tw/)
  * [軟體開發 Software Development](https://ihower.tw/blog/posts)
 
 網路資源
