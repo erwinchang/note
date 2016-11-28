@@ -23,6 +23,7 @@ note
   * 在當我們要了解其中一個類別，就必須了解它們全部
  * [程式員求生指南：關於寫程式的二三事][37]
  * [科技如何劫持人們的心智][38]
+ * [漫談 - 軟體開發見聞錄][48]
 
 Blog 學習
 --------
@@ -165,3 +166,5 @@ tools -1
 [45]:https://www.flightradar24.com/23.42,120.25/8
 [46]:https://www.kernel.org/doc/htmldocs/libata/index.html
 [47]:https://www.kernel.org/doc/htmldocs/libata/index.html
+
+[48]:https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details
