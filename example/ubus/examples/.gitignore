@@ -1,1 +1,4 @@
 build_hiv300.sh
+*.o
+server
+client

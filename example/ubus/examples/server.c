@@ -246,6 +246,9 @@ int main(int argc, char **argv)
 	uloop_init();
 	signal(SIGPIPE, SIG_IGN);
 
+    if(ubus_socket == NULL)
+        printf("ubus_socket is NULL\n");
+
 	ctx = ubus_connect(ubus_socket);
 	if (!ctx) {
 		fprintf(stderr, "Failed to connect to ubus\n");
