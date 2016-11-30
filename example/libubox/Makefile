@@ -2,12 +2,12 @@
 CHK					:= $(shell basename $(CROSS))
 
 ifeq (arm-hisiv200-linux,$(CHK))
-SFLAG               := -march=armv7-a -mcpu=cortex-a9
+export SFLAG               := -march=armv7-a -mcpu=cortex-a9
 CMAKEFILE			:= cmake_install.hiv200
 endif
 
 ifeq (arm-hisiv300-linux,$(CHK))
-SFLAG               := -march=armv7-a -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations
+export SFLAG               := -march=armv7-a -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations
 CMAKEFILE			:= cmake_install.hiv300
 endif
 
