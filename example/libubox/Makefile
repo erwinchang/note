@@ -1,18 +1,24 @@
-export ROOTFS_DIR=$(DK_MOUNT_PATH)/workspace/commom-library-hiv200
+
+CHK					:= $(shell basename $(CROSS))
+
+ifeq (arm-hisiv200-linux,$(CHK))
+SFLAG               := -march=armv7-a -mcpu=cortex-a9
+CMAKEFILE			:= cmake_install.hiv200
+endif
+
+ifeq (arm-hisiv300-linux,$(CHK))
+SFLAG               := -march=armv7-a -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations
+CMAKEFILE			:= cmake_install.hiv300
+endif
 
 all:
-	echo "make {hiv200,ubuntu}"
-
-
-hiv200:
-	echo "ROOTFS_DIR:$(ROOTFS_DIR)"
-	make build TYPE=hiv200
-
-
-build:
+ifeq (,$(ROOTFS_DIR))
+	echo "env error"
+	exit 1
+endif
 	rm -rf build_dir
 	mkdir build_dir
-	cd build_dir && cmake -DCMAKE_TOOLCHAIN_FILE=../cmake_install.$(TYPE) ../examples
+	cd build_dir && cmake -DCMAKE_TOOLCHAIN_FILE=../$(CMAKEFILE) ../examples
 	cd build_dir && make VERBOSE=1
 
 clean:
