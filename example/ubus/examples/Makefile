@@ -7,7 +7,7 @@ CC 		:= $(CROSS)-gcc
 
 INC 	:= -I$(ROOTFS_DIR)/include
 INC 	+= -I$(ROOTFS_DIR)/usr/local/include
-OPT 	:= -Wall -Werror --std=gnu99
+CFLAGS  := `-march=armv7-a -mfloat-abi=softfp -mfpu=neon-vfpv4 -mno-unaligned-access -fno-aggressive-loop-optimizations -Wall -Werror --std=gnu99`
 DEF 	:= -DUBUS_UNIX_SOCKET=\"/var/run/ubus.sock\"
 DEF 	+= -DUBUS_MAX_MSGLEN=1048576
 
@@ -22,4 +22,4 @@ clean:
 	rm -f server.o count.o server client.o client
 
 .c.o:
-	$(CC) $(DEF) $(OPT) $(INC) -o $@ -c $<
+	$(CC) $(DEF) $(CFLAGS) $(INC) -o $@ -c $<
