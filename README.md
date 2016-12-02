@@ -24,6 +24,7 @@ note
  * [程式員求生指南：關於寫程式的二三事][37]
  * [科技如何劫持人們的心智][38]
  * [漫談 - 軟體開發見聞錄][48]
+ * [如何自學深度學習技術並進階成專家][49]
 
 Blog 學習
 --------
@@ -168,3 +169,4 @@ tools -1
 [47]:https://www.kernel.org/doc/htmldocs/libata/index.html
 
 [48]:https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details
+[49]:http://bangqu.com/gpu/blog/5145
