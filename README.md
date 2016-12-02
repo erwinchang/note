@@ -56,6 +56,7 @@ GitHub 資源
 OpenWrt
 -------------
 * [U-Boot 1.1.4 modification for routers][17]
+* [OpenWRT之 netifd - 概述][50]
 
 
 library -1
@@ -170,3 +171,4 @@ tools -1
 
 [48]:https://www.gitbook.com/book/ericyeh92094/self-reflection-and-insight-for-s-w-engineering/details
 [49]:http://bangqu.com/gpu/blog/5145
+[50]:https://github.com/beacer/notes/blob/master/netifd/netifd-objects.md
