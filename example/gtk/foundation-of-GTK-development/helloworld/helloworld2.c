@@ -24,6 +24,9 @@ int main(int argc,
 
     /* Create a new GtkLabel widget that is selectable */
     label = gtk_label_new ("Hello World");
+    //label = gtk_label_new (NULL);
+    //gtk_label_set_markup(GTK_LABEL(label),"<span style=\"italic\">Hello World</span>");
+    //gtk_label_set_markup(GTK_LABEL(label),"<span foreground='blue' size='x-large'>Hello World</span>");
     gtk_label_set_selectable (GTK_LABEL (label), TRUE);
 
     /* Add the label as a child widget of the window. */
