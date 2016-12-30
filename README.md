@@ -90,6 +90,7 @@ tools -1
 	* [Compile Linux, BusyBox for ARM and load it using QEMU][12]
 * 影像處理
 	* [OpenALPR is an open source Automatic License Plate Recognition library][13]
+	* [De-Interlacing and YUV 4:2:2 to 4:2:0 Conversion on TMS320DM6446 Using the Resizer][52]	
 
 * 其它
 	* [NTP, UTC, and Working with Time on Linux][14]
@@ -174,3 +175,5 @@ tools -1
 [49]:http://bangqu.com/gpu/blog/5145
 [50]:https://github.com/beacer/notes/blob/master/netifd/netifd-objects.md
 [51]:https://wiki.openwrt.org/zh-cn/doc/techref/ubus
+
+[52]:http://www.ti.com/lit/an/spraak3b/spraak3b.pdf
