@@ -33,6 +33,13 @@ Blog 學習
 * [ihower](https://ihower.tw/)
  * [軟體開發 Software Development](https://ihower.tw/blog/posts)
 
+
+linux學習
+--------------
+* [linux高级编程必读书][53]
+* [linux系统编程经典书籍][54]
+* [编程书籍][55]
+
 網路資源
 --------------
 * [DevDocs combines multiple API documentations in a fast](http://devdocs.io/)
@@ -177,3 +184,6 @@ tools -1
 [51]:https://wiki.openwrt.org/zh-cn/doc/techref/ubus
 
 [52]:http://www.ti.com/lit/an/spraak3b/spraak3b.pdf
+[53]:http://doc.xuehai.net/b8821219ae6992219f78bb631.html
+[54]:http://doc.xuehai.net/b0e54785d36dedef847ba805a.html
+[55]:http://doc.xuehai.net/b8e65c93b05b1028a6325cd0d.html
