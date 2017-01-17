@@ -25,6 +25,10 @@ note
  * [科技如何劫持人們的心智][38]
  * [漫談 - 軟體開發見聞錄][48]
  * [如何自學深度學習技術並進階成專家][49]
+ 
+待新增於blog文章
+--------
+* [Kernel Locking Techniques][56]
 
 Blog 學習
 --------
@@ -187,3 +191,5 @@ tools -1
 [53]:http://doc.xuehai.net/b8821219ae6992219f78bb631.html
 [54]:http://doc.xuehai.net/b0e54785d36dedef847ba805a.html
 [55]:http://doc.xuehai.net/b8e65c93b05b1028a6325cd0d.html
+
+[56]:http://www.linuxjournal.com/article/5833?page=0,0
