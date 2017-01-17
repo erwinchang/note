@@ -29,6 +29,8 @@ note
 待新增於blog文章
 --------
 * [Kernel Locking Techniques][56]
+* [The Buildroot user manual][57]
+* [Busybox for ARM on QEMU ][58]
 
 Blog 學習
 --------
@@ -193,3 +195,5 @@ tools -1
 [55]:http://doc.xuehai.net/b8e65c93b05b1028a6325cd0d.html
 
 [56]:http://www.linuxjournal.com/article/5833?page=0,0
+[57]:https://buildroot.org/downloads/manual/manual.html
+[58]:https://balau82.wordpress.com/2010/03/27/busybox-for-arm-on-qemu/
