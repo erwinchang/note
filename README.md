@@ -133,6 +133,8 @@ tools -1
 其它
 ------------- 
 * [Flightradar24.com - Live flight tracker!][45]
+* [Backblaze Hard Drive Stats for 2016][59]
+Seaget 4T最差(14%)不要買，Toshiba 3TB/4TB可以買
 
 [1]:http://shyuanliang.blogspot.tw/2013/08/crosstool-ng-toolchain.html
 [2]:http://wiki.ubuntu.org.cn/Crosstool-ng%E5%88%B6%E4%BD%9C%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E5%B7%A5%E5%85%B7%E9%93%BE
@@ -197,3 +199,5 @@ tools -1
 [56]:http://www.linuxjournal.com/article/5833?page=0,0
 [57]:https://buildroot.org/downloads/manual/manual.html
 [58]:https://balau82.wordpress.com/2010/03/27/busybox-for-arm-on-qemu/
+
+[59]:https://www.backblaze.com/blog/hard-drive-benchmark-stats-2016/
