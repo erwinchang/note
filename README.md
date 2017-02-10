@@ -1,6 +1,7 @@
 note
 ====
 
+* [app.grammarly][60]
 
 好文章
 --------------
@@ -201,3 +202,4 @@ Seaget 4T最差(14%)不要買，Toshiba 3TB/4TB可以買
 [58]:https://balau82.wordpress.com/2010/03/27/busybox-for-arm-on-qemu/
 
 [59]:https://www.backblaze.com/blog/hard-drive-benchmark-stats-2016/
+[60]:https://app.grammarly.com
