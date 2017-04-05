@@ -26,7 +26,20 @@
 | | mode #7, continuous monitor systems , ex. ful trim,misfire |
 |J1850,  ISO  9141-2  and  ISO  14230-4 | describes  the  various  communication protocol |
 |J2012 | describes the recommended standardization of numeric DTCs  |
-      
+
+
+#### OBD and Inspection and Maintenance
+
+[Performing Onboard Diagnostic System Checks as Part of a Vehicle Inspection and Maintenance Program]
+
+- Environmental Protection Agency (EPA) to set guidelines for states to follow in designing and running vehicle inspection and maintenance (I/M) programs.
+- 由EPA(美國國家環境保護局)來規定檢測車子數據及設定相關狀態(即I/M Programs)
+
+- MIL(Malfunction Indicator Light)
+The MIL is a light on the dashboard to alert the driver of an emissions related problem.      
+
+<a href="http://imgur.com/F1IFcxC"><img src="http://i.imgur.com/F1IFcxC.png" title="source: imgur.com" /></a>
+
 -----------
 ## SAE
 
@@ -74,3 +87,4 @@ Support for SAE J1939 OBD protocol
 [4]:https://learn.sparkfun.com/tutorials/getting-started-with-obd-ii
 [5]:https://www.epa.gov/state-and-local-transportation/vehicle-emissions-board-diagnostics-obd
 [6]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KO4.pdf
+[7]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KRN.pdf
