@@ -1,4 +1,8 @@
 ## OBD
+------
+### [Getting Started with OBD-II][4]
+----
+### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 -----------
 ## SAE
 
@@ -36,6 +40,12 @@ Support for non-legislated OBD protocols
 
 Support for SAE J1939 OBD protocol
 
+----
+### [OBD II Uart Hookup Guide][3]
+
 
 [1]:https://www.sparkfun.com/products/9555
 [2]:http://standards.sae.org/j1979_201202/
+[3]:https://learn.sparkfun.com/tutorials/obd-ii-uart-hookup-guide
+[4]:https://learn.sparkfun.com/tutorials/getting-started-with-obd-ii
+[5]:https://www.epa.gov/state-and-local-transportation/vehicle-emissions-board-diagnostics-obd
