@@ -11,6 +11,21 @@
 
 <a href="http://imgur.com/AiScfbl"><img src="http://i.imgur.com/AiScfbl.png" title="source: imgur.com" /></a>
 
+#### ECU (Engine/Electronic COntrol Unit)
+- ECU can allow the user to make the engine function at various performance levels and various economy levels
+- On new cars, these are all typically microcontrollers.
+
+ECU include
+
+| item | note |
+|:-----|:-----|
+| ECM (Engine Control Module) | affecting things like ignition timing, air to fuel ratios, and idle speeds.|
+| VCM (Vehicle Control Module) | Another module name that controls the engine and vehicle performance. |
+| TCM (Transmission Control Module) |  This handles the transmission(ex. transmission fluid temperature, throttle position) |
+| PCM (Powertrain Control Module) | Typically, a combination of an ECM and a TCM |
+| EBCM (Electronic Brake Control Module) | This controls and reads data from the anti-lock braking system (ABS) |
+| BCM (Body Control Module) | controls vehicle body features, such as power windows, power seats, etc. |
+
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 
