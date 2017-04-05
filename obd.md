@@ -14,9 +14,14 @@ SAE J1979 / ISO 15031-5 set includes the communication between the vehicle's OBD
 
 -----
 
-[SparkFun OBD-II UART][1]
 
-### ELM327
+
+### SparkFun OBD-II UART
+
+ [SparkFun OBD-II UART][1]
+ 
+ 
+**ELM327**
 
  Support for all legislated OBD II protocols
  - ISO 15765-4 (CAN)
