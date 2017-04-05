@@ -27,8 +27,9 @@ ECU include
 | BCM (Body Control Module) | controls vehicle body features, such as power windows, power seats, etc. |
 
 
-- Diagnostic Trouble Code (DTC)
-   - These codes are used to describe where an issue is occurring on the vehicle and are defined by SAE
+#### Diagnostic Trouble Code (DTC)
+
+These codes are used to describe where an issue is occurring on the vehicle and are defined by SAE
 
 These codes take the following format
 
@@ -56,6 +57,19 @@ These codes take the following format
 |||
 | Digits four and five show the specific failure code |
 | xx00 - xx99 | |
+
+#### [OBD-II PIDs][9] (On-board diagnostics Parameter IDs)
+
+OBD-II PIDs (On-board diagnostics Parameter IDs) are codes used to request data from a vehicle, used as a diagnostic tool
+SAE standard J/1979 defines many PID
+
+Typically, an automotive technician will use PIDs with a scan tool connected to the vehicle's OBD-II connector
+
+
+SAE J1979
+
+Vehicle manufacturers are not required to support all modes.
+<a href="http://imgur.com/qRAAgYn"><img src="http://i.imgur.com/qRAAgYn.png" title="source: imgur.com" /></a>
 
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
@@ -147,3 +161,4 @@ Support for SAE J1939 OBD protocol
 [6]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KO4.pdf
 [7]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KRN.pdf
 [8]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P100EPD8.pdf
+[9]:https://en.wikipedia.org/wiki/OBD-II_PIDs
