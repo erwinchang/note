@@ -9,21 +9,15 @@
 - In 1989, CARB issued regulations requiring the second generation of OBD regulations, often referred to as OBDII.
 - OBD systems on all 1994 and newer vehicles sold nationwide and known as Federal OBD.
 - SAE recommended practices (SAE J1978 and J1979) and the number of engine parameters available on OBD hand-held scan tools.
-- SAE Requirements for OBD Scan Tools
-    - J1962
-       describes the standardized 16-pin trapezoidal connector
-       
-    - J1978
-       describes the basic functions that an OBD Scan Tool will support
-       
-    - J1979
-       describes diagnostic test modes for emission related diagnostic data
-       
-    - J1850,  ISO  9141-2  and  ISO  14230-4
-       describes  the  various  communication protocol
-       
-    - J2012
-       describes the recommended standardization of numeric DTCs 
+- SAE Requirements for OBD Scan Tools   
+
+| item | nte |
+|:-----|:----|
+|J1962  | describes the standardized 16-pin trapezoidal connector|
+|J1978 |  describes the basic functions that an OBD Scan Tool will support |
+|J1979 | describes diagnostic test modes for emission related diagnostic data |
+|J1850,  ISO  9141-2  and  ISO  14230-4 | describes  the  various  communication protocol |
+|J2012 | describes the recommended standardization of numeric DTCs  |
       
 -----------
 ## SAE
