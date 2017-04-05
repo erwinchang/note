@@ -4,15 +4,11 @@
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 
-- [On-Board Diagnostic Hand-Held Scan Tool Technology][6]
-
-    - In  the  early  1980s,  automobile  manufacturers  began  using  electronics  and  on-board computers to control many of the engine functions.
-
-   - In 1989, CARB issued regulations requiring the second generation of OBD regulations, often referred to as OBDII.
-
-   - OBD systems on all 1994 and newer vehicles sold nationwide and known as Federal OBD.
-
-   - SAE recommended practices (SAE J1978 and J1979) and the number of engine parameters available on OBD hand-held scan tools.
+[On-Board Diagnostic Hand-Held Scan Tool Technology][6]
+- In  the  early  1980s,  automobile  manufacturers  began  using  electronics  and  on-board computers to control many of the engine functions.
+- In 1989, CARB issued regulations requiring the second generation of OBD regulations, often referred to as OBDII.
+- OBD systems on all 1994 and newer vehicles sold nationwide and known as Federal OBD.
+- SAE recommended practices (SAE J1978 and J1979) and the number of engine parameters available on OBD hand-held scan tools.
    -  Equipment  and  Tool Institute (ETI) 
    - SAE Requirements for OBD Scan Tools
       - J1962 - describes the standardized 16-pin trapezoidal connector
