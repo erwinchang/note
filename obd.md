@@ -4,7 +4,7 @@
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 
-#### Technical Documents
+#### Vehicle Service Information / Technical Documents
 [On-Board Diagnostic Hand-Held Scan Tool Technology][6]
 - In  the  early  1980s,  automobile  manufacturers  began  using  electronics  and  on-board computers to control many of the engine functions.
 - In 1989, CARB issued regulations requiring the second generation of OBD regulations, often referred to as OBDII.
@@ -28,9 +28,9 @@
 |J2012 | describes the recommended standardization of numeric DTCs  |
 
 
-#### OBD and Inspection and Maintenance
+#### OBD and Inspection and Maintenance / Final Implementation Guidance
 
-[Performing Onboard Diagnostic System Checks as Part of a Vehicle Inspection and Maintenance Program]
+[Performing Onboard Diagnostic System Checks as Part of a Vehicle Inspection and Maintenance Program][7]
 
 - Environmental Protection Agency (EPA) to set guidelines for states to follow in designing and running vehicle inspection and maintenance (I/M) programs.
 - 由EPA(美國國家環境保護局)來規定檢測車子數據及設定相關狀態(即I/M Programs)
@@ -40,6 +40,8 @@ The MIL is a light on the dashboard to alert the driver of an emissions related 
 
 <a href="http://imgur.com/F1IFcxC"><img src="http://i.imgur.com/F1IFcxC.png" title="source: imgur.com" /></a>
 
+- [OBD Readiness Testability Issues][8]
+<a href="http://imgur.com/H8G4vKC"><img src="http://i.imgur.com/H8G4vKC.png" title="source: imgur.com" /></a>
 -----------
 ## SAE
 
@@ -88,3 +90,4 @@ Support for SAE J1939 OBD protocol
 [5]:https://www.epa.gov/state-and-local-transportation/vehicle-emissions-board-diagnostics-obd
 [6]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KO4.pdf
 [7]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KRN.pdf
+[8]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P100EPD8.pdf
