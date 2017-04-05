@@ -16,6 +16,13 @@
 |J1962  | describes the standardized 16-pin trapezoidal connector|
 |J1978 |  describes the basic functions that an OBD Scan Tool will support |
 |J1979 | describes diagnostic test modes for emission related diagnostic data |
+| | mode #1, engine parameters, MIL status and readiness codes |
+| | mode #2, powertrain freeze frame data |
+| | mode #3, related  powertrain  diagnostic  trouble  codes (DTCs) |
+| | mode #4, Clear/Reset  emission-related  diagnostic  information  including MIL status, DTCs |
+| | mode #5, oxygen sensor monitor test results |
+| | mode #6, continuous monitor systems , ex. EGR |
+| | mode #7, continuous monitor systems , ex. ful trim,misfire |
 |J1850,  ISO  9141-2  and  ISO  14230-4 | describes  the  various  communication protocol |
 |J2012 | describes the recommended standardization of numeric DTCs  |
       
