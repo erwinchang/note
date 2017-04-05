@@ -3,6 +3,20 @@
 ### [Getting Started with OBD-II][4]
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
+
+- [On-Board Diagnostic Hand-Held Scan Tool Technology][6]
+    - In  the  early  1980s,  automobile  manufacturers  began  using  electronics  and  on-board computers to control many of the engine functions.
+   - In 1989, CARB issued regulations requiring the second generation of OBD regulations, often referred to as OBDII.
+   - OBD systems on all 1994 and newer vehicles sold nationwide and known as Federal OBD.
+   - SAE recommended practices (SAE J1978 and J1979) and the number of engine parameters available on OBD hand-held scan tools.
+   -  Equipment  and  Tool Institute (ETI) 
+   - SAE Requirements for OBD Scan Tools
+      - J1962 - describes the standardized 16-pin trapezoidal connector
+      - J1978 - describes the basic functions that an OBD Scan Tool will support
+      - J1979 - describes diagnostic test modes for emission related diagnostic data
+      - J1850,  ISO  9141-2  and  ISO  14230-4  -  describes  the  various  communication protocol
+      - J2012 - describes the recommended standardization of numeric DTCs 
+      
 -----------
 ## SAE
 
@@ -49,3 +63,4 @@ Support for SAE J1939 OBD protocol
 [3]:https://learn.sparkfun.com/tutorials/obd-ii-uart-hookup-guide
 [4]:https://learn.sparkfun.com/tutorials/getting-started-with-obd-ii
 [5]:https://www.epa.gov/state-and-local-transportation/vehicle-emissions-board-diagnostics-obd
+[6]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KO4.pdf
