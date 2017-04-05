@@ -26,6 +26,37 @@ ECU include
 | EBCM (Electronic Brake Control Module) | This controls and reads data from the anti-lock braking system (ABS) |
 | BCM (Body Control Module) | controls vehicle body features, such as power windows, power seats, etc. |
 
+
+- Diagnostic Trouble Code (DTC)
+   - These codes are used to describe where an issue is occurring on the vehicle and are defined by SAE
+
+These codes take the following format
+
+| item | note |
+|:-----|:-----|
+| First unit identifies the type of error code ||
+| Pxxxx | powertrain |
+| Bxxxx | body |
+| Cxxxx | chassis |
+| Uxxxx | class 2 network |
+|||
+|Second digit shows whether the code is manufacturer unique or no |
+| item | note |
+| x0xxx | government-required code |
+| x1xxx | manufacturer-specific code |
+|||
+| Third digit shows us what system the trouble code references ||
+| xx1xx / xx2xx | show air and fuel measurements |
+| xx3xx | shows ignition system |
+| xx4xx | shows emissions systems |
+| xx5xx | references speed/idle control |
+| xx6xx | deals with computer systems |
+| xx7xx /xx8xx | involve the transmission |
+| xx9xx | notates input/output signals and controls |
+|||
+| Digits four and five show the specific failure code |
+| xx00 - xx99 | |
+
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 
