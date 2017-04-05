@@ -1,6 +1,16 @@
 ## OBD
 ------
 ### [Getting Started with OBD-II][4]
+
+- OBD systems are designed to monitor the performance of some of an engine’s major components including those responsible for controlling emission
+- In other words, OBD is the language of the Engine Control Unit (ECU), and it was designed to help fight emissions and engine failures.
+- 通過OBD可以取得車子狀態數值
+- 當車子發生DTCs(Diagnostic Trouble Codes,即ECU產生錯誤碼)，此時MIL會亮(Malfunction Indicator Light，即引擎錯誤燈號)
+- 需通過OBD介面讀取車子錯誤碼以分析問題，並且清除錯誤碼
+- 當車子發生問題時，會產生錯誤碼，但若元件數值回到正常值，此時錯誤碼不會自動清除，即引擎錯誤燈號會一直亮著
+
+<a href="http://imgur.com/AiScfbl"><img src="http://i.imgur.com/AiScfbl.png" title="source: imgur.com" /></a>
+
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 
