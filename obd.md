@@ -74,9 +74,36 @@ Vehicle manufacturers are not required to support all modes.
 
 #### OBD-II Protocols
 
+- SAE J1850 PWM
+    - This signal is **Pulse Width Modulation**, which runs at 41.6 kbps
+    - Signal Voltage: 0V-5V
+    - **Ford vehicles**
 <a href="http://imgur.com/HAmQLJA"><img src="http://i.imgur.com/HAmQLJA.png" title="source: imgur.com" /></a>
 
+- SAE J1850 VPW
+    - This protocol is Variable Pulse Width, which runs at 10.4 kbps.
+    - Signal Voltage: 0V-7V
+    - **GM vehicles**
 <a href="http://imgur.com/YvrvjEm"><img src="http://i.imgur.com/YvrvjEm.png" title="source: imgur.com" /></a>
+
+- ISO 9141-2
+    - 10.4 kbps and is asynchronous serial communication
+    - Signal Voltage: 0V-12V
+    - **Chrysler, European, or Asian vehicle**
+<a href="http://imgur.com/gC9Av08"><img src="http://i.imgur.com/gC9Av08.png" title="source: imgur.com" /></a>
+
+- ISO 14230 KWP2000
+    - This is the Keyword Protocol 2000, another asynchronous serial communication
+    - Signal Voltage: 0V-12V
+    - **Chrysler, European, or Asian vehicle**
+<a href="http://imgur.com/7mkidW7"><img src="http://i.imgur.com/7mkidW7.png" title="source: imgur.com" /></a>
+
+- ISO 15765 CAN
+    - This protocol has been mandated in **all vehicles sold in the US from 2008 and later**
+    - It’s a two-wire communication method and can run at up to 1Mbps
+    - Signal Voltage: CANH:4.5-2.75V, CANL:0.5-2.25V
+<a href="http://imgur.com/bKYdYbq"><img src="http://i.imgur.com/bKYdYbq.png" title="source: imgur.com" /></a>
+
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 
