@@ -1,0 +1,44 @@
+STN1110 is an OBD to UART interpreter
+It is fully compatible with the de facto industry standard ELM327 command set
+
+### [stn1110-ds.pdf][1]
+Multiprotocol OBD to UART Interpreter
+
+- Feature
+    - Support for all legislate OBD-II
+        - ISO 15765-4 (CAN)
+        - ISO 14230-4 (Keyword Protocol 2000)
+        - ISO 9141-2 (Asian,European,Chrsier vehicles)
+        - SAE J1850 VPW (GM vehicles)
+        - SAE J1850 PWM (Ford vehicles)
+    - Support for non-legislate OBD protocols:
+        - ISO 15765
+        - ISO 11989 (raw CAM)
+    - Support for the heavy-duty SAE J1939     
+
+- OBD Port Connector
+<a href="http://imgur.com/HQcA8aT"><img src="http://i.imgur.com/HQcA8aT.png" title="source: imgur.com" /></a>
+
+- STN1110 IC
+<a href="http://imgur.com/HuYTWtv"><img src="http://i.imgur.com/HuYTWtv.png" title="source: imgur.com" /></a>
+
+- CAN Transceiver
+<a href="http://imgur.com/RQAbm5o"><img src="http://i.imgur.com/RQAbm5o.png" title="source: imgur.com" /></a>
+
+- ISO Transceiver
+<a href="http://imgur.com/5hpaoLc"><img src="http://i.imgur.com/5hpaoLc.png" title="source: imgur.com" /></a>
+
+- J1850 Transceiver
+<a href="http://imgur.com/QMErWxh"><img src="http://i.imgur.com/QMErWxh.png" title="source: imgur.com" /></a>
+<a href="http://imgur.com/3zKRN7E"><img src="http://i.imgur.com/3zKRN7E.png" title="source: imgur.com" /></a>
+
+
+   
+
+
+
+
+
+
+
+[1]:https://www.scantool.net/scantool/downloads/97/stn1110-ds.pdf
