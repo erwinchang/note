@@ -46,8 +46,8 @@ Multiprotocol OBD to UART Interpreter
 <a href="http://imgur.com/QMErWxh"><img src="http://i.imgur.com/QMErWxh.png" title="source: imgur.com" /></a>
 <a href="http://imgur.com/3zKRN7E"><img src="http://i.imgur.com/3zKRN7E.png" title="source: imgur.com" /></a>
 
-The OBD-II UART board has both the STN1110 and the MCP2551 chips populated on it : [Board Schematic][2]
-This communicates with the CAN, ISO and J1850 transceivers. Voltage on the board is regulated to both 5V and 3.3V for all of the components to function properly
+- The OBD-II UART board has both the STN1110 and the MCP2551 chips populated on it : [Board Schematic][2]
+- This communicates with the CAN, ISO and J1850 transceivers. Voltage on the board is regulated to both 5V and 3.3V for all of the components to function properly
 
 
    
