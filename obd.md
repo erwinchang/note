@@ -190,6 +190,7 @@ Support for SAE J1939 OBD protocol
 ## 其它參考
 
 [OBD-II Fault Code Reading with OBDKey][10]
+[OBD Implementation in J1939][11]
 
 [1]:https://www.sparkfun.com/products/9555
 [2]:http://standards.sae.org/j1979_201202/
@@ -201,3 +202,4 @@ Support for SAE J1939 OBD protocol
 [8]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P100EPD8.pdf
 [9]:https://en.wikipedia.org/wiki/OBD-II_PIDs
 [10]:http://www.kbmsystems.net/files/Engine%20ECU%20Fault%20Code%20Reading%20with%20OBDKey.pdf
+[11]:http://www.sae.org/events/training/symposia/obd/presentations/2005swenson.pdf
