@@ -71,6 +71,12 @@ SAE J1979
 Vehicle manufacturers are not required to support all modes.
 <a href="http://imgur.com/qRAAgYn"><img src="http://i.imgur.com/qRAAgYn.png" title="source: imgur.com" /></a>
 
+
+#### OBD-II Protocols
+
+<a href="http://imgur.com/HAmQLJA"><img src="http://i.imgur.com/HAmQLJA.png" title="source: imgur.com" /></a>
+
+<a href="http://imgur.com/YvrvjEm"><img src="http://i.imgur.com/YvrvjEm.png" title="source: imgur.com" /></a>
 ----
 ### [Vehicle Emissions On-Board Diagnostics (OBD)][5]
 
