@@ -185,6 +185,11 @@ Support for SAE J1939 OBD protocol
 ----
 ### [OBD II Uart Hookup Guide][3]
 
+----
+
+## 其它參考
+
+[OBD-II Fault Code Reading with OBDKey][10]
 
 [1]:https://www.sparkfun.com/products/9555
 [2]:http://standards.sae.org/j1979_201202/
@@ -195,3 +200,4 @@ Support for SAE J1939 OBD protocol
 [7]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P1002KRN.pdf
 [8]:https://nepis.epa.gov/Exe/ZyPdf.cgi?Dockey=P100EPD8.pdf
 [9]:https://en.wikipedia.org/wiki/OBD-II_PIDs
+[10]:http://www.kbmsystems.net/files/Engine%20ECU%20Fault%20Code%20Reading%20with%20OBDKey.pdf
