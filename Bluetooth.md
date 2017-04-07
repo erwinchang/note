@@ -1,5 +1,30 @@
 ## Bluetooth
 
+### Implementation
+- Bluetooth operates at frequencies between 2402 and 2480 MHz, or 2400 and 2483.5 MHz including guard bands 2 MHz wide at the bottom end and 3.5 MHz wide at the top.
+- 頻帶在：2.4G
+
+- Devices functioning with GFSK are said to be operating in basic rate (BR) mode where an instantaneous data rate of 1 Mbit/s is possible.
+- BR表示使用Base Rate即 1Mbit/s ，採爭GFSK編碼方式
+
+- The term Enhanced Data Rate (EDR) is used to describe π/4-DPSK and 8DPSK schemes, each giving 2 and 3 Mbit/s respectivel
+
+- The combination of these (BR and EDR) modes in Bluetooth radio technology is classified as a "BR/EDR radio".
+
+### Uses
+- Range is power-class-dependent, but effective ranges vary in practice
+
+#### Communication and connection
+
+- A master BR/EDR Bluetooth device can communicate with a maximum of seven devices in a piconet (an ad-hoc computer network using Bluetooth technology), though not all devices reach this maximum.
+
+- The Bluetooth Core Specification provides for the connection of two or more piconets to form a scatternet,
+
+- Being a master of seven slaves is possible
+
+- Bluetooth is a packet-based protocol with a master-slave structure. 
+- One master may communicate with up to seven slaves in a piconet. All devices share the master's clock
+
 [Bluetooth wiki][1]
 
 - 藍牙（英语：Bluetooth）。這是一種無線技術標準
@@ -26,5 +51,21 @@
 | 4.1 | 2013, 智能連接：增加設置設備間連接頻率的支持 |
 | 5   | 2016/6 , 有效传输距离上将是4.2LE版本的4倍（理论上可达300米） |
 |     | 传输速度将是4.2LE版本的2倍（速度上限为24Mbps） |
+
+- 藍牙協議堆疊
+
+| layer | protocol |
+|:-------|:--------|
+| 核心協議層 | HCI、LMP、L2CAP、SDP |
+| 線纜替換協定層 | RFCOMM |
+| 電話控制協定層 | TCS-BIN |
+| 選用協議層 | PPP、TCP、IP、UDP、OBEX、IrMC、WAP、WAE |
+
+- 藍牙規範
+    - 藍牙1.1定義的profile有13個。SIG認為藍牙裝置有4個最基本的Profile
+    - General Access Profile（GAP）
+    - Service Discovery Application Profile（SDAP）
+    - Serial Port Profile（SPP）
+    - General Object Exchange Profile（GOEP）
 
 [1]:https://zh.wikipedia.org/wiki/%E8%97%8D%E7%89%99
