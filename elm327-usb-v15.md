@@ -23,12 +23,18 @@ USB V1.5a
  
  - [OBD II 简易操作手册 ][8]
  
+ - [ELM327 Bluetooth Car Diagnostic Too][13]
+ 
  ### github
  
  - [Microchip PIC18F25K80][9]
      - [J1939 C Library for CAN-Enabled PICmicro® Microcontrollers][10]
 - [Set of CAN MPLAB projects for PIC microcontroller][11]     
- 
+
+
+### 其它參考
+- [汽车信息管理和记录系统][12]
+
 [1]:http://www.microchip.com/forums/m481814.aspx
 [2]:http://archive.edntaiwan.com/www.edntaiwan.com/ART_8800514416_3000000_TA_bcd4538f_2.HTM
 [3]:https://hackaday.io/project/2523/logs
@@ -40,3 +46,5 @@ USB V1.5a
 [9]:http://www.microchip.com/wwwproducts/en/en550200
 [10]:http://www.microchip.com/wwwAppNotes/AppNotes.aspx?appnote=en020237
 [11]:https://github.com/PoJD/can
+[12]:http://blog.csdn.net/haima1998/article/details/18599603
+[13]:http://www.totalcardiagnostics.com/elm327-bluetooth/
