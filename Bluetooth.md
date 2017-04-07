@@ -14,6 +14,23 @@
 ### Uses
 - Range is power-class-dependent, but effective ranges vary in practice
 
+#### clase來決定功秏等級
+
+| class | max power (mW) |
+|:------|:---------------|
+| 1     | 100 |
+| 2     | 2.5 |
+| 3     | 1   |
+| 4     | 0.5 |
+
+#### Bluetooth version
+
+| version | max speed | maximum range |
+|:--------|:----------|:----|
+| 3.0     | 25Mbit/s  | 10m |
+| 4.0     | 25Mbit/s  | 60m |
+| 5       | 50Mbit/s  | 240m |
+
 #### Communication and connection
 
 - A master BR/EDR Bluetooth device can communicate with a maximum of seven devices in a piconet (an ad-hoc computer network using Bluetooth technology), though not all devices reach this maximum.
