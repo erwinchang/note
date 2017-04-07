@@ -1,4 +1,4 @@
-## Bluetooth
+## [Bluetooth][2]
 
 ### Implementation
 - Bluetooth operates at frequencies between 2402 and 2480 MHz, or 2400 and 2483.5 MHz including guard bands 2 MHz wide at the bottom end and 3.5 MHz wide at the top.
@@ -42,7 +42,30 @@
 - Bluetooth is a packet-based protocol with a master-slave structure. 
 - One master may communicate with up to seven slaves in a piconet. All devices share the master's clock
 
-[Bluetooth wiki][1]
+#### Bluetooth Protocol Stack
+
+<a href="http://imgur.com/Ig3fLHx"><img src="http://i.imgur.com/Ig3fLHx.png" title="source: imgur.com" /></a>
+
+- Mandatory protocols for all Bluetooth stacks are: **LMP**, **L2CAP** and **SDP**.
+- In addition, devices that communicate with Bluetooth almost universally can use these protocols: **HCI** and **RFCOMM**
+- LMP
+    - The Link Management Protocol (LMP) is used for set-up and control of the radio link between two devices. Implemented on the controller.
+- L2CAP
+    - The Logical Link Control and Adaptation Protocol (L2CAP) is used to multiplex multiple logical connections between two devices using different higher level protocols.
+    -  Provides segmentation and reassembly of on-air packets
+    - In Basic mode, L2CAP provides packets with a payload configurable up to 64 kB, with 672 bytes as the default MTU, and 48 bytes as the minimum mandatory supported MTU.
+- SDP    
+    - The Service Discovery Protocol (SDP) allows a device to discover services offered by other devices, and their associated parameters
+- RFCOMM
+    - Radio Frequency Communications (RFCOMM) is a cable replacement protocol used for generating a virtual serial data stream.
+    -  i.e. it is a serial port emulation
+- BNEP
+    - The Bluetooth Network Encapsulation Protocol (BNEP) is used for transferring another protocol stack's data via an L2CAP channel.
+    - Its main purpose is the transmission of IP packets in the Personal Area Networking Profile. BNEP performs a similar function to SNAP in Wireless LAN.
+
+----------------
+
+## [Bluetooth wiki][1]
 
 - 藍牙（英语：Bluetooth）。這是一種無線技術標準
 - 使用短波特高頻（UHF）無線電波，經由2.4至2.485 GHz的ISM頻段來進行通信
@@ -86,3 +109,4 @@
     - General Object Exchange Profile（GOEP）
 
 [1]:https://zh.wikipedia.org/wiki/%E8%97%8D%E7%89%99
+[2]:https://en.wikipedia.org/wiki/Bluetooth
