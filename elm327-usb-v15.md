@@ -34,6 +34,7 @@ USB V1.5a
 
 ### 其它參考
 - [汽车信息管理和记录系统][12]
+- [Dissection of a counterfeit ELM327 OBDII Adapter from China][14]
 
 [1]:http://www.microchip.com/forums/m481814.aspx
 [2]:http://archive.edntaiwan.com/www.edntaiwan.com/ART_8800514416_3000000_TA_bcd4538f_2.HTM
@@ -48,3 +49,4 @@ USB V1.5a
 [11]:https://github.com/PoJD/can
 [12]:http://blog.csdn.net/haima1998/article/details/18599603
 [13]:http://www.totalcardiagnostics.com/elm327-bluetooth/
+[14]:https://timyouard.wordpress.com/2015/09/02/disection-of-a-counterfeit-elm327-obdii-adapter-from-china/
