@@ -13,15 +13,17 @@
 
 - ELM 327 USB V1.5a
 
-| pin | note |
-|:----|:-----|
-| 2   | J1850 Bus+ |
-| 4/5 | Chassis Ground/Signal Ground |
-| 6   | CAN(J-2334) High |
-| 7   | iso 9141-2 K-Line |
-| 10  | J1850 Bus- |
-| 14  | CAN(J-2234) Low |
-| 15  | ISO 9141-2 L-Line |
+[wiki obd][12]
+
+| pin | define                       | description |
+|:----|:-----------------------------|:------------|
+| 2   | J1850 Bus+                   | Bus Positive Line of SAE J1850 PWM and VPW |
+| 4/5 | Chassis Ground/Signal Ground | |
+| 6   | CAN(J-2334) High             | CAN-High (ISO 15765-4 and SAE J2284) |
+| 7   | iso 9141-2 K-Line            | K-Line of ISO 9141-2 and ISO 14230-4 |
+| 10  | J1850 Bus-                   | Bus Nagative Line of SAE J1850 PWM only (not SAE J1850 VPW) |
+| 14  | CAN(J-2234) Low              | CAN-Low(ISO 15765-4 and SAE J2284)
+| 15  | ISO 9141-2 L-Line            | L-Line of ISO 9141-2 and ISO 14230-4 |
 | 16  | Battery Power |
 
 #### ECU (Engine/Electronic COntrol Unit)
@@ -216,3 +218,4 @@ Support for SAE J1939 OBD protocol
 [9]:https://en.wikipedia.org/wiki/OBD-II_PIDs
 [10]:http://www.kbmsystems.net/files/Engine%20ECU%20Fault%20Code%20Reading%20with%20OBDKey.pdf
 [11]:http://www.sae.org/events/training/symposia/obd/presentations/2005swenson.pdf
+[12]:https://en.wikipedia.org/wiki/On-board_diagnostics
