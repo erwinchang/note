@@ -11,6 +11,19 @@
 
 <a href="http://imgur.com/AiScfbl"><img src="http://i.imgur.com/AiScfbl.png" title="source: imgur.com" /></a>
 
+- ELM 327 USB V1.5a
+
+| pin | note |
+|:----|:-----|
+| 2   | J1850 Bus+ |
+| 4/5 | Chassis Ground/Signal Ground |
+| 6   | CAN(J-2334) High |
+| 7   | iso 9141-2 K-Line |
+| 10  | J1850 Bus- |
+| 14  | CAN(J-2234) Low |
+| 15  | ISO 9141-2 L-Line |
+| 16  | Battery Power |
+
 #### ECU (Engine/Electronic COntrol Unit)
 - ECU can allow the user to make the engine function at various performance levels and various economy levels
 - On new cars, these are all typically microcontrollers.
