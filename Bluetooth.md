@@ -110,7 +110,13 @@
     - Service Discovery Application Profile（SDAP）
     - Serial Port Profile（SPP）
     - General Object Exchange Profile（GOEP）
+    
+-----------
+
+## 實際產品
+[HC-06 藍牙/藍芽轉 UART 模組][4]
 
 [1]:https://zh.wikipedia.org/wiki/%E8%97%8D%E7%89%99
 [2]:https://en.wikipedia.org/wiki/Bluetooth
 [3]:http://chinese.engadget.com/2015/01/21/bluetooth-4-2-taiwan/
+[4]:https://www.taiwaniot.com.tw/shop/module-sensor/comm/hc-06-%E5%BE%9E%E6%A9%9F-%E8%97%8D%E7%89%99%E8%97%8D%E8%8A%BD%E8%BD%89-uart-%E6%A8%A1%E7%B5%84-%E5%85%B7%E5%BA%95%E6%9D%BF%E6%8F%90%E4%BE%9Barduino%E7%AF%84%E4%BE%8B/
