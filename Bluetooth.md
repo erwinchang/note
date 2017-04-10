@@ -1,5 +1,20 @@
-## [Bluetooth][2]
+## Bluetooth 連線說明
 
+#### BT3.0 HS 及 BT2.0
+
+![BT 3.0, BT2.0](http://i.imgur.com/6DKMS7q.jpg)
+圖片來源：[搶進行動上網裝置　Wi-Fi/藍牙4.0合作無間][5]
+
+#### BT4.0
+
+![BT4.0](http://i.imgur.com/UZ0idFC.jpg)
+圖片來源：[藍牙多模應用與認證規範面面觀][7]
+
+#### BT4.2
+可透過 IP6v6/6LoWPAN 或 Bluetooth Smart 閘道連上網際網路，讓加上藍牙 4.2 的裝置，都能擁有自己的 IP 門牌
+(即可取得1個外部實体ip)
+
+### 參考來源
 - [藍牙3.0+高速版本技術及增強規格介紹][6]
     - 2004年底推出V2.0 + EDR的規格，其中EDR可提供1~3 Mbps的增強傳輸率。
     - 新一代的V3.0 + HS規格也已在2009年4月推出，它納入了802.11 MAC/PHY技術，透過802.11的協定轉換層(PAL)，能將資料傳輸速度提昇到24Mbps，相當於v2.x + EDR的八倍
@@ -11,7 +26,8 @@
     
 - [藍牙多模應用與認證規範面面觀][7]   
 
-![BT 3.0, BT2.0](http://www.2cm.com.tw/news/images/N101101004920101101154246.jpg)
+-------------------------------
+## [Bluetooth][2]
     
 ### Implementation
 - Bluetooth operates at frequencies between 2402 and 2480 MHz, or 2400 and 2483.5 MHz including guard bands 2 MHz wide at the bottom end and 3.5 MHz wide at the top.
