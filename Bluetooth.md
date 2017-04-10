@@ -9,7 +9,9 @@
 - [Bluetooth 4.2 讓每個藍牙裝置都有能連上網路的 IP 門牌，物聯網應用更加到位][3]
     - 透過 IP6v6/6LoWPAN 或 Bluetooth Smart 閘道連上網際網路，讓加上藍牙 4.2 的裝置，都能擁有自己的 IP 門牌
     
-- [藍牙多模應用與認證規範面面觀][7]    
+- [藍牙多模應用與認證規範面面觀][7]   
+
+![BT 3.0, BT2.0](http://www.2cm.com.tw/news/images/N101101004920101101154246.jpg)
     
 ### Implementation
 - Bluetooth operates at frequencies between 2402 and 2480 MHz, or 2400 and 2483.5 MHz including guard bands 2 MHz wide at the bottom end and 3.5 MHz wide at the top.
