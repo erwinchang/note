@@ -1,9 +1,14 @@
 ## [Bluetooth][2]
 
+- [藍牙3.0+高速版本技術及增強規格介紹][6]
+    - 2004年底推出V2.0 + EDR的規格，其中EDR可提供1~3 Mbps的增強傳輸率。
+    - 新一代的V3.0 + HS規格也已在2009年4月推出，它納入了802.11 MAC/PHY技術，透過802.11的協定轉換層(PAL)，能將資料傳輸速度提昇到24Mbps，相當於v2.x + EDR的八倍
+    
 - [搶進行動上網裝置　Wi-Fi/藍牙4.0合作無間][5]
+
 - [Bluetooth 4.2 讓每個藍牙裝置都有能連上網路的 IP 門牌，物聯網應用更加到位][3]
     - 透過 IP6v6/6LoWPAN 或 Bluetooth Smart 閘道連上網際網路，讓加上藍牙 4.2 的裝置，都能擁有自己的 IP 門牌
-
+    
 ### Implementation
 - Bluetooth operates at frequencies between 2402 and 2480 MHz, or 2400 and 2483.5 MHz including guard bands 2 MHz wide at the bottom end and 3.5 MHz wide at the top.
 - 頻帶在：2.4G
@@ -122,3 +127,4 @@
 [3]:http://chinese.engadget.com/2015/01/21/bluetooth-4-2-taiwan/
 [4]:https://www.taiwaniot.com.tw/shop/module-sensor/comm/hc-06-%E5%BE%9E%E6%A9%9F-%E8%97%8D%E7%89%99%E8%97%8D%E8%8A%BD%E8%BD%89-uart-%E6%A8%A1%E7%B5%84-%E5%85%B7%E5%BA%95%E6%9D%BF%E6%8F%90%E4%BE%9Barduino%E7%AF%84%E4%BE%8B/
 [5]:http://www.2cm.com.tw/technologyshow_content.asp?sn=1011010024
+[6]:http://www.digitimes.com.tw/tw/dt/n/shwnws.asp?id=0000177335_79G4RIR22UO08Y6RS21Y8#ixzz4dpgxUYTk
