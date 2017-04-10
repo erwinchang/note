@@ -121,4 +121,4 @@
 [2]:https://en.wikipedia.org/wiki/Bluetooth
 [3]:http://chinese.engadget.com/2015/01/21/bluetooth-4-2-taiwan/
 [4]:https://www.taiwaniot.com.tw/shop/module-sensor/comm/hc-06-%E5%BE%9E%E6%A9%9F-%E8%97%8D%E7%89%99%E8%97%8D%E8%8A%BD%E8%BD%89-uart-%E6%A8%A1%E7%B5%84-%E5%85%B7%E5%BA%95%E6%9D%BF%E6%8F%90%E4%BE%9Barduino%E7%AF%84%E4%BE%8B/
-[5]http://www.2cm.com.tw/technologyshow_content.asp?sn=1011010024
+[5]:http://www.2cm.com.tw/technologyshow_content.asp?sn=1011010024
