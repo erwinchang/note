@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+    char name[20], tel[50], field[20], areaCode[20], code[20];
+    int age;
+
+    sscanf("name:john age:40 tel:082-313530","%s",&age);
+    printf("[0],%s\n",name);
+    sscanf("name:john age:40 tel:082-313530","%8s",name);
+    printf("[1],%s\n",name);
+    sscanf("name:john age:40 tel:082-313530","%[^:]:%s",field,name);
+    printf("[2],%s %s\n",field,name);
+    sscanf("name:john age:40 tel:082-313530","name:%s age:%d tel:%s",name, &age, tel);
+    printf("[3],%s %d %s\n",name,age,tel);
+    sscanf("name:john age:40 tel:082-313530","%*[^:]:%s %*[^:]:%d %*[^:]:%s",name, &age, tel);
+    printf("[4],%s %d %s\n",name,age,tel);
+
+    char protocol[10], site[50], path[50];
+    sscanf("http://cckmit.wikidot.com/cp/list/hello.txt",
+            "%[^:]:%*2[/]%[^/]/%[a-zA-Z0-9._/-]",
+            protocol, site, path);
+    printf("[5],protocol=%s site=%s path=%s\n",protocol, site, path);
+    return 1;
+}
