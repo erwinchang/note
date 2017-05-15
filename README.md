@@ -3,6 +3,10 @@ note
 
 * [app.grammarly][60]
 
+book
+--------
+* [LSP Cn Alpha(Revision 77) ][61]
+
 好文章
 --------------
 * [亞馬遜CEO 傑夫．貝佐斯：選擇，比天賦更重要][44]
@@ -203,3 +207,4 @@ Seaget 4T最差(14%)不要買，Toshiba 3TB/4TB可以買
 
 [59]:https://www.backblaze.com/blog/hard-drive-benchmark-stats-2016/
 [60]:https://app.grammarly.com
+[61]:https://www.slideshare.net/stenlyho/lsp-cn-alpharevision-77?type=document
