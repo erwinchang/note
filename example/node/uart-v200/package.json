@@ -1,0 +1,15 @@
+{
+  "name": "uart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex1-uart.js",
+  "dependencies": {
+    "serialport": "2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erwin",
+  "license": "ISC"
+}
